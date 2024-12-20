@@ -7,7 +7,7 @@ folder = 'data'
 # Open and read the JSON file
 with open(os.path.join(folder,'Chemical compounds.json') , 'r') as file:
     compounds = json.load(file)
-with open(os.path.join(folder, 'Reacts_with_IDs.json', 'r')) as file:
+with open(os.path.join(folder, 'Reacts_with_IDs.json'), 'r') as file:
     reacts = json.load(file)
 def find_physical(input,compounds):
     for i in compounds:

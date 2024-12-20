@@ -1,4 +1,5 @@
 import json
+import random
 import os
 from .chemical_equation import check_chemical,fill_chemical_equation,find_all_from_chemical_equation
 from .balance_equation import balance_equation
@@ -50,11 +51,16 @@ def find_diff_reactants(inputs,reacts):
     #print(new_dict)
 def get_products(new_dict,compounds):
     for i in new_dict:
-        for j in new_dict[i]:
+        #(new_dict[i])
+        items = list(new_dict[i].items())
+        random.shuffle(items)
+        items = dict(items)
+        for j in items:
+
             #print(j)
             check_1 = check_chem(j,compounds)
             if (check_1==-1):
-                react_id = new_dict[i][j]
+                react_id = items[j]
                 products = reacts[react_id-1]["then"]
                 check =check_product(products,compounds)
                 if check !=-1:
@@ -157,7 +163,7 @@ def classify_chems_on_type(chems,reacts,compounds,tab):
 
     outputs.append(f"{tab}Còn lại là: {to_subscript(chems2.pop())}")
     return outputs
-def print_equation_without_weight(react,special):
+def print_equation_without_weight(react,special=""):
     left = react["if"].copy()
     right = react["then"].copy()
     weight = balance_equation(left,right,"short")

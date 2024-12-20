@@ -11,7 +11,7 @@ st.logo(logo, size="large", link=None, icon_image=logo)
 
 st.title("Cân bằng phương trình hóa học:")
 st.divider()
-st.write("###### Nhập phương trình cần cân bằng:")
+st.write("##### Nhập phương trình cần cân bằng:")
 temp = st.text_input("Ví dụ: NaOH + H2SO4 -> Na2SO4 + H2O")
 if (temp !=""):
     temp = temp.strip()

@@ -11,7 +11,7 @@ st.logo(logo, size="large", link=None, icon_image=logo)
 
 st.title("Tìm khối lượng mol của chất")
 st.divider()
-st.write("###### Nhập công thức hóa học của chất cần tính khối lượng mol:")
+st.write("##### Nhập công thức hóa học của chất cần tính khối lượng mol:")
 temp = st.text_input("Ví dụ: NaOH")
 if (temp !=""):
     temp = temp.strip()

@@ -1,7 +1,7 @@
 import re
 from collections import defaultdict
 import json
-from .reprocessing import to_subscript
+from .reprocessing import to_subscript,check_chemical
 def parse_chemical_formula(formula):
     def multiply_counts(element_counts, multiplier):
         """Nhân số lượng nguyên tố bởi một hệ số."""
@@ -80,6 +80,9 @@ def cal_atomic_mass(chem,compounds):
     output.append(f"Chất {to_subscript(chem)}:")
     for e in compounds['Elements']:
         elements.append(e)
+    if not check_chemical(chem,compounds):
+        return f"error: Không tồn tại chất {chem}!"
+
     result = parse_chemical_formula(chem)
     if isinstance(result,str):
         return result

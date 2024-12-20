@@ -1,21 +1,22 @@
 import re
 #from balance_equation import balace_equation
-from .reprocessing import parse_chemical_equation, print_chemical_equation,print_equation_with_weight,parse_chemical_equation_with_missing
+from .reprocessing import parse_chemical_equation,print_equation_with_weight,parse_chemical_equation_with_missing,check_chemical
 from .balance_equation import balance_equation
-def check_chemical(chem,compounds):
-    for i in compounds:
-        for temp in compounds[i]:
-            if chem == temp['Formula']:
-                return True
-    return False
+
 
 def fill_chemical_equation(inputs,outputs,reacts):
     output = []
     if "?" in set(inputs):
         if "?" not in set(outputs):
+            count_inp = inputs.count("?")
+            temp_in = set(inputs)
+            temp_in.remove("?")
             for i in reacts:
-                if set(outputs) == set(i["then"]):
-                    output.append(i["id"]-1)
+                set_then = set(i["then"])
+                set_if = set(i["if"])
+                if set_then == set(outputs):
+                    if temp_in.issubset(set_if) and (len(temp_in) + count_inp == len(set_if)):                
+                        output.append(i["id"]-1)
         else:
             count_inp = inputs.count("?")
             count_out = outputs.count("?")
@@ -23,6 +24,8 @@ def fill_chemical_equation(inputs,outputs,reacts):
             temp_in.remove("?")
             temp_out = set(outputs)
             temp_out.remove("?")
+            if(len(temp_in)==len(temp_out)==0):
+                return -1
             for i in reacts:
                 set_then = set(i["then"])
                 set_if = set(i["if"])

@@ -11,8 +11,8 @@ st.logo(logo, size="large", link=None, icon_image=logo)
 
 st.title("Phản ứng hóa học")
 st.divider()
-st.write("###### Nhập phương trình cần điền khuyết hoặc cân bằng")
-temp = st.text_input("Ví dụ: Mg + HCl -> ? hoặc Mg + HCl -> MgCl2 + ?")
+st.write("##### Nhập phương trình cần điền khuyết hoặc cân bằng")
+temp = st.text_input("Ví dụ: Mg + HCl ->  hoặc Mg + HCl -> MgCl2 + ?")
 if (temp !=""):
     temp = temp.strip()
     output = solve(4,temp)
@@ -25,11 +25,21 @@ if (temp !=""):
             st.write(f"{output}")
             print("?")
         else:
-            for i in output:
-                if "$" in i:
-                    st.latex(i.replace("$", ""))
-                else:
-                    st.write(f"{i}")
+            
+            if len(output)>2:
+                count = 1
+                for i in output:
+                    if "$" in i:
+                        st.latex(f"{i.replace("$", "")}")
+                    else:
+                        st.write(f"_{i.replace(":",f" thứ  {count}:_")}")
+                        count+=1
+            else:
+                for i in output:
+                    if "$" in i:
+                        st.latex(f"{i.replace("$", "")}")
+                    else:
+                        st.write(f"_{i}_")
 with st.sidebar:
         st.page_link('app.py', label='Trang chính', icon='🔥')
         st.page_link('pages/page1.py', label='Khối lượng mol của chất', icon='🧪')

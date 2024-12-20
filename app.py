@@ -13,7 +13,7 @@ st.set_page_config(
 )
 st.logo(logo, size="large", link=None, icon_image=logo)
 
-st.title("Hóa giải hóa học 2 - UITC2")
+st.title("Hóa giải hóa học - UITC2")
 def example():
     colored_header(
         label="My New Pretty Colored Header",

@@ -1,10 +1,15 @@
 import re
-
+def check_chemical(chem,compounds):
+    for i in compounds:
+        for temp in compounds[i]:
+            if chem == temp['Formula']:
+                return True
+    return False
 def parse_chemical_equation(equation):
     # Tách phần trước và sau dấu mũi tên
     parts = equation.split("->")
     if len(parts) != 2:
-        raise ValueError("Phương trình không hợp lệ.")
+        return "error: Phương trình không hợp lệ."
     inputs =  [compound.strip() for compound in parts[0].split("+")]
     outputs = [compound.strip() for compound in parts[1].split("+")]
     outputs = [re.sub(r'^\d*', '', compound) for compound in outputs]
@@ -15,7 +20,7 @@ def parse_chemical_equation_with_missing(equation):
     print(equation)
     parts = equation.split("->")
     if len(parts) != 2:
-        raise ValueError("Phương trình không hợp lệ.")
+        return "error: Phương trình không hợp lệ."
     inputs =  [compound.strip() for compound in parts[0].split("+")]
     outputs = [compound.strip() for compound in parts[1].split("+")]
     if '' in outputs:
@@ -31,7 +36,7 @@ def to_subscript(chemical):
 def print_equation_with_weight(weight,left,right):
     left = [to_subscript(chem) for chem in left]
     right = [to_subscript(chem) for chem in right]
-    before = ["Phương trình phản ứng: "]
+    before = ["Phương trình phản ứng:"]
     outputs = []
     for i in range(len(left)):
         sol = weight[i]
@@ -40,7 +45,7 @@ def print_equation_with_weight(weight,left,right):
         else:
             outputs.append( f"{sol}{left[i]}")
     #print(left)
-    chemical_equation = "$" +  " + ".join(outputs) + " -> "
+    chemical_equation = "$" +  " + ".join(outputs) + " → "
     outputs = []
     for i in range(len(right)):
         sol = weight[i+len(left)]
@@ -51,15 +56,3 @@ def print_equation_with_weight(weight,left,right):
     chemical_equation += " + ".join(outputs)
     before.append(chemical_equation)
     return before
-def print_chemical_equation(reaction):
-    output = "Phương trình phản ứng: \n" 
-    reactants = " + ".join([
-        f"{'' if reaction['weight'][i] == 1 else reaction['weight'][i]}{reaction['if'][i]}" 
-        for i in range(len(reaction['if']))
-    ])
-    products = " + ".join([
-        f"{'' if reaction['weight'][i + len(reaction['if'])] == 1 else reaction['weight'][i + len(reaction['if'])]}{reaction['then'][i]}" 
-        for i in range(len(reaction['then']))
-    ])
-    equation = f"{reactants} -> {products}"
-    return output+ equation

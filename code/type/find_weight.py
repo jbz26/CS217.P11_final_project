@@ -1,7 +1,8 @@
 import re
 import sympy as sp
-from .chemical_equation import fill_chemical_equation, print_chemical_equation,check_chemical
-from .reprocessing import to_subscript
+from .chemical_equation import fill_chemical_equation
+from .reprocessing import to_subscript,check_chemical,print_equation_with_weight
+from .balance_equation import balance_equation
 def extract_all_substances_in_sentences(problem_text):
     problem_text.replace(".",",")
     # Biểu thức để tìm các chất kèm khối lượng hoặc không
@@ -44,27 +45,30 @@ def find_weight(problem_text,reacts,compounds):
     if id==-1:
         return "error: Không tìm thấy phương trình!"
     
-    output = print_chemical_equation(reacts[id[0]])
+    output = print_equation_without_weight(reacts[id[0]])
     left = " + ".join(f"m{symbol}" for symbol in react)
     right = " + ".join(f"m{symbol}" for symbol in product)
     temp = react_substances.copy()
     temp.update(product_substances) 
     temp1 = {f"m{key}": value for key, value in temp.items()}
-    out_temp = f"Áp dụng định luật bảo toàn khối lượng, ta có:\n \t{left} = {right}"
-    output +="\n" + out_temp 
+    output.append("Áp dụng định luật bảo toàn khối lượng, ta có:")
+    output.append(f"${to_subscript(str(left))} = {to_subscript(str(right))}")
     equation = sp.Eq(sp.sympify(left), sp.sympify(right))
     target = sp.symbols(f"m{list(find_substances)[0] }")
-
     solution = sp.solve(equation, target)
-    out_temp = f"Giải phương trình: \n \t{target} = {solution[0]}"
-    output +="\n" + out_temp 
+    output.append(f"Giải phương trình:")
+    output.append(f"${to_subscript(str(target))} = {to_subscript(str(solution[0]))}")
 
     # Thay thế các giá trị đã biết vào phương trình và tính kết quả
     value = solution[0].subs(temp1)
-    out_temp = f" \t{target} = {value.round(4)}"
-    output +="\n" + out_temp 
+    output.append(f"$ {to_subscript(str(target))} = {value.round(4)}")
 
-    out_temp = f" Vậy khối lượng của {target} là: {value.round(4)} (gram)"
-    output +="\n" + out_temp
-    #print(output)
+    output.append(f" Vậy khối lượng của {to_subscript(str(target)[1:])} là: {value.round(4)} (gram)")
     return output
+def print_equation_without_weight(react):
+    left = react["if"].copy()
+    right = react["then"].copy()
+    weight = balance_equation(left,right,"short")
+    for i in range(len(right)):
+        right[i] = right[i]
+    return print_equation_with_weight(weight,left,right)

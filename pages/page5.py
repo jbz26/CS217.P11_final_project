@@ -11,9 +11,15 @@ st.logo(logo, size="large", link=None, icon_image=logo)
 
 st.title("Phân biệt dung dịch các chất:")
 st.divider()
-st.write("###### Nhập tên các dung dịch cần phân biệt bằng phản ứng hóa học:")
-temp = st.text_input("Ví dụ: Na2SO4, NaCl, H2SO4, HCl")
-if (temp !=""):
+st.write("##### Nhập tên các dung dịch cần phân biệt bằng phản ứng hóa học:")
+
+col1,  col2 = st.columns([3,0.2],vertical_alignment="bottom")
+
+with col1:
+    temp = st.text_input("Ví dụ: Na2SO4, NaCl, H2SO4, HCl")
+with col2:
+    reset = st.button(label="",icon='♻',type="primary")
+if (temp !="") or (temp!="" and reset):
     temp = temp.strip()
     output = solve(5,temp)
     #print(output)

@@ -1,14 +1,14 @@
 import json
+import os
 from .chemical_equation import check_chemical,fill_chemical_equation,find_all_from_chemical_equation
 from .balance_equation import balance_equation
 from .reprocessing import print_equation_with_weight,to_subscript
 folder = 'data'
 # Open and read the JSON file
-with open(folder + "\\" + 'Chemical compounds.json', 'r') as file:
+with open(os.path.join(folder,'Chemical compounds.json') , 'r') as file:
     compounds = json.load(file)
-with open(folder + "\\" + 'Reacts_with_IDs.json', 'r') as file:
+with open(os.path.join(folder, 'Reacts_with_IDs.json', 'r')) as file:
     reacts = json.load(file)
-
 def find_physical(input,compounds):
     for i in compounds:
         for j in compounds[i]:

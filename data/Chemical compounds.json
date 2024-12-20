@@ -1,0 +1,4996 @@
+{
+    "Oxide":[
+        {
+            "Name": ["Lithium oxide", "Oxit liti"],
+            "Formula": "Li2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Beryllium oxide", "Oxit berylli"],
+            "Formula": "BeO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium peroxide", "Bari peroxit"],
+            "Formula": "BaO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Hydrogen peroxide"],
+            "Formula": "H2O2",
+            "State": "Liquid",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Radium oxide", "Oxit radi"],
+            "Formula": "RaO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Boron oxide", "Oxit bo"],
+            "Formula": "B2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Nitrogen monoxide", "Nitơ monoxit"],
+            "Formula": "NO",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Fluorine oxide", "Oxit flo"],
+            "Formula": "F2O",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium oxide", "Bari oxit"],
+            "Formula": "BaO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Selenium dioxide", "Seleni dioxit"],
+            "Formula": "SeO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium oxide", "Oxit natri"],
+            "Formula": "Na2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nitrogen dioxide", "Nitơ đioxit"],
+            "Formula": "NO2",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Bromine pentoxide", "Brom pentoxit"],
+            "Formula": "Br2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(II,III) oxide", "Mangan oxit"],
+            "Formula": "Mn3O4",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Chromium trioxide", "Chromium trioxit"],
+            "Formula": "CrO3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đỏ",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Titanium dioxide", "Titan dioxit"],
+            "Formula": "TiO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Vanadium pentoxide", "Vanadi pentoxit"],
+            "Formula": "V2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Magnesium oxide", "Magie oxit"],
+            "Formula": "MgO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium oxide", "Canxi oxit"],
+            "Formula": "CaO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Zinc oxide", "Kẽm oxit"],
+            "Formula": "ZnO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Copper(II) oxide", "Đồng(II) oxit"],
+            "Formula": "CuO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Nickel(II) oxide", "Niken (II) oxit"],
+            "Formula": "NiO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+
+        {
+            "Name": ["Iron(III) oxide", "Sắt(III) oxit"],
+            "Formula": "Fe2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đỏ nâu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Germanium dioxide", "Gecmani dioxit"],
+            "Formula": "GeO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Gallium(III) oxide", "Gali (III) oxit"],
+            "Formula": "Ga2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Tin(IV) oxide", "Thiếc(IV) oxit"],
+            "Formula": "SnO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Lead(IV) oxide", "Chì(IV) oxit"],
+            "Formula": "PbO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+
+        {
+            "Name": ["Molybdenum(VI) oxide", "Molybdenum(VI) oxit"],
+            "Formula": "MoO3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Technetium dioxide", "Techneti dioxit"],
+            "Formula": "TcO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Rubidium oxide", "Rubidi oxit"],
+            "Formula": "Rb2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Strontium oxide", "Stronti oxit"],
+            "Formula": "SrO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Yttrium oxide", "Ytri oxit"],
+            "Formula": "Y2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Thallium(I) oxide", "Oxit tali (I)"],
+            "Formula": "Tl2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Bismuth trioxide", "Oxit bitmut (III)"],
+            "Formula": "Bi2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Tungsten(VI) oxide", "Tungsten(VI) oxit"],
+            "Formula": "WO3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Arsenic pentoxide", "Arsenic pentoxit"],
+            "Formula": "As2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cesium oxide", "Oxit xesi"],
+            "Formula": "Cs2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Cam",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Niobium pentoxide", "Niobi pentoxit"],
+            "Formula": "Nb2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Dinitrogen tetroxide", "Dinitro tetrôxid"],
+            "Formula": "N2O4",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Không màu-Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Scandium oxide", "Oxit scandi"],
+            "Formula": "Sc2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Sulfur dioxide", "Lưu huỳnh điôxít"],
+            "Formula": "SO2",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sulfur trioxide", "Lưu huỳnh trioxit"],
+            "Formula": "SO3",
+            "State": "Liquid",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Phosphorus pentoxide", "Phốt pho pentôxít"],
+            "Formula": "P2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Carbon monoxide", "Cacbon monoxit"],
+            "Formula": "CO",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Carbon dioxide", "Cacbon điôxít"],
+            "Formula": "CO2",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Silicon dioxide", "Silic dioxit"],
+            "Formula": "SiO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Boron oxide", "Boron oxit"],
+            "Formula": "B2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Arsenic trioxide", "Arsenic trioxit"],
+            "Formula": "As2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Antimony pentoxide", "Antimony pentôxít"],
+            "Formula": "Sb2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Tellurium dioxide", "Tellur dioxit"],
+            "Formula": "TeO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Antimony trioxide", "Antimon trioxit"],
+            "Formula": "Sb2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Manganese dioxide", "Mangan dioxit"],
+            "Formula": "MnO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Manganese(II) oxide", "Oxit mangan (II)"],
+            "Formula": "MnO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Cobalt(II) oxide", "Coban (II) oxit"],
+            "Formula": "CoO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Cobalt(III) oxide", "Cobalt(III) oxit"],
+            "Formula": "Co2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đỏ",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Gold(III) oxide", "Oxit vàng (III)"],
+            "Formula": "Au2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Chromium(III) oxide", "Chromium(III) oxit"],
+            "Formula": "Cr2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Krypton oxide", "Oxit krypton"],
+            "Formula": "KrO3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đỏ",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Vanadium(IV) oxide", "Vanadi(IV) oxit"],
+            "Formula": "VO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Xanh dương",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Molybdenum pentoxide", "Molybdenum pentôxít"],
+            "Formula": "MoO5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium zinc oxide", "Canxi kẽm oxit"],
+            "Formula": "CaZnO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Nitrous oxide", "Nito oxit"],
+            "Formula": "N2O",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Dichlorine monoxide", "Monôxít dichlôrin"],
+            "Formula": "Cl2O",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(II,III) oxide", "Sắt(II,III) oxit"],
+            "Formula": "Fe3O4",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silicon monoxide", "Silic monoxide"],
+            "Formula": "SiO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Dichlorine trioxide", "Trioxit dichlôrin"],
+            "Formula": "Cl2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đỏ",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Chlorine dioxide", "Chlôrin dioxit"],
+            "Formula": "ClO2",
+            "State": "Gas",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iodine pentoxide", "I-ốt pentôxít"],
+            "Formula": "I2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese pentoxide", "Mangan pentoxit"],
+            "Formula": "Mn2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium peroxide", "Canxi peroxit"],
+            "Formula": "CaO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Iron(II) oxide", "Sắt(II) oxit"],
+            "Formula": "FeO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Zirconium dioxide", "Zirconium dioxit"],
+            "Formula": "ZrO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Tin(II) oxide", "Thiếc(II) oxit"],
+            "Formula": "SnO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Platinum(IV) oxide", "Oxit platin (IV)"],
+            "Formula": "PtO₂",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Ruthenium dioxide", "Ruthenium dioxit"],
+            "Formula": "RuO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Dinitrogen pentoxide", "Đinitơ pentaoxit"],
+            "Formula": "N2O5",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Ruthenium tetroxide", "Rutheni tetroxit"],
+            "Formula": "RuO4",
+            "State": "Liquid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Rhodium(III) oxide", "Rhodium (III) oxit"],
+            "Formula": "Rh2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Osmium tetroxide", "Osmium tetrôxít"],
+            "Formula": "OsO4",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Không màu-Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iridium oxide", "Iridium oxit"],
+            "Formula": "IrO2",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Palladium(II) oxide", "Palladi (II) oxit"],
+            "Formula": "PdO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Mercury(II) oxide", "Oxit thủy ngân (II)"],
+            "Formula": "HgO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Cam",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Copper(I) oxide", "Đồng (I) oxit"],
+            "Formula": "Cu2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đỏ",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Mercury(I) oxide", "Oxit thủy ngân(I)"],
+            "Formula": "Hg2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Aluminum oxide", "Oxit nhôm"],
+            "Formula": "Al2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Cadmium oxide", "Cadmi oxit"],
+            "Formula": "CdO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Indium(III) oxide", "Indi (III) oxit"],
+            "Formula": "In2O3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver(I) oxide", "Bạc (I) oxit"],
+            "Formula": "Ag2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Potassium oxide", "Oxit kali"],
+            "Formula": "K2O",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lead(II) oxide", "Chì(II) oxit"],
+            "Formula": "PbO",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        }
+        
+
+    ],
+    "Elements":[
+        {
+            "Name": ["Hydrogen", "Hiđrô"],
+            "Formula": "H2",
+            "State": "Gas",
+            "Type": "Non-metal",
+            "Color": "Không màu",
+            "Solubility": "Soluble",
+            "Atomic mass": 1.008
+        },
+        {
+            "Name": ["Helium", "Heli"],
+            "Formula": "He",
+            "State": "Gas",
+            "Type": "Noble gas",
+            "Color": "Không màu",
+            "Solubility": "Insoluble",
+            "Atomic mass": 4.003
+        },
+        {
+            "Name": ["Lithium", "Liti"],
+            "Formula": "Li",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 6.94
+        },
+        {
+            "Name": ["Beryllium", "Berili"],
+            "Formula": "Be",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 9.01
+        },
+        {
+            "Name": ["Boron", "Bo"],
+            "Formula": "B",
+            "State": "Solid",
+            "Type": "Metalloid",
+            "Color": "Đen",
+            "Solubility": "Insoluble",
+            "Atomic mass": 10.81
+        },
+        {
+            "Name": ["Carbon", "Cacbon"],
+            "Formula": "C",
+            "State": "Solid",
+            "Type": "Non-metal",
+            "Color": "Đen",
+            "Solubility": "Insoluble",
+            "Atomic mass": 12.01
+        },
+        {
+            "Name": ["Nitrogen", "Nitơ"],
+            "Formula": "N2",
+            "State": "Gas",
+            "Type": "Non-metal",
+            "Color": "Không màu",
+            "Solubility": "Soluble",
+            "Atomic mass": 14.007
+        },
+        {
+            "Name": ["Oxygen", "Oxi"],
+            "Formula": "O2",
+            "State": "Gas",
+            "Type": "Non-metal",
+            "Color": "Không màu",
+            "Solubility": "Soluble",
+            "Atomic mass": 15.999
+        },
+        {
+            "Name": ["Fluorine", "Flo"],
+            "Formula": "F2",
+            "State": "Gas",
+            "Type": "Non-metal",
+            "Color": "Vàng",
+            "Solubility": "Soluble",
+            "Atomic mass": 18.998
+        },
+        {
+            "Name": ["Neon", "Neon"],
+            "Formula": "Ne",
+            "State": "Gas",
+            "Type": "Noble gas",
+            "Color": "Không màu",
+            "Solubility": "Insoluble",
+            "Atomic mass": 20.18
+        },
+        {
+            "Name": ["Sodium", "Natri"],
+            "Formula": "Na",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 22.989
+        },
+        {
+            "Name": ["Magnesium", "Magie"],
+            "Formula": "Mg",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 24.31
+        },
+        {
+            "Name": ["Aluminum", "Nhôm"],
+            "Formula": "Al",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 26.98
+        },
+        {
+            "Name": ["Silicon", "Silic"],
+            "Formula": "Si",
+            "State": "Solid",
+            "Type": "Metalloid",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 28.09
+        },
+        {
+            "Name": ["Phosphorus", "Photpho"],
+            "Formula": "P",
+            "State": "Solid",
+            "Type": "Non-metal",
+            "Color": "Trắng",
+            "Solubility": "Insoluble",
+            "Atomic mass": 30.97
+        },
+        {
+            "Name": ["Sulfur", "Lưu huỳnh"],
+            "Formula": "S",
+            "State": "Solid",
+            "Type": "Non-metal",
+            "Color": "Vàng",
+            "Solubility": "Insoluble",
+            "Atomic mass": 32.06
+        },
+        {
+            "Name": ["Chlorine", "Clo"],
+            "Formula": "Cl2",
+            "State": "Gas",
+            "Type": "Non-metal",
+            "Color": "Vàng",
+            "Solubility": "Soluble",
+            "Atomic mass": 35.45
+        },
+        {
+            "Name": ["Argon", "Argon"],
+            "Formula": "Ar",
+            "State": "Gas",
+            "Type": "Noble gas",
+            "Color": "Không màu",
+            "Solubility": "Insoluble",
+            "Atomic mass": 39.95
+        },
+        {
+            "Name": ["Potassium", "Kali"],
+            "Formula": "K",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 39.10
+        },
+        {
+            "Name": ["Calcium", "Canxi"],
+            "Formula": "Ca",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 40.08
+        },
+    
+        {
+            "Name": ["Scandium", "Scandi"],
+            "Formula": "Sc",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 44.96
+        },
+        {
+            "Name": ["Titanium", "Titan"],
+            "Formula": "Ti",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 47.90
+        },
+        {
+            "Name": ["Vanadium", "Vanadi"],
+            "Formula": "V",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 50.94
+        },
+        {
+            "Name": ["Chromium", "Crom"],
+            "Formula": "Cr",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 51.996
+        },
+        {
+            "Name": ["Manganese", "Mangan"],
+            "Formula": "Mn",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám Trắng",
+            "Solubility": "Insoluble",
+            "Atomic mass": 54.94
+        },
+        {
+            "Name": ["Iron", "Sắt"],
+            "Formula": "Fe",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass":55.85
+        },
+        {
+            "Name": ["Cobalt", "Coban"],
+            "Formula": "Co",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 58.93
+        },
+        {
+            "Name": ["Nickel", "Niken"],
+            "Formula": "Ni",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 58.71
+        },
+        {
+            "Name": ["Copper", "Đồng"],
+            "Formula": "Cu",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Đỏ-Cam",
+            "Solubility": "Insoluble",
+            "Atomic mass": 63.54
+        },
+        {
+            "Name": ["Zinc", "Kẽm"],
+            "Formula": "Zn",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 65.41
+        },
+        {
+            "Name": ["Gallium", "Gali"],
+            "Formula": "Ga",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 69.72
+        },
+        {
+            "Name": ["Germanium", "Gecmani"],
+            "Formula": "Ge",
+            "State": "Solid",
+            "Type": "Metalloid",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 72.64
+        },
+        {
+            "Name": ["Arsenic", "Asen"],
+            "Formula": "As",
+            "State": "Solid",
+            "Type": "Metalloid",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 74.92
+        },
+        {
+            "Name": ["Selenium", "Selen"],
+            "Formula": "Se8",
+            "State": "Solid",
+            "Type": "Non-metal",
+            "Color": "Đỏ",
+            "Solubility": "Insoluble",
+            "Atomic mass": 78.96
+        },
+        {
+            "Name": ["Bromine", "Brom"],
+            "Formula": "Br2",
+            "State": "Liquid",
+            "Type": "Non-metal",
+            "Color": "Đỏ nâu",
+            "Solubility": "Soluble",
+            "Atomic mass": 79.91
+        },
+        {
+            "Name": ["Krypton", "Kripton"],
+            "Formula": "Kr",
+            "State": "Gas",
+            "Type": "Noble gas",
+            "Color": "Không màu",
+            "Solubility": "Insoluble",
+            "Atomic mass": 83.80
+        },
+        {
+            "Name": ["Rubidium", "Rubidi"],
+            "Formula": "Rb",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 85.47
+        },
+        {
+            "Name": ["Strontium", "Stronti"],
+            "Formula": "Sr",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 87.62
+        },
+        {
+            "Name": ["Yttrium", "Ytri"],
+            "Formula": "Y",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 88.91
+        },
+        {
+            "Name": ["Zirconium", "Zirconi"],
+            "Formula": "Zr",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám-Trắng",
+            "Solubility": "Insoluble",
+            "Atomic mass": 91.22
+        },
+        {
+            "Name": ["Niobium", "Niobi"],
+            "Formula": "Nb",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 92.91
+        },
+        {
+            "Name": ["Molybdenum", "Môlybden"],
+            "Formula": "Mo",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 95.94
+        },
+        {
+            "Name": ["Technetium", "Tectini"],
+            "Formula": "Tc",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 99
+        },
+        {
+            "Name": ["Ruthenium", "Rutheni"],
+            "Formula": "Ru",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 101.07
+        },
+        {
+            "Name": ["Rhodium", "Rodi"],
+            "Formula": "Rh",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Trắng bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 102.91
+        },
+        {
+            "Name": ["Palladium", "Palladi"],
+            "Formula": "Pd",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 106.40
+        },
+        {
+            "Name": ["Bạc", "Bạc"],
+            "Formula": "Ag",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 107.87
+
+        },
+        {
+            "Name": ["Cadmium", "Cadmi"],
+            "Formula": "Cd",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Trắng bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 112.41
+        },
+        {
+            "Name": ["Indium", "Indi"],
+            "Formula": "In",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 114.82
+        },
+        {
+            "Name": ["Tin", "Thiếc"],
+            "Formula": "Sn",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Trắng bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 118.69
+        },
+        {
+            "Name": ["Antimony", "Antimon"],
+            "Formula": "Sb",
+            "State": "Solid",
+            "Type": "Metalloid",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 121.75
+        },
+        {
+            "Name": ["Tellurium", "Telluri"],
+            "Formula": "Te",
+            "State": "Solid",
+            "Type": "Metalloid",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 127.60
+        },
+        {
+            "Name": ["Iodine", "I-ốt"],
+            "Formula": "I2",
+            "State": "Solid",
+            "Type": "Non-metal",
+            "Color": "Tím-Đen",
+            "Solubility": "Soluble",
+            "Atomic mass": 126.90
+        },
+        {
+            "Name": ["Xenon", "Xenon"],
+            "Formula": "Xe",
+            "State": "Gas",
+            "Type": "Noble gas",
+            "Color": "Không màu",
+            "Solubility": "Insoluble",
+            "Atomic mass": 131.30
+        },
+        {
+            "Name": ["Cesium", "Xêzi"],
+            "Formula": "Cs",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 132.91
+        },
+        {
+            "Name": ["Barium", "Bari"],
+            "Formula": "Ba",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 137.31
+        },
+        {
+            "Name": ["Lanthanum", "Lantan"],
+            "Formula": "La",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 138.91
+        },
+        {
+            "Name": ["Cerium", "Xeri"],
+            "Formula": "Ce",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 140.12
+        },
+        {
+            "Name": ["Praseodymium", "Praseodymi"],
+            "Formula": "Pr",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 140.91
+        },
+        {
+            "Name": ["Neodymium", "Neodymi"],
+            "Formula": "Nd",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 144.24
+        },
+        {
+            "Name": ["Promethium", "Prometi"],
+            "Formula": "Pm",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 147
+        },
+        {
+            "Name": ["Samarium", "Samari"],
+            "Formula": "Sm",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 150.35
+        },
+        {
+            "Name": ["Europium", "Eropi"],
+            "Formula": "Eu",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 151.96
+        },
+        {
+            "Name": ["Gadolinium", "Gadolini"],
+            "Formula": "Gd",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 157.25
+        },
+        {
+            "Name": ["Terbium", "Terbi"],
+            "Formula": "Tb",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 158.93
+        },
+        {
+            "Name": ["Dysprosium", "Disprosi"],
+            "Formula": "Dy",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 162.50
+        },
+        {
+            "Name": ["Holmium", "Holmi"],
+            "Formula": "Ho",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 164.93
+        },
+        {
+            "Name": ["Erbium", "Erbi"],
+            "Formula": "Er",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 167.26
+        },
+        {
+            "Name": ["Thulium", "Thuli"],
+            "Formula": "Tm",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 168.93
+        },
+        {
+            "Name": ["Ytterbium", "Ytterbi"],
+            "Formula": "Yb",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 173.04
+        },
+        {
+            "Name": ["Lutetium", "Luteti"],
+            "Formula": "Lu",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 174.97
+        },
+        {
+            "Name": ["Hafnium", "Hafni"],
+            "Formula": "Hf",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 178.49
+        },
+        {
+            "Name": ["Tantalum", "Tantal"],
+            "Formula": "Ta",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 180.95
+        },
+        {
+            "Name": ["Wolfram", "Wolfram"],
+            "Formula": "W",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 183.85
+        },
+        {
+            "Name": ["Rhenium", "Renium"],
+            "Formula": "Re",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 186.20
+        },
+        {
+            "Name": ["Osmium", "Osmi"],
+            "Formula": "Os",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xanh dương-Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 190.20
+        },
+        {
+            "Name": ["Iridium", "Iridi"],
+            "Formula": "Ir",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 192.20
+        },
+        {
+            "Name": ["Platinum", "Bạch kim"],
+            "Formula": "Pt",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 195.09
+        },
+        {
+            "Name": ["Vàng kim", "Vàng"],
+            "Formula": "Au",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Vàng",
+            "Solubility": "Insoluble",
+            "Atomic mass": 196.97
+        },
+        {
+            "Name": ["Mercury", "Thủy ngân"],
+            "Formula": "Hg",
+            "State": "Liquid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 200.59
+        },
+        {
+            "Name": ["Thallium", "Thali"],
+            "Formula": "Tl",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 204.37
+        },
+        {
+            "Name": ["Lead", "Chì"],
+            "Formula": "Pb",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám",
+            "Solubility": "Insoluble",
+            "Atomic mass": 207.20
+        },
+        {
+            "Name": ["Bismuth", "Bismut"],
+            "Formula": "Bi",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 208.98
+        },
+        {
+            "Name": ["Polonium", "Poloni"],
+            "Formula": "Po",
+            "State": "Solid",
+            "Type": "Metal",
+            "Color": "Xám kim loại",
+            "Solubility": "Insoluble",
+            "Atomic mass": 209
+        },
+        {
+            "Name": ["Astatine", "Astatin"],
+            "Formula": "At",
+            "State": "Solid",
+            "Type": "Non-metal",
+            "Color": "Kim loại",
+            "Solubility": "Insoluble",
+            "Atomic mass": 210
+        },
+        {
+            "Name": ["Radon", "Radon"],
+            "Formula": "Rn",
+            "State": "Gas",
+            "Type": "Noble gas",
+            "Color": "Không màu",
+            "Solubility": "Insoluble",
+            "Atomic mass": 222
+        },
+        {
+            "Name": ["Francium", "Francium"],
+            "Formula": "Fr",
+            "State": "Solid",
+            "Type": "Alkali metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 223
+        },
+        {
+            "Name": ["Radium", "Radium"],
+            "Formula": "Ra",
+            "State": "Solid",
+            "Type": "Alkaline earth metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 226.03
+        },
+        {
+            "Name": ["Actinium", "Actini"],
+            "Formula": "Ac",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 227
+        },
+        {
+            "Name": ["Thorium", "Thorium"],
+            "Formula": "Th",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 232.04
+        },
+        {
+            "Name": ["Protactinium", "Protactini"],
+            "Formula": "Pa",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 231.04
+        },
+        {
+            "Name": ["Uranium", "Uranium"],
+            "Formula": "U",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 238.03
+        },
+        {
+            "Name": ["Neptunium", "Neptuni"],
+            "Formula": "Np",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 237
+        },
+        {
+            "Name": ["Plutonium", "Plutoni"],
+            "Formula": "Pu",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 244
+        },
+        {
+            "Name": ["Americium", "Americi"],
+            "Formula": "Am",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 243
+        },
+        {
+            "Name": ["Curium", "Curium"],
+            "Formula": "Cm",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 247
+        },
+        {
+            "Name": ["Berkelium", "Berkelium"],
+            "Formula": "Bk",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 247
+        },
+        {
+            "Name": ["Californium", "Californi"],
+            "Formula": "Cf",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 251
+        },
+        {
+            "Name": ["Einsteinium", "Einsteinium"],
+            "Formula": "Es",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 252
+        },
+        {
+            "Name": ["Fermium", "Fermium"],
+            "Formula": "Fm",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 257
+        },
+        {
+            "Name": ["Mendelevium", "Mendelevium"],
+            "Formula": "Md",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 258
+        },
+        {
+            "Name": ["Nobelium", "Nobelium"],
+            "Formula": "No",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 259
+        },
+        {
+            "Name": ["Lawrencium", "Lawrencium"],
+            "Formula": "Lr",
+            "State": "Solid",
+            "Type": "Actinide",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 260
+        },
+        {
+            "Name": ["Rutherfordium", "Rutherfordium"],
+            "Formula": "Rf",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 261
+        },
+        {
+            "Name": ["Dubnium", "Dubnium"],
+            "Formula": "Db",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 262
+        },
+        {
+            "Name": ["Seaborgium", "Seaborgium"],
+            "Formula": "Sg",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 266
+        },
+        {
+            "Name": ["Bohrium", "Bohrium"],
+            "Formula": "Bh",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 266
+        },
+        {
+            "Name": ["Hassium", "Hassium"],
+            "Formula": "Hs",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 264
+        },
+        {
+            "Name": ["Meitnerium", "Meitnerium"],
+            "Formula": "Mt",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 268
+        },
+        {
+            "Name": ["Darmstadtium", "Darmstadtium"],
+            "Formula": "Ds",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 281
+        },
+        {
+            "Name": ["Roentgenium", "Roentgenium"],
+            "Formula": "Rg",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 272
+        },
+        {
+            "Name": ["Copernicium", "Copernicium"],
+            "Formula": "Cn",
+            "State": "Solid",
+            "Type": "Transition metal",
+            "Color": "Bạc",
+            "Solubility": "Insoluble",
+            "Atomic mass": 285
+        }
+    ],
+    "Base":  [
+        {
+            "Name": ["Sodium hydroxide", "Natri hidroxit"],
+            "Formula": "NaOH",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium hydroxide", "Kali hidroxit"],
+            "Formula": "KOH",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium hydroxide", "Canxi hidroxit"],
+            "Formula": "Ca(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Magnesium hydroxide", "Magie hidroxit"],
+            "Formula": "Mg(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Barium hydroxide", "Bari hidroxit"],
+            "Formula": "Ba(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) hydroxide", "Sắt (III) hidroxit"],
+            "Formula": "Fe(OH)3",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+
+        {
+            "Name": ["Copper(II) hydroxide", "Đồng (II) hidroxit"],
+            "Formula": "Cu(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Xanh dương",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Lithium hydroxide", "Lithi hidroxit"],
+            "Formula": "LiOH",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },    
+        {
+            "Name": ["Ammonium hydroxide", "Amoniac hidroxit"],
+            "Formula": "NH4OH",
+            "State": "Liquid",
+            "Type": "Base",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },  
+        {
+            "Name": ["Iron(II) hydroxide", "Sắt (II) hidroxit"],
+            "Formula": "Fe(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Strontium hydroxide", "Stronti hidroxit"],
+            "Formula": "Sr(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Titanium hydroxide", "Titanium hidroxit"],
+            "Formula": "Ti(OH)4",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Manganese(II) hydroxide", "Mangan (II) hidroxit"],
+            "Formula": "Mn(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Hồng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Nickel(II) hydroxide", "Niken (II) hidroxit"],
+            "Formula": "Ni(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Cobalt(II) hydroxide", "Coban (II) hidroxit"],
+            "Formula": "Co(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Xanh dương",
+            "Solubility": "Insoluble"
+        },
+
+        {
+            "Name": ["Mercury(II) hydroxide", "Thủy ngân (II) hidroxit"],
+            "Formula": "Hg(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver hydroxide", "Bạc hydroxit"],
+            "Formula": "AgOH",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Thallium hydroxide", "Thali hydroxit"],
+            "Formula": "TlOH",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Gold hydroxide", "Vàng hidroxit"],
+            "Formula": "Au(OH)3",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Cadmium hydroxide", "Cadimi hidroxit"],
+            "Formula": "Cd(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Palladium hydroxide", "Palladi hidroxit"],
+            "Formula": "Pd(OH)2",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Vàng-Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Scandium hydroxide", "Scandium hidroxit"],
+            "Formula": "Sc(OH)3",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },    
+        {
+            "Name": ["Platinum hydroxide", "Bạch kim hidroxit"],
+            "Formula": "Pt(OH)₄",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Xám Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Ammonia", "Amoniac"],
+            "Formula": "NH3",
+            "State": "Gas",
+            "Type": "Base",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },                
+        {
+            "Name": ["Rubidium hydroxide", "Rubi hidroxit"],
+            "Formula": "RbOH",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },    
+        {
+            "Name": ["Cesium hydroxide", "Xesi hidroxit"],
+            "Formula": "CsOH",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Francium hydroxide", "Francium hidroxit"],
+            "Formula": "FrOH",
+            "State": "Solid",
+            "Type": "Base",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium hydride", "Liti hiđrua"],
+            "Formula": "LiH",
+            "State": "Solid",
+            "Type": "Ionic compound",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        }
+        
+    ]  ,
+    "Amphoteric" :[
+        {
+            "Name": ["Tin(II) hydroxide", "Thiếc (II) hidroxit"],
+            "Formula": "Sn(OH)2",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Tin(IV) hydroxide", "Thiếc (IV) hidroxit"],
+            "Formula": "Sn(OH)4",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Chromium(III) hydroxide", "Crom (III) hidroxit"],
+            "Formula": "Cr(OH)3",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Lead(II) hydroxide", "Chì (II) hidroxit"],
+            "Formula": "Pb(OH)2",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },  
+        {
+            "Name": ["Aluminum hydroxide", "Nhôm hidroxit"],
+            "Formula": "Al(OH)3",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Zinc hydroxide", "Kẽm hidroxit"],
+            "Formula": "Zn(OH)2",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Bismuth hydroxide", "Bismut hydroxit"],
+            "Formula": "Bi(OH)3",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Beryllium hydroxide", "Beri hidroxit"],
+            "Formula": "Be(OH)2",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Gallium hydroxide", "Gali hidroxit"],
+            "Formula": "Ga(OH)3",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Indium hydroxide", "Indi hidroxit"],
+            "Formula": "In(OH)3",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Manganese(IV) hydroxide", "Mangan (IV) hidroxit"],
+            "Formula": "Mn(OH)4",
+            "State": "Solid",
+            "Type": "Amphoteric",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        }
+
+    ],
+    "Salt":[
+        {
+            "Name": ["Sodium chloride", "Natri clorua"],
+            "Formula": "NaCl",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium bisulfite", "Natri hiđrosunfit"],
+            "Formula": "NaHSO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Sodium carbonate", "Natri cacbonat"],
+            "Formula": "Na2CO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium bicarbonate", "Natri hiđrocacbonat"],
+            "Formula": "NaHCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Ammonium nitrate", "Amoni nitrat"],
+            "Formula": "NH4NO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },     
+        {
+            "Name": ["Ammonium carbonate", "Amoni cacbonat"],
+            "Formula": "(NH4)2CO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },   
+        {
+            "Name": ["Manganese(II) fluoride", "Mangan florua(II)"],
+            "Formula": "MnF2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Sodium hydrosulfide", "Natri hidrosunfua"],
+            "Formula": "NaHS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Silver sulfide", "Bạc sunfua"],
+            "Formula": "Ag2S",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Chromium(II) sulfate", "Crôm(II) sunfat"],
+            "Formula": "CrSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Sodium zincate", "Natri kẽmat"],
+            "Formula": "Na2ZnO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium bisulfide", "Bari bisunfua"],
+            "Formula": "Ba(HS)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Ammonium sulfide", "Amoni sunfua"],
+            "Formula": "(NH4)2S",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Sodium nitrite", "Natri nitrit"],
+            "Formula": "NaNO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Sodium nitrate", "Natri nitrat"],
+            "Formula": "NaNO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium sulfate", "Natri sunfat"],
+            "Formula": "Na2SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        
+        {
+            "Name": ["Calcium aluminate", "Canxi aluminat"],
+            "Formula": "Ca(AlO2)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Potassium dihydrogen phosphate", "Kali dihydrophotphat"],
+            "Formula": "KH2PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Sodium dihydrogen phosphate", "Natri dihydrophotphat"],
+            "Formula": "NaH2PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },         
+        {
+            "Name": ["Barium iodate", "Bari iodate"],
+            "Formula": "Ba(IO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },      
+        {
+            "Name": ["Barium iodide", "Bari iodua"],
+            "Formula": "BaI2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Barium nitride", "Bari nitrua"],
+            "Formula": "Ba3N2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },  
+        {
+            "Name": ["Sodium phosphate", "Natri photphat"],
+            "Formula": "Na3PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium iodide", "Natri iotua"],
+            "Formula": "NaI",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium bromide", "Natri bromua"],
+            "Formula": "NaBr",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium hypochlorite", "Natri hypochlorit"],
+            "Formula": "NaClO",
+            "State": "Liquid",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Sodium chlorate", "Natri cloat"],
+            "Formula": "NaClO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Ammonium chlorate", "Amoni clorat"],
+            "Formula": "NH4ClO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) phosphate", "Sắt(III) photphat"],
+            "Formula": "FePO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium zirconate", "Canxi ziriconat"],
+            "Formula": "CaZrO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Ammonium dihydrogen phosphate", "Amoni đihiđrophotphat"],
+            "Formula": "NH4H2PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(II) metasilicate", "Sắt(II) metasilicat"],
+            "Formula": "FeSiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium chromate", "Canxi cromat"],
+            "Formula": "CaCrO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Aluminum phosphate", "Nhôm photphat"],
+            "Formula": "AlPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Potassium fluoride", "Kali florua"],
+            "Formula": "KF",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Rubidium sulfite", "Rubidi sunfit"],
+            "Formula": "Rb2SO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Aluminum sulfide", "Nhôm sunfua"],
+            "Formula": "Al2S3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Reacts with water"
+        },
+        {
+            "Name": ["Cesium phosphate", "Cesi photphat"],
+            "Formula": "Cs3PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium sulfite", "Natri sulfua"],
+            "Formula": "Na2SO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium sulfite", "Kali sunfit"],
+            "Formula": "K2SO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Sodium thiosulfate", "Natri thiosunfat"],
+            "Formula": "Na2S2O3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium dichromate", "Natri đicromat"],
+            "Formula": "Na2Cr2O7",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Cam",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium sulfide", "Bari sunfua"],
+            "Formula": "BaS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium carbide", "Bari cacbua"],
+            "Formula": "BaC2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Sodium sulfate", "Natri sulfat"],
+            "Formula": "NaSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Magnesium bisulfite", "Magie bisunfit"],
+            "Formula": "Mg(HSO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Mercury(II) sulfide", "Thủy ngân(II) sunfua"],
+            "Formula": "HgS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đỏ",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Potassium nitrite", "Nitrat kali"],
+            "Formula": "KNO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        
+        {
+            "Name": ["Sodium permanganate", "Natri pemanganat"],
+            "Formula": "NaMnO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Tím",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium fluorosilicate", "Natri silicofluorua"],
+            "Formula": "Na2SiF6",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Sodium formate", "Natri formiat"],
+            "Formula": "HCOONa",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium thiocyanate", "Natri xianua sunfua"],
+            "Formula": "NaSCN",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium azide", "Natri azit"],
+            "Formula": "NaN3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium manganate", "Kali manganat"],
+            "Formula": "K2MnO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Sodium chromite", "Natri cromit"],
+            "Formula": "NaCrO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium bicarbonate", "Bari hiđrocacbonat"],
+            "Formula": "Ba(HCO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Potassium chromite", "Kali cromit"],
+            "Formula": "KCrO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Ammonium oxalate", "Amoni oxalat"],
+            "Formula": "(NH4)2C2O4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Magnesium bicarbonate", "Magie hiđrocacbonat"],
+            "Formula": "Mg(HCO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Lithium phosphate", "Lithium photphat"],
+            "Formula": "Li3PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Ammonium bisulfate", "Ammoni bisunfat"],
+            "Formula": "NH4HSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(II) phosphate", "Manganese(II) photphat"],
+            "Formula": "Mn3(PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Rubidium carbonate", "Rubidi cacbonat"],
+            "Formula": "Rb2CO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) bicarbonate", "Đồng(II) bicacbonat"],
+            "Formula": "Cu(HCO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh dương",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Lithium sulfite", "Lithium sulfit"],
+            "Formula": "Li2SO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium sulfite", "Canxi sulfit"],
+            "Formula": "CaSO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium metaphosphate", "Canxi photphat meta"],
+            "Formula": "Ca(PO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Cadmium sulfate", "Cadmi sunfat"],
+            "Formula": "CdSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium hydrogen phosphate", "Natri hidrogephotphat"],
+            "Formula": "NaHPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium bromide", "Bari bromua"],
+            "Formula": "BaBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(II) iodide", "Mangan(II) iodua"],
+            "Formula": "MnI2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(II) iodide", "Sắt(II) iodua"],
+            "Formula": "FeI2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Potassium aluminate", "Kali aluminat"],
+            "Formula": "KAlO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium fluoride", "Natri florua"],
+            "Formula": "NaF",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+
+        {
+            "Name": ["Lithium chloride", "Clorua lithi"],
+            "Formula": "LiCl",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium bromide", "Bromua lithi"],
+            "Formula": "LiBr",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium iodide", "I-ốt lithi"],
+            "Formula": "LiI",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium sulfate", "Sunfat lithi"],
+            "Formula": "Li2SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium carbonate", "Cacbonat lithi"],
+            "Formula": "Li2CO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium nitrate", "Nitrat lithi"],
+            "Formula": "LiNO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium borate", "Borac Na"],
+            "Formula": "Na2B4O7",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium chromate", "Natri cromat"],
+            "Formula": "Na2CrO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium perchlorate", "Natri perclorat"],
+            "Formula": "NaClO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Barium fluoride", "Bari florua"],
+            "Formula": "BaF2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Ammonium chloride", "Amoni clorua"],
+            "Formula": "NH4Cl",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cesium sulfite", "Cesi sunfit"],
+            "Formula": "Cs2SO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Boron trifluoride", "Tri-fluorua bo"],
+            "Formula": "BF3",
+            "State": "Gas",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Boron nitrate", "Nitrat bo"],
+            "Formula": "B(NO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Boron phosphate", "Photphat bo"],
+            "Formula": "BPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Beryllium chloride", "Clorua beryllium"],
+            "Formula": "BeCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Beryllium sulfate", "Sunfat beryllium"],
+            "Formula": "BeSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Beryllium sulfite", "Sunfit beryllium"],
+            "Formula": "BeSO₃",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Beryllium nitrate", "Nitrat beryllium"],
+            "Formula": "Be(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Beryllium carbonate", "Cacbonat beryllium"],
+            "Formula": "BeCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Beryllium phosphate", "Photphat beryllium"],
+            "Formula": "Be3(PO₄)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Magnesium chloride", "Magie clorua"],
+            "Formula": "MgCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Magnesium sulfate", "Magie sunfat"],
+            "Formula": "MgSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium nitrite", "Bari nitrit"],
+            "Formula": "Ba(NO2)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Ammonium perchlorate", "Amoni perclorat"],
+            "Formula": "NH4ClO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium silicate", "Canxi silicat"],
+            "Formula": "Ca2SiO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Potassium zincate", "Kali kẽm oxit"],
+            "Formula": "K2ZnO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Magnesium nitrate", "Magie nitrat"],
+            "Formula": "Mg(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Magnesium carbonate", "Magie cacbonat"],
+            "Formula": "MgCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Magnesium phosphate", "Magie photphat"],
+            "Formula": "Mg3(PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Magnesium bromide", "Magie bromua"],
+            "Formula": "MgBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Magnesium iodide", "Magie iotua"],
+            "Formula": "MgI2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Magnesium fluoride", "Magie florua"],
+            "Formula": "MgF2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Aluminium chloride", "Nhôm clorua"],
+            "Formula": "AlCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Aluminium sulfate", "Nhôm sunfat"],
+            "Formula": "Al2(SO4)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Aluminium nitrate", "Nhôm nitrat"],
+            "Formula": "Al(NO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Aluminium phosphate", "Nhôm photphat"],
+            "Formula": "AlPO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+     
+        {
+            "Name": ["Aluminium bromide", "Nhôm bromua"],
+            "Formula": "AlBr3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Aluminium iodide", "Nhôm iotua"],
+            "Formula": "AlI3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Aluminium fluoride", "Nhôm florua"],
+            "Formula": "AlF3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Potassium chlorate", "Kali clorat"],
+            "Formula": "KClO",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Barium hydride", "Bari hidrua"],
+            "Formula": "BaH2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Iron(II) phosphate", "Sắt(II) photphat"],
+            "Formula": "Fe3(PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Potassium bicarbonate", "Kali bicacbonat"],
+            "Formula": "KHCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) sulfide", "Đồng(II) sunfua"],
+            "Formula": "CuS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium chromate", "Bari cromat"],
+            "Formula": "BaCrO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Iron(II) hydrogen phosphate", "Sắt(II) hydro photphat"],
+            "Formula": "FeHPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Lithium sulfide", "Liti sunfua"],
+            "Formula": "Li2S",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Silver fluoride", "Bạc florua"],
+            "Formula": "AgF",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium fluoride", "Liti florua"],
+            "Formula": "LiF",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium aluminate", "Natri aluminat"],
+            "Formula": "NaAlO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium silicate", "Natri silicat"],
+            "Formula": "Na2SiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium bisulfite", "Bari hiđrosunfit"],
+            "Formula": "Ba(HSO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Calcium bicarbonate", "Canxi hiđrocacbonat"],
+            "Formula": "Ca(HCO3)2",
+            "State": "Liquid",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Ammonium sulfate", "Amoni sunfat"],
+            "Formula": "(NH4)2SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Potassium silicate", "Kali silicat"],
+            "Formula": "K2SiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Rubidium silicate", "Rubidi silicat"],
+            "Formula": "Rb2SiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },    
+        {
+            "Name": ["Lithium silicate", "Lithi silicat"],
+            "Formula": "Li2SiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },   
+        {
+            "Name": ["Cesium silicate", "Cesi silicat"],
+            "Formula": "Cs2SiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },       
+        {
+            "Name": ["Cesium nitrate", "Cesi nitrat"],
+            "Formula": "CsNO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },                  
+        {
+            "Name": ["Calcium silicate", "Canxi silicat"],
+            "Formula": "CaSiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Magnesium silicate", "Magiê silicat"],
+            "Formula": "Mg2SiO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Aluminium silicate", "Nhôm silicat"],
+            "Formula": "Al2SiO5",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Zinc silicate", "Kẽm silicat"],
+            "Formula": "Zn2SiO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium silicate", "Bari silicat"],
+            "Formula": "BaSiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Iron silicate", "Sắt silicat"],
+            "Formula": "Fe2SiO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Lithium dihydrogen phosphate", "Liti dihydrophotphat"],
+            "Formula": "LiH2PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Copper silicate", "Đồng silicat"],
+            "Formula": "CuSiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Lead silicate", "Chì silicat"],
+            "Formula": "PbSiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Iron(III) fluoride", "Sắt(III) florua"],
+            "Formula": "FeF3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Calcium bisulfate", "Canxi bisunfat"],
+            "Formula": "Ca(HSO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium hydrogen phosphate", "Canxi hydro photphat"],
+            "Formula": "CaHPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Barium bisulfate", "Bari bisunfat"],
+            "Formula": "Ba(HSO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium hydrogen phosphate", "Kali hydro photphat"],
+            "Formula": "K2HPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium dihydrogen phosphate", "Canxi dihydro photphat"],
+            "Formula": "Ca(H2PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Magnesium sulfite", "Magie sunfit"],
+            "Formula": "MgSO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Potassium sulfide", "Kali sunfua"],
+            "Formula": "K2S",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium chloride", "Kali clorua"],
+            "Formula": "KCl",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium nitrate", "Kali nitrat"],
+            "Formula": "KNO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium sulfate", "Kali sunfat"],
+            "Formula": "K2SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        
+        {
+            "Name": ["Potassium carbonate", "Kali cacbonat"],
+            "Formula": "K2CO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium bromide", "Kali bromua"],
+            "Formula": "KBr",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium iodide", "Kali iodua"],
+            "Formula": "KI",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium permanganate", "Kali pemanganat"],
+            "Formula": "KMnO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Tím",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium chromate", "Kali cromat"],
+            "Formula": "K2CrO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cesium sulfate", "Cesi sulfat"],
+            "Formula": "Cs2SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Potassium dichromate", "Kali dicromat"],
+            "Formula": "K2Cr2O7",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Cam",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium phosphate", "Kali photphat"],
+            "Formula": "K3PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium carbonate", "Canxi cacbonat"],
+            "Formula": "CaCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Calcium chloride", "Canxi clorua"],
+            "Formula": "CaCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium sulfate", "Canxi sunfat"],
+            "Formula": "CaSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium nitrate", "Canxi nitrat"],
+            "Formula": "Ca(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium sulfide", "Canxi sulfua"],
+            "Formula": "CaS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },        
+        {
+            "Name": ["Calcium phosphate", "Canxi photphat"],
+            "Formula": "Ca3(PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium hypochlorite", "Canxi hypoclorit"],
+            "Formula": "Ca(OCl)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium nitride", "Lithi nitrit"],
+            "Formula": "Li3N",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium bisulfate", "Kali bisunfat"],
+            "Formula": "KHSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Rubidium nitrate", "Rubidi nitrat"],
+            "Formula": "RbNO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) iodide", "Sắt(III) iodua"],
+            "Formula": "FeI3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Tím",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium aluminate", "Bari aluminat"],
+            "Formula": "Ba(AlO2)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Potassium bisulfide", "Kali bisunfua"],
+            "Formula": "KHS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sodium bisulfate", "Natri bisunfat"],
+            "Formula": "NaHSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lithium hydrogen phosphate", "Lithi hydro photphat"],
+            "Formula": "Li2HPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Potassium bisulfite", "Kali bisunfit"],
+            "Formula": "KHSO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc bisulfate", "Kẽm bisunfat"],
+            "Formula": "Zn(HSO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium hypochlorite", "Canxi hypochlorit"],
+            "Formula": "CaHClO",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium hydrosulfite", "Canxi hyđrosunfit"],
+            "Formula": "Ca(HSO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) dihydrogen phosphate", "Sắt(III) dihidrojen photphat"],
+            "Formula": "Fe(H2PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Iron(II) carbonate", "Sắt(II) cacbonat"],
+            "Formula": "FeCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Potassium chlorate", "Kali clorat"],
+            "Formula": "KClO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cesium chloride", "Cesium clorua"],
+            "Formula": "CsCl",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium bromide", "Canxi bromua"],
+            "Formula": "CaBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium fluoride", "Canxi florua"],
+            "Formula": "CaF2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium nitrite", "Canxi nitrit"],
+            "Formula": "Ca(NO2)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium iodide", "Canxi iodua"],
+            "Formula": "CaI2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },        
+        {
+            "Name": ["Scandium chloride", "Scandium clorua"],
+            "Formula": "ScCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Scandium sulfate", "Scandium sunfat"],
+            "Formula": "Sc2(SO4)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Scandium nitrate", "Scandium nitrat"],
+            "Formula": "Sc(NO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Scandium carbonate", "Scandium cacbonat"],
+            "Formula": "Sc2(CO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Titanium chloride", "Titanium clorua"],
+            "Formula": "TiCl4",
+            "State": "Liquid",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Titanium dioxide", "Titanium đioxit"],
+            "Formula": "TiO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Titanium sulfate", "Titanium sunfat"],
+            "Formula": "Ti(SO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Titanium nitrate", "Titanium nitrat"],
+            "Formula": "Ti(NO3)4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        
+        {
+            "Name": ["Titanium carbide", "Titanium cacbua"],
+            "Formula": "TiC",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Titanium phosphate", "Titanium photphat"],
+            "Formula": "TiPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Vanadium(III) chloride", "Vanadi(III) clorua"],
+            "Formula": "VCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Tím",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Vanadium(IV) sulfate", "Vanadi(IV) sunfat"],
+            "Formula": "VOSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh dương",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Vanadium(III) sulfate", "Vanadi(III) sunfat"],
+            "Formula": "V2(SO4)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Vanadium(IV) chloride", "Vanadi(IV) clorua"],
+            "Formula": "VCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đen",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Magnesium sulfide", "Magie sunfua"],
+            "Formula": "MgS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Calcium titanate", "Canxi titanat"],
+            "Formula": "CaTiO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Ammonium phosphate", "Amoni photphat"],
+            "Formula": "(NH4)3PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lead(II) sulfide", "Chì(II) sunfua"],
+            "Formula": "PbS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Iron monosilicide", "Sắt monosilicua"],
+            "Formula": "FeSi",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Cesium carbonate", "Cesium cacbonat"],
+            "Formula": "Cs2CO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Ammonium fluoride", "Amoni florua"],
+            "Formula": "NH4F",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) sulfite", "Sắt(III) sunfua"],
+            "Formula": "FeSO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Calcium hydrosulfide", "Canxi hyđrosunfua"],
+            "Formula": "Ca(HS)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Iron(II) sulfide", "Sắt(II) sunfua"],
+            "Formula": "FeS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium oxalate", "Canxi oxalat"],
+            "Formula": "CaC2O4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Iron disulfide oxide", "Sắt(III) sunfua oxit"],
+            "Formula": "FeS2O3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Aluminum carbide", "Nhôm cacbua"],
+            "Formula": "Al4C3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Vanadium nitrate", "Vanadi nitrat"],
+            "Formula": "V(NO3)5",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Vanadium phosphate", "Vanadi photphat"],
+            "Formula": "VPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+      
+      
+        {
+            "Name": ["Chromium(III) chloride", "Crôm(III) clorua"],
+            "Formula": "CrCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Chromium(III) sulfate", "Crôm(III) sunfat"],
+            "Formula": "Cr2(SO4)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Chromium(III) nitrate", "Crôm(III) nitrat"],
+            "Formula": "Cr(NO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+      
+        {
+            "Name": ["Chromium(VI) oxide", "Crôm(VI) oxit"],
+            "Formula": "CrO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đỏ",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Chromium(VI) sulfate", "Crôm(VI) sunfat"],
+            "Formula": "CrO3SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Chromium(VI) nitrate", "Crôm(VI) nitrat"],
+            "Formula": "CrO3NO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Chromium(III) carbonate", "Crôm(III) cacbonat"],
+            "Formula": "Cr2(CO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Manganese(II) chloride", "Mangan(II) clorua"],
+            "Formula": "MnCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(II) sulfate", "Mangan(II) sunfat"],
+            "Formula": "MnSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(II) nitrate", "Mangan(II) nitrat"],
+            "Formula": "Mn(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Soluble"
+        },
+       
+        {
+            "Name": ["Manganese(III) chloride", "Mangan(III) clorua"],
+            "Formula": "MnCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Tím",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(III) sulfate", "Mangan(III) sunfat"],
+            "Formula": "Mn2(SO4)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(IV) chloride", "Mangan(IV) clorua"],
+            "Formula": "MnCl4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Tím",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(II) bromide", "Mangan(II) bromua"],
+            "Formula": "MnBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(II) chloride", "Sắt(II) clorua"],
+            "Formula": "FeCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) chloride", "Sắt(III) clorua"],
+            "Formula": "FeCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(II) sulfate", "Sắt(II) sunfat"],
+            "Formula": "FeSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) sulfate", "Sắt(III) sunfat"],
+            "Formula": "Fe2(SO4)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(II) nitrate", "Sắt(II) nitrat"],
+            "Formula": "Fe(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) nitrate", "Sắt(III) nitrat"],
+            "Formula": "Fe(NO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+      
+      
+        {
+            "Name": ["Iron(II) bromide", "Sắt(II) bromua"],
+            "Formula": "FeBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron(III) bromide", "Sắt(III) bromua"],
+            "Formula": "FeBr3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(II) chloride", "Côban(II) clorua"],
+            "Formula": "CoCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh dương",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(II) chloride hexahydrate", "Côban(II) clorua ngậm nước"],
+            "Formula": "CoCl2.6H2O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(III) chloride", "Côban(III) clorua"],
+            "Formula": "CoCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(II) sulfate", "Côban(II) sunfat"],
+            "Formula": "CoSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đỏ",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(II) sulfate heptahydrate", "Côban(II) sunfat"],
+            "Formula": "CoSO4.7H2O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(III) sulfate", "Côban(III) sunfat"],
+            "Formula": "Co2(SO4)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(II) nitrate", "Côban(II) nitrat"],
+            "Formula": "Co(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đỏ",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(III) nitrate", "Côban(III) nitrat"],
+            "Formula": "Co(NO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+      
+        {
+            "Name": ["Cobalt(II) bromide", "Côban(II) bromua"],
+            "Formula": "CoBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(II) bromide hexahydrate", "Côban(II) bromua ngậm nước"],
+            "Formula": "CoBr2.6H2O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đỏ-Tím",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Cobalt(III) bromide", "Côban(III) bromua"],
+            "Formula": "CoBr3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nickel(II) chloride", "Niken(II) clorua"],
+            "Formula": "NiCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nickel(II) sulfate", "Niken(II) sunfat"],
+            "Formula": "NiSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nickel(II) nitrate", "Niken(II) nitrat"],
+            "Formula": "Ni(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nickel(II) nitrate hexahydrate", "Niken(II) nitrat ngậm nước"],
+            "Formula": "Ni(NO3)2.6H2O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+      
+        {
+            "Name": ["Nickel(II) bromide", "Niken(II) bromua"],
+            "Formula": "NiBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nickel(II) bromide hexahydrate", "Niken(II) bromua ngậm nước"],
+            "Formula": "NiBr2.6H2O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nickel(II) carbonate", "Niken(II) cacbonat"],
+            "Formula": "NiCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Nickel(II) iodide", "Niken(II) iotua"],
+            "Formula": "NiI2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đen",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nickel(II) iodide hexahydrate", "Niken(II) iotua ngậm nước"],
+            "Formula": "NiI2.6H2O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nickel(II) sulfate hexahydrate", "Niken(II) sunfat ngậm nước"],
+            "Formula": "NiSO4.6H2O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(I) chloride", "Đồng(I) clorua"],
+            "Formula": "CuCl",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) chloride", "Đồng(II) clorua"],
+            "Formula": "CuCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(I) sulfate", "Đồng(I) sunfat"],
+            "Formula": "Cu2SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh dương",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) sulfate", "Đồng(II) sunfat"],
+            "Formula": "CuSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) sulfate pentahydrate", "Đồng(II) sunfat ngậm 5 phân tử nước"],
+            "Formula": "CuSO₄·5H₂O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh dương",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) nitrate", "Đồng(II) nitrat"],
+            "Formula": "Cu(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh dương",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) carbonate", "Đồng(II) cacbonat"],
+            "Formula": "CuCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Copper(II) bromide", "Đồng(II) bromua"],
+            "Formula": "CuBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium oxychloride", "Vôi oxyclorua"],
+            "Formula": "CaOCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },    {
+            "Name": ["Sodium sulfide", "Natri sunfua"],
+            "Formula": "Na2S",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Manganese(II) sulfide", "Mangan sunfua"],
+            "Formula": "MnS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Hồng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Potassium perchlorate", "Kali peclorat"],
+            "Formula": "KClO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Zinc sulfide", "Kẽm sunfua"],
+            "Formula": "ZnS",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Disodium hydrogen phosphate", "Natri hidrophotphat"],
+            "Formula": "Na2HPO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium chlorate", "Bari clorat"],
+            "Formula": "Ba(ClO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium phosphate", "Canxi photphat"],
+            "Formula": "Ca3(PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },        
+        {
+            "Name": ["Triatomic hydrogen", "Hydro ba nguyên tử"],
+            "Formula": "H3",
+            "State": "Gas",
+            "Type": "Molecule",
+            "Color": "Không màu",
+            "Solubility": "Insoluble"
+        },        
+        {
+            "Name": ["Copper(I) bromide", "Đồng(I) bromua"],
+            "Formula": "CuBr",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) iodide", "Đồng(II) iotua"],
+            "Formula": "CuI2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Copper(I) iodide", "Đồng(I) iotua"],
+            "Formula": "CuI",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Copper(II) thiocyanate", "Đồng(II) thiocyanat"],
+            "Formula": "Cu(SCN)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đen",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Copper(II) chromate", "Đồng(II) cromat"],
+            "Formula": "CuCrO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+      
+        {
+            "Name": ["Copper(II) chloride dihydrate", "Đồng(II) clorua ngậm 2 phân tử nước"],
+            "Formula": "CuCl2.2H2O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xanh lá",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc chloride", "Kẽm clorua"],
+            "Formula": "ZnCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc sulfate", "Kẽm sunfat"],
+            "Formula": "ZnSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc sulfate heptahydrate", "Kẽm sunfat ngậm 7 phân tử nước"],
+            "Formula": "ZnSO4.7H₂O",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc nitrate", "Kẽm nitrat"],
+            "Formula": "Zn(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc carbonate", "Kẽm cacbonat"],
+            "Formula": "ZnCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Zinc bromide", "Kẽm bromua"],
+            "Formula": "ZnBr2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc iodide", "Kẽm iotua"],
+            "Formula": "ZnI2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc thiocyanate", "Kẽm thiocyanat"],
+            "Formula": "Zn(SCN)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Zinc phosphate", "Kẽm photphat"],
+            "Formula": "Zn3(PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Zinc chromate", "Kẽm cromat"],
+            "Formula": "ZnCrO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver chloride", "Bạc clorua"],
+            "Formula": "AgCl",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver nitrate", "Bạc nitrat"],
+            "Formula": "AgNO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Silver bromide", "Bạc bromua"],
+            "Formula": "AgBr",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver iodide", "Bạc iotua"],
+            "Formula": "AgI",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver sulfate", "Bạc sunfat"],
+            "Formula": "Ag2SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver phosphate", "Bạc photphat"],
+            "Formula": "Ag3PO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver cyanide", "Bạc xianua"],
+            "Formula": "AgCN",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver thiocyanate", "Bạc thiocyanat"],
+            "Formula": "AgSCN",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver carbonate", "Bạc cacbonat"],
+            "Formula": "Ag2CO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver chromate", "Bạc cromat"],
+            "Formula": "Ag2CrO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Đỏ nâu", 
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silver ferrite", "Bạc ferrit"],
+            "Formula": "AgFeO2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium chloride", "Bari clorua"],
+            "Formula": "BaCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium sulfite", "Bari sulfit"],
+            "Formula": "BaSO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium sulfate", "Bari sulfat"],
+            "Formula": "BaSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium nitrate", "Bari nitrat"],
+            "Formula": "Ba(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Barium carbonate", "Bari cacbonat"],
+            "Formula": "BaCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium phosphate", "Bari phốtphat"],
+            "Formula": "Ba3(PO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Barium permanganate", "Bari permanganat"],
+            "Formula": "Ba(MnO4)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Tím",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Gold(III) chloride", "Vàng(III) clorua"],
+            "Formula": "AuCl3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Gold(I) chloride", "Vàng(I) clorua"],
+            "Formula": "AuCl",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Gold(III) sulfate", "Vàng(III) sulfat"],
+            "Formula": "Au2(SO4)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Nâu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Gold(I) bromide", "Vàng(I) bromua"],
+            "Formula": "AuBr",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium carbide", "Canxi cacbua"],
+            "Formula": "CaC2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },        
+        {
+            "Name": ["Gold(I) iodide", "Vàng(I) iodua"],
+            "Formula": "AuI",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Gold(III) nitrate", "Vàng(III) nitrat"],
+            "Formula": "Au(NO3)3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Mercury(I) chloride", "Thủy ngân(I) clorua"],
+            "Formula": "Hg2Cl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Mercury(II) chloride", "Thủy ngân(II) clorua"],
+            "Formula": "HgCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+
+        {
+            "Name": ["Mercury(I) sulfate", "Thủy ngân(I) sulfat"],
+            "Formula": "Hg2SO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Mercury(II) sulfate", "Thủy ngân(II) sulfat"],
+            "Formula": "HgSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Mercury(I) nitrate", "Thủy ngân(I) nitrat"],
+            "Formula": "Hg2(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Mercury(II) nitrate", "Thủy ngân(II) nitrat"],
+            "Formula": "Hg(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Calcium sulfite", "Canxi sulfit"],
+            "Formula": "CaSO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },        
+        {
+            "Name": ["Lead(II) chloride", "Chì(II) clorua"],
+            "Formula": "PbCl2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Lead(II) nitrate", "Chì(II) nitrat"],
+            "Formula": "Pb(NO3)2",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Lead(II) sulfate", "Chì(II) sulfat"],
+            "Formula": "PbSO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Lead(II) carbonate", "Chì(II) carbonat"],
+            "Formula": "PbCO3",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Lead(II) chromate", "Chì(II) cromat"],
+            "Formula": "PbCrO4",
+            "State": "Solid",
+            "Type": "Salt",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        }],
+    "Acid":
+        [
+        {
+            "Name": ["Hydrochloric acid", "Axit clohidric"],
+            "Formula": "HCl",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sulfuric acid", "Axit sulfuric"],
+            "Formula": "H2SO4",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nitric acid", "Axit nitric"],
+            "Formula": "HNO3",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Phosphoric acid", "Axit photphoric"],
+            "Formula": "H3PO4",
+            "State": "Solid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Carbonic acid", "Axit carbonic"],
+            "Formula": "H2CO3",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Hydrofluoric acid", "Axit hydrofluoric"],
+            "Formula": "HF",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Hydrosulfuric acid", "Axit hydrosulfuric"],
+            "Formula": "H2S",
+            "State": "Gas",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Chloric acid", "Axit cloric"],
+            "Formula": "HClO3",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Perchloric acid", "Axit percloric"],
+            "Formula": "HClO4",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Boric acid", "Axit boric"],
+            "Formula": "H3BO3",
+            "State": "Solid",
+            "Type": "Acid",
+            "Color": "",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Hydrobromic acid", "Axit hydrobrmic"],
+            "Formula": "HBr",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iodic acid", "Axit iodic"],
+            "Formula": "HIO3",
+            "State": "Solid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Nitrous acid", "Axit nitrous"],
+            "Formula": "HNO2",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Sulfurous acid", "Axit sulfurous"],
+            "Formula": "H2SO3",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Chromic acid", "Axit cromic"],
+            "Formula": "H2CrO4",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Hydroiodic acid", "Axit hydroiodic"],
+            "Formula": "HI",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Hydrocyanic acid", "Axit hydrocyanic"],
+            "Formula": "HCN",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Selenic acid", "Axit selenic"],
+            "Formula": "H2SeO4",
+            "State": "Solid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Hypochlorous acid", "Axit hypochlorous"],
+            "Formula": "HClO",
+            "State": "Liquid",
+            "Type": "Acid",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Silic acid", "Axit silic"],
+            "Formula": "H2SiO3",
+            "State": "Solid",
+            "Type": "Oxide",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        }       
+                  
+    ],
+    "Others":[
+        {
+            "Name": ["Silicon tetrafluoride", "Silic tetraflorua"],
+            "Formula": "SiF4",
+            "State": "Gas",
+            "Type": "Others",
+            "Color": "Không màu",
+            "Solubility": "Reacts with water"
+        },
+        {
+            "Name": ["Hydrazine", "Hydrazin"],
+            "Formula": "N2H4",
+            "State": "Liquid",
+            "Type": "Others",
+            "Color": "Không màu",
+            "Solubility": "Soluble"
+        },
+        {
+            "Name": ["Iron disulfide", "Sắt đisunfua"],
+            "Formula": "FeS2",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Vàng kim",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Silicon disulfide", "Silic disunfua"],
+            "Formula": "SiS2",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Vàng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium hydride", "Canxi hiđrua"],
+            "Formula": "CaH2",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium phosphide", "Canxi photphua"],
+            "Formula": "Ca3P2",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Calcium nitride", "Canxi nitrua"],
+            "Formula": "Ca3N2",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Ozone", "Ozon"],
+            "Formula": "O3",
+            "State": "Gas",
+            "Type": "Others",
+            "Color": "Không màu",
+            "Solubility": "Slightly soluble"
+        },
+        {
+            "Name": ["Aluminum nitride", "Nhôm nitrua"],
+            "Formula": "AlN",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Trắng",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Zirconium silicate", "Silicat zirconium"],
+            "Formula": "ZrSiO4",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Không màu",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Water", "Nước"],
+            "Formula": "H2O",
+            "State": "Liquid",
+            "Type": "Others",
+            "Color": "Không màu",
+            "Solubility": "Universal solvent"
+        },
+        {
+            "Name": ["Calcium silicide", "Canxi silicid"],
+            "Formula": "Ca2Si",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Xám",
+            "Solubility": "Insoluble"
+        },
+        {
+            "Name": ["Manganese(II) nitride", "Mangan(II) nitrit"],
+            "Formula": "Mn3N2",
+            "State": "Solid",
+            "Type": "Others",
+            "Color": "Đen",
+            "Solubility": "Insoluble"
+        }
+    ]
+    
+    
+}

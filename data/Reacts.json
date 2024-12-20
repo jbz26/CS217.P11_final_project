@@ -1,0 +1,4148 @@
+[
+
+    {
+        "id":1,
+        "if": ["Na", "Cl2"],
+        "then": ["NaCl"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "id":2,
+        "if": ["Na", "Br2"],
+        "then": ["NaBr"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "id":3,
+        "if": ["Na", "I2"],
+        "then": ["NaI"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "id":4,
+        "if": ["Na", "O2"],
+        "then": ["Na2O"],
+        "weight": [4, 1, 2]
+    },
+    {
+        "id":5,
+        "if": ["Na", "H2O"],
+        "then": ["NaOH", "H2"],
+        "weight": [2, 2, 2, 1]
+    },
+    {
+        "id":6,
+        "if": ["Na", "S"],
+        "then": ["Na2S"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "id":7,
+        "if": ["Na", "HCl"],
+        "then": ["NaCl", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "id":8,
+        "if": ["Na", "H2SO4"],
+        "then": ["Na2SO4", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "id":9,
+        "if": ["Na", "H3PO4"],
+        "then": ["Na2HPO4", "H2"],
+        "weight": [2, 1, 1, 1]
+    },    
+    {
+        "id":10,
+        "if": ["Na", "H3PO4"],
+        "then": ["Na3PO4", "H2"],
+        "weight": [6, 2, 2, 3]
+    },
+    {
+        "id":11,
+        "if": ["Na", "H3PO4"],
+        "then": ["NaH2PO4", "H2"],
+        "weight": [2, 2, 2, 1]
+    },
+    {
+        "id":12,
+        "if": ["Na", "HF"],
+        "then": ["NaF", "H2"],
+        "weight": [2, 2, 2, 1]
+    },
+    {
+        "id":13,
+        "if": ["Na2O", "H2O"],
+        "then": ["NaOH"],
+        "weight": [1, 1, 2]
+    },
+    {
+        "id":14,
+        "if": ["Na2O", "CO2"],
+        "then": ["Na2CO3"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "id":15,
+        "if": ["Na2O", "SO2"],
+        "then": ["Na2SO3"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "id":16,
+        "if": ["Na2O", "HCl"],
+        "then": ["NaCl", "H2O"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "id":17,
+        "if": ["Na2O", "H2SO4"],
+        "then": ["Na2SO4", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "id":18,
+        "if": ["Na2O", "HNO3"],
+        "then": ["NaNO3", "H2O"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "id":19,
+        "if": ["Na2O", "HBr"],
+        "then": ["NaBr", "H2O"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "id":20,
+        "if": ["Na2O", "HI"],
+        "then": ["NaI", "H2O"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "id":21,
+        "if": ["Na2O", "P2O5"],
+        "then": ["Na3PO4"],
+        "weight": [3, 1, 2]
+    },    
+    {
+        "id":22,
+        "if": ["NaClO", "CO2", "H2O"],
+        "then": ["NaHCO3", "HClO"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "id":23,
+        "if": ["Na2S2O3", "H2SO4"],
+        "then": ["Na2SO4", "S", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Na2SiO3", "CO2", "H2O"],
+        "then": ["Na2CO3", "H2SiO3"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaNO2", "NH4Cl"],
+        "then": ["NaCl", "N2", "H2O"],
+        "weight": [1, 1, 1, 1, 2],
+        "condition":["t"]
+    },
+
+    {
+        "if": ["Na2CO3", "HCl"],
+        "then": ["NaCl", "CO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Na2CO3", "HBr"],
+        "then": ["NaBr", "CO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Na2CO3", "H2SO4"],
+        "then": ["NaSO4", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Na2CO3", "HNO3"],
+        "then": ["NaNO3", "CO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Na2CO3", "Ba(OH)2"],
+        "then": ["NaOH", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2CO3", "Ca(OH)2"],
+        "then": ["NaOH", "CaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2CO3", "CaCl2"],
+        "then": ["NaCl", "CaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2CO3", "BaCl2"],
+        "then": ["NaCl", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2CO3", "Ba(NO3)2"],
+        "then": ["NaNO3", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2CO3", "Ca(NO3)2"],
+        "then": ["NaNO3", "CaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2CO3", "Cl2"],
+        "then": ["NaCl", "NaClO", "CO2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Na2CO3", "AlCl3", "H2O"],
+        "then": ["NaCl", "Al(OH)3", "CO2"],
+        "weight": [1, 2, 3, 6, 2, 3]
+    },
+    {
+        "if": ["Na2CO3", "FeCl3", "H2O"],
+        "then": ["NaCl", "Fe(OH)3", "CO2"],
+        "weight": [3, 2, 3, 6, 2, 3]
+    },
+    {
+        "if": ["Na2S", "HCl"],
+        "then": ["NaCl", "H2S"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["Na2S", "HBr"],
+        "then": ["NaBr", "H2S"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["Na2S", "H2SO4"],
+        "then": ["Na2SO4", "H2S"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Na2S", "HNO3"],
+        "then": ["Na2SO4", "NO", "H2O"],
+        "weight": [3, 8, 3, 8, 4]
+    },
+    {
+        "if": ["Na2S", "FeCl2"],
+        "then": ["FeS", "NaCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Na2S", "CuCl2"],
+        "then": ["CuS", "NaCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Na2S", "ZnCl2"],
+        "then": ["ZnS", "NaCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Na2S", "Zn(NO3)2"],
+        "then": ["ZnS", "NaNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Na2S", "Pb(NO3)2"],
+        "then": ["PbS", "NaNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Na2S", "Cu(NO3)2"],
+        "then": ["CuS", "NaNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Na2S", "CaCO3"],
+        "then": ["Na2CO3", "CaS"],
+        "weight": [1, 1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["Na2SO3", "HCl"],
+        "then": ["NaCl", "SO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Na2SO3", "HBr"],
+        "then": ["NaBr", "SO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Na2SO3", "H2SO4"],
+        "then": ["Na2SO4", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Na2SO3", "Ba(OH)2"],
+        "then": ["NaOH", "BaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2SO3", "Ca(OH)2"],
+        "then": ["NaOH", "CaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2SO3", "BaCl2"],
+        "then": ["NaCl", "BaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2SO3", "Ba(NO3)2"],
+        "then": ["NaNO3", "BaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2SO3", "Ca(NO3)2"],
+        "then": ["NaNO3", "CaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2SO3", "SO2", "H2O"],
+        "then": ["NaHSO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Na2SO3", "KMnO4", "NaHSO4"],
+        "then": ["Na2SO4", "MnSO4", "K2SO4", "H2O"],
+        "weight": [5, 2, 6, 8, 2, 1, 3]
+    },
+    {
+        "if": ["Na2SO4", "Ba(OH)2"],
+        "then": ["NaOH", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2SO4", "BaCl2"],
+        "then": ["NaCl", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2SO4", "Ba(NO3)2"],
+        "then": ["NaNO3", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Na2SO4", "C"],
+        "then": ["Na2S", "CO2"],
+        "weight": [1, 2, 1, 2],
+        "condition":["t"]
+    },
+    {
+        "if": ["NaCl", "AgNO3"],
+        "then": ["NaNO3", "AgCl"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaBr", "AgNO3"],
+        "then": ["NaNO3", "AgBr"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaI", "AgNO3"],
+        "then": ["NaNO3", "AgI"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaCl", "H2SO4"],
+        "then": ["Na2SO4", "HCl"],
+        "weight": [2, 1, 1, 1],
+        "condition":["t:>=400"]
+
+    },
+    {
+        "if": ["NaCl", "H2SO4"],
+        "then": ["NaHSO4", "HCl"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaBr", "Cl2"],
+        "then": ["NaCl", "Br2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["NaI", "Cl2"],
+        "then": ["NaCl", "I2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["NaI", "Br2"],
+        "then": ["NaBr", "I2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["NaI", "O3", "H2O"],
+        "then": ["NaOH", "I2", "O2"],
+        "weight": [2, 1, 1, 2, 1, 1]
+    },
+    {
+        "if": ["NaI", "FeCl3"],
+        "then": ["I2", "FeCl2", "NaCl"],
+        "weight": [2, 2, 1, 2, 2]
+    },
+    {
+        "if": ["NaI", "Fe(NO3)3"],
+        "then": ["I2", "Fe(NO3)2", "NaNO3"],
+        "weight": [2, 2, 1, 2, 2]
+    },
+    {
+        "if": ["NaI", "Fe2(SO4)3"],
+        "then": ["I2", "FeSO4", "Na2SO4"],
+        "weight": [2, 1, 1, 2, 1]
+    },
+    {
+        "if": ["NaI", "H2O2"],
+        "then": ["I2", "NaOH"],
+        "weight": [2, 1, 1, 2]
+    },
+    {
+        "if": ["HNO3", "NaI"],
+        "then": ["NaNO3", "I2", "NO", "H2O"],
+        "weight": [6, 3, 2, 4]
+    },
+    {
+        "if": ["KOH", "NaHCO3"],
+        "then": ["K2CO3", "Na2CO3", "H2O"],
+        "weight": [2, 2, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "NaHCO3"],
+        "then": ["Na2CO3", "CaCO3", "H2O"],
+        "weight": [1, 2, 1, 1, 2]
+    },
+    {
+        "if": ["NaHCO3"],
+        "then": ["Na2CO3", "CO2", "H2O"],
+        "weight": [2, 1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["NaHCO3", "HCl"],
+        "then": ["NaCl", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaHCO3", "HBr"],
+        "then": ["NaBr", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaHCO3", "HNO3"],
+        "then": ["NaNO3", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaHCO3", "H2SO4"],
+        "then": ["Na2SO4", "CO2", "H2O"],
+        "weight": [2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["NaHCO3", "NaHSO4"],
+        "then": ["Na2SO4", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaHCO3", "KHSO4"],
+        "then": ["K2SO4", "Na2SO4", "CO2", "H2O"],
+        "weight": [2, 2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["NaHCO3", "Ba(HSO4)2"],
+        "then": ["Na2SO4", "BaSO4", "CO2", "H2O"],
+        "weight": [2, 1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["NaHCO3", "Ca(HSO4)2"],
+        "then": ["Na2SO4", "CaSO4", "CO2", "H2O"],
+        "weight": [2, 1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["NaHCO3", "MgSO4"],
+        "then": ["Na2SO4", "Mg(OH)2", "CO2"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "CO2"],
+        "then": ["NaHCO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "SO2"],
+        "then": ["NaHSO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "SO2"],
+        "then": ["Na2SO3", "H2O"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "HCl"],
+        "then": ["NaCl", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "HNO3"],
+        "then": ["NaNO3", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "H2SO4"],
+        "then": ["Na2SO4", "H2O"],
+        "weight": [2, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "CuSO4"],
+        "then": ["Na2SO4", "Cu(OH)2"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "FeSO4"],
+        "then": ["Na2SO4", "Fe(OH)2"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "FeCl3"],
+        "then": ["NaCl", "Fe(OH)3"],
+        "weight": [3, 1, 3, 1]
+    },
+    {
+        "if": ["NaOH", "Mg(NO3)2"],
+        "then": ["NaNO3", "Mg(OH)2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["NaOH", "Al(OH)3"],
+        "then": ["NaAlO2", "H2O"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "Cr(OH)3"],
+        "then": ["NaCrO2", "H2O"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "Zn(OH)2"],
+        "then": ["Na2ZnO2", "H2O"],
+        "weight": [2, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "NaHCO3"],
+        "then": ["Na2CO3", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "NaHSO3"],
+        "then": ["Na2SO3", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "Ba(HSO3)2"],
+        "then": ["Na2SO3", "BaSO3", "H2O"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "Ca(HCO3)2"],
+        "then": ["Na2CO3", "CaCO3", "H2O"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "Cl2"],
+        "then": ["NaCl", "NaClO3", "H2O"],
+        "weight": [6, 3, 5, 1, 3],
+        "condition":["t:>=90"]
+    },
+    {
+        "if": ["NaOH", "Cl2"],
+        "then": ["NaCl", "NaClO", "H2O"],
+        "weight": [2, 1, 1, 1]
+    },
+   
+    {
+        "if": ["NaOH", "Al2O3"],
+        "then": ["NaAlO2", "H2O"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["NaOH", "ZnO"],
+        "then": ["Na2ZnO2", "H2O"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "H2S"],
+        "then": ["Na2S", "H2O"],
+        "weight": [2, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "H2S"],
+        "then": ["NaHS", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "NH4Cl"],
+        "then": ["NaCl", "NH3", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "NH4NO3"],
+        "then": ["NaNO3", "NH3", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "(NH4)2SO4"],
+        "then": ["Na2SO4", "NH3", "H2O"],
+        "weight": [2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["Al", "NaOH", "H2O"],
+        "then": ["NaAlO2", "H2"],
+        "weight": [2, 2, 2, 2, 3]
+    },
+    {
+        "if": ["Zn", "NaOH"],
+        "then": ["Na2ZnO2", "H2"],
+        "weight": [1, 2, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["NaOH", "NaHS"],
+        "then": ["Na2S", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["NaOH", "KHS"],
+        "then": ["K2S", "Na2S", "H2O"],
+        "weight": [2, 2, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "KHSO3"],
+        "then": ["K2SO3", "Na2SO3", "H2O"],
+        "weight": [2, 2, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "KHCO3"],
+        "then": ["K2CO3", "Na2CO3", "H2O"],
+        "weight": [2, 2, 1, 1, 2]
+    },    
+    {
+        "if": ["AlCl3", "NaOH"],
+        "then": ["Al(OH)3", "NaCl"],
+        "weight": [1, 3, 1, 3]
+    },
+    {
+        "if": ["ZnCl2", "NaOH"],
+        "then": ["Zn(OH)2", "NaCl"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Si", "NaOH", "H2O"],
+        "then": ["Na2SiO3", "H2"],
+        "weight": [1, 2, 1, 1, 2]
+    },
+    {
+        "if": ["SiO2", "NaOH"],
+        "then": ["Na2SiO3", "H2O"],
+        "weight": [1, 2, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["Ca(OH)2", "NaHSO3"],
+        "then": ["Na2SO3", "CaSO3", "H2O"],
+        "weight": [1, 2, 1, 1, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "NaHSO3"],
+        "then": ["Na2SO3", "BaSO3", "H2O"],
+        "weight": [1, 2, 1, 1, 2]
+    },
+    {
+        "if": ["NaHSO3"],
+        "then": ["Na2SO3", "SO2", "H2O"],
+        "weight": [2, 1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["NaHSO3", "HCl"],
+        "then": ["NaCl", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaHSO3", "HBr"],
+        "then": ["NaBr", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaHSO3", "H2SO4"],
+        "then": ["Na2SO4", "SO2", "H2O"],
+        "weight": [2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["NaHSO3", "NaHSO4"],
+        "then": ["Na2SO4", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaHSO3", "KHSO4"],
+        "then": ["K2SO4", "Na2SO4", "SO2", "H2O"],
+        "weight": [2, 2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["NaHSO3", "Ba(HSO4)2"],
+        "then": ["Na2SO4", "BaSO4", "SO2", "H2O"],
+        "weight": [2, 1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["NaHSO3", "Ca(HSO4)2"],
+        "then": ["Na2SO4", "CaSO4", "SO2", "H2O"],
+        "weight": [2, 1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["NaNO3"],
+        "then": ["NaNO2", "O2"],
+        "weight": [2, 2, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["NaNO3", "Cu", "HCl"],
+        "then": ["NaCl", "CuCl2", "NO", "H2O"],
+        "weight": [2, 3, 8, 2, 3, 2, 4]
+    },
+    {
+        "if": ["NaNO3", "Cu", "H2SO4"],
+        "then": ["Na2SO4", "CuSO4", "NO", "H2O"],
+        "weight": [2, 3, 4, 1, 3, 2, 4]
+    },
+    {
+        "if": ["NaNO3", "Mg", "H2SO4"],
+        "then": ["Na2SO4", "MgSO4", "NO", "H2O"],
+        "weight": [2, 3, 4, 1, 3, 2, 4]
+    },
+    {
+        "if": ["NaNO3", "Zn", "H2SO4"],
+        "then": ["Na2SO4", "ZnSO4", "NO", "H2O"],
+        "weight": [2, 3, 4, 1, 3, 2, 4]
+    },
+    {
+        "if": ["NaNO3", "Fe", "H2SO4"],
+        "then": ["Na2SO4", "Fe2(SO4)3", "NO", "H2O"],
+        "weight": [2, 2, 4, 1, 1, 2, 4]
+    },
+    {
+        "if": ["NaNO3", "Fe", "HCl"],
+        "then": ["NaCl", "FeCl3", "NO", "H2O"],
+        "weight": [1, 1, 4, 1, 1, 1, 2]
+    },
+    {
+        "if": ["NaNO3", "Mg", "HCl"],
+        "then": ["NaCl", "MgCl2", "NO", "H2O"],
+        "weight": [2, 3, 8, 2, 3, 2, 4]
+    },
+    {
+        "if": ["NaNO3", "Zn", "HCl"],
+        "then": ["NaCl", "ZnCl2", "NO", "H2O"],
+        "weight": [2, 3, 8, 2, 3, 2, 4]
+    },
+    {
+        "if": ["NaNO3", "Mg", "HCl"],
+        "then": ["NaCl", "MgCl2", "N2", "H2O"],
+        "weight": [2, 5, 12, 2, 5, 1, 6]
+    },
+    {
+        "if": ["NaNO3", "Mg", "H2SO4"],
+        "then": ["Na2SO4", "MgSO4", "N2", "H2O"],
+        "weight": [2, 5, 6, 1, 5, 1, 6]
+    },
+    {
+        "if": ["NaNO3", "Al", "H2SO4"],
+        "then": ["Na2SO4", "Al2(SO4)3", "N2", "H2O"],
+        "weight": [6, 10, 18, 3, 5, 3, 18]
+    },
+    {
+        "if": ["NaNO3", "Al", "H2SO4"],
+        "then": ["Na2SO4", "Al2(SO4)3", "NO", "H2O"],
+        "weight": [2, 2, 4, 1, 1, 2, 4]
+    },
+    {
+        "if": ["NaNO3", "Al", "HCl"],
+        "then": ["NaCl", "AlCl3", "NO", "H2O"],
+        "weight": [1, 1, 4, 1, 1, 1, 2]
+    },
+    {
+        "if": ["NaNO3", "Al", "HCl"],
+        "then": ["NaCl", "AlCl3", "N2", "H2O"],
+        "weight": [6, 10, 36, 6, 10, 3, 18]
+    },
+    {
+        "if": ["NaNO3", "H2SO4"],
+        "then": ["HNO3", "NaHSO4"],
+        "weight": [1, 1, 1, 1],
+        "condition":["đặc","t"]
+    },
+    {
+        "if": ["NaAlO2", "HCl", "H2O"],
+        "then": ["Al(OH)3", "NaCl"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["NaClO", "HCl"],
+        "then": ["NaCl", "Cl2", "H2O"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["NaAlO2", "CO2", "H2O"],
+        "then": ["Al(OH)3", "Na2CO3"],
+        "weight": [2, 1, 3, 2, 1]
+    },
+    {
+        "if": ["K", "Cl2"],
+        "then": ["KCl"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "if": ["K", "Br2"],
+        "then": ["KBr"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "if": ["K", "I2"],
+        "then": ["KI"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "if": ["K", "O2"],
+        "then": ["K2O"],
+        "weight": [4, 1, 2]
+    },
+    {
+        "if": ["K", "H2O"],
+        "then": ["KOH", "H2"],
+        "weight": [2, 2, 2, 1]
+    },
+    {
+        "if": ["K", "S"],
+        "then": ["K2S"],
+        "weight": [2, 1, 1]
+    },
+    {
+        "if": ["K", "HCl"],
+        "then": ["KCl", "H2"],
+        "weight": [2, 2, 2, 1]
+    },
+    {
+        "if": ["K", "H2SO4"],
+        "then": ["K2SO4", "H2"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["K", "H3PO4"],
+        "then": ["K3PO4", "H2"],
+        "weight": [6, 2, 2, 3]
+    },
+    {
+        "if": ["K", "H3PO4"],
+        "then": ["K2HPO4", "H2"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["K", "H3PO4"],
+        "then": ["KH2PO4", "H2"],
+        "weight": [2, 2, 2, 1]
+    },
+    {
+        "if": ["K", "HF"],
+        "then": ["KF", "H2"],
+        "weight": [2, 2, 2, 1]
+    },    
+    {
+        "if": ["K2O", "H2O"],
+        "then": ["KOH"],
+        "weight": [1, 1, 2]
+    },
+    {
+        "if": ["K2O", "CO2"],
+        "then": ["K2CO3"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["K2O", "SO2"],
+        "then": ["K2SO3"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["K2O", "HCl"],
+        "then": ["KCl", "H2O"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["K2O", "H2SO4"],
+        "then": ["K2SO4", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["K2O", "HNO3"],
+        "then": ["KNO3", "H2O"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["K2O", "HBr"],
+        "then": ["KBr", "H2O"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["K2O", "HI"],
+        "then": ["KI", "H2O"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["KOH", "CO2"],
+        "then": ["KHCO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["KOH", "SO2"],
+        "then": ["KHSO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["KOH", "HCl"],
+        "then": ["KCl", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KOH", "HNO3"],
+        "then": ["KNO3", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KOH", "H2SO4"],
+        "then": ["K2SO4", "H2O"],
+        "weight": [2, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "CuSO4"],
+        "then": ["K2SO4", "Cu(OH)2"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["KOH", "FeSO4"],
+        "then": ["K2SO4", "Fe(OH)2"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["KOH", "FeCl3"],
+        "then": ["KCl", "Fe(OH)3"],
+        "weight": [3, 1, 3, 1]
+    },
+    {
+        "if": ["KOH", "Mg(NO3)2"],
+        "then": ["KNO3", "Mg(OH)2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["KOH", "Al(OH)3"],
+        "then": ["KAlO2", "H2O"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "Cr(OH)3"],
+        "then": ["KCrO2", "H2O"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "Zn(OH)2"],
+        "then": ["K2ZnO2", "H2O"],
+        "weight": [2, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "KHCO3"],
+        "then": ["K2CO3", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KOH", "KHSO3"],
+        "then": ["K2SO3", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KOH", "Ba(HSO3)2"],
+        "then": ["K2SO3", "BaSO3", "H2O"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "Ba(HCO3)2"],
+        "then": ["K2CO3", "BaCO3", "H2O"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "Ca(HCO3)2"],
+        "then": ["K2CO3", "CaCO3", "H2O"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "Ca(HSO3)2"],
+        "then": ["K2SO3", "CaSO3", "H2O"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "Cl2"],
+        "then": ["5KCl", "KClO3", "3H2O"],
+        "weight": [6, 3, 5, 1, 3],
+        "condition":["t:>=90"]
+    },
+    {
+        "if": ["KOH", "Cl2"],
+        "then": ["KCl", "KClO", "H2O"],
+        "weight": [2, 1, 1, 1, 1]
+    },
+    {
+            "if": ["KOH", "Al2O3"],
+            "then": ["KAlO2", "H2O"],
+            "weight": [2, 1, 2, 1]
+    },
+    {
+            "if": ["KOH", "ZnO"],
+            "then": ["K2ZnO2", "H2O"],
+            "weight": [2, 1, 1, 1]
+    },
+    {
+            "if": ["KOH", "H2S"],
+            "then": ["K2S", "H2O"],
+            "weight": [2, 1, 1, 2]
+    },
+    {
+            "if": ["KOH", "H2S"],
+            "then": ["KHS", "H2O"],
+            "weight": [1, 1, 1, 1]
+    },
+    {
+            "if": ["KOH", "NH4Cl"],
+            "then": ["KCl", "NH3", "H2O"],
+            "weight": [1, 1, 1, 1, 1],
+            "condition":["t"]
+    },
+    {
+            "if": ["KOH", "NH4NO3"],
+            "then": ["KNO3", "NH3", "H2O"],
+            "weight": [1, 1, 1, 1, 1],
+            "condition":["t"]
+    },
+    {
+            "if": ["KOH", "(NH4)2SO4"],
+            "then": ["K2SO4", "NH3", "2H2O"],
+            "weight": [2, 1, 1, 2, 2],
+            "condition":["t"]
+    },
+    {
+        "if": ["Al", "KOH", "H2O"],
+        "then": ["KAlO2", "H2"],
+        "weight": [2, 2, 2, 2, 3]
+    },
+    {
+        "if": ["Zn", "KOH"],
+        "then": ["K2ZnO2", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["KOH", "KHS"],
+        "then": ["K2S", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KOH", "NaHS"],
+        "then": ["K2S", "Na2S", "H2O"],
+        "weight": [2, 2, 1, 1, 2]
+    },
+    {
+        "if": ["KOH", "NaHSO3"],
+        "then": ["K2SO3", "Na2SO3", "H2O"],
+        "weight": [2, 2, 1, 1, 2]
+    },
+    {
+        "if": ["K2CO3", "HCl"],
+        "then": ["KCl", "CO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["K2CO3", "HBr"],
+        "then": ["KBr", "CO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["K2CO3", "H2SO4"],
+        "then": ["K2SO4", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["K2CO3", "HNO3"],
+        "then": ["KNO3", "CO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["K2CO3", "Ba(OH)2"],
+        "then": ["KOH", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2CO3", "Ca(OH)2"],
+        "then": ["KOH", "CaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2CO3", "CaCl2"],
+        "then": ["KCl", "CaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2CO3", "BaCl2"],
+        "then": ["KCl", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2CO3", "Ba(NO3)2"],
+        "then": ["KNO3", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2CO3", "Ca(NO3)2"],
+        "then": ["KNO3", "CaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2CO3", "Cl2"],
+        "then": ["KCl", "KClO", "CO2"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["K2CO3", "AlCl3", "H2O"],
+        "then": ["KCl", "Al(OH)3", "CO2"],
+        "weight": [3, 2, 3, 6, 2, 3]
+    },
+    {
+        "if": ["K2S", "HCl"],
+        "then": ["KCl", "H2S"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["K2S", "HBr"],
+        "then": ["KBr", "H2S"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["K2S", "H2SO4"],
+        "then": ["K2SO4", "H2S"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["K2S", "HNO3"],
+        "then": ["K2SO4", "NO", "H2O"],
+        "weight": [3, 8, 3, 8, 4]
+    },
+    {
+        "if": ["K2S", "FeCl2"],
+        "then": ["FeS", "KCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["K2S", "CuCl2"],
+        "then": ["CuS", "KCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["K2S", "ZnCl2"],
+        "then": ["ZnS", "KCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["K2S", "Zn(NO3)2"],
+        "then": ["ZnS", "KNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["K2S", "Pb(NO3)2"],
+        "then": ["PbS", "KNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["K2S", "Cu(NO3)2"],
+        "then": ["CuS", "KNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["K2SO3", "HCl"],
+        "then": ["KCl", "SO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["K2SO3", "HBr"],
+        "then": ["KBr", "SO2", "H2O"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["K2SO3", "H2SO4"],
+        "then": ["K2SO4", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["K2SO3", "Ba(OH)2"],
+        "then": ["KOH", "BaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2SO3", "Ca(OH)2"],
+        "then": ["KOH", "CaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2SO3", "CaCl2"],
+        "then": ["KCl", "CaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2SO3", "BaCl2"],
+        "then": ["KCl", "BaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2SO3", "Ba(NO3)2"],
+        "then": ["KNO3", "BaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2SO3", "Ca(NO3)2"],
+        "then": ["KNO3", "CaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2SO3", "SO2", "H2O"],
+        "then": ["KHSO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["K2SO3", "KMnO4", "KHSO4"],
+        "then": ["K2SO4", "MnSO4", "H2O"],
+        "weight": [5, 2, 6, 9, 2, 3]
+    },
+    {
+        "if": ["K2SO4", "Ba(OH)2"],
+        "then": ["KOH", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2SO4", "BaCl2"],
+        "then": ["KCl", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["K2SO4", "Ba(NO3)2"],
+        "then": ["KNO3", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["KCl"],
+        "then": ["K", "Cl2"],
+        "weight": [2, 2, 1],
+        "condition":["đpnc"]
+    },
+    {
+        "if": ["KCl", "H2O"],
+        "then": ["KOH", "Cl2", "H2"],
+        "weight": [2, 2, 2, 1, 1],
+        "condition":["đpdd"]
+    },
+    {
+        "if": ["KCl", "AgNO3"],
+        "then": ["KNO3", "AgCl"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KBr", "AgNO3"],
+        "then": ["KNO3", "AgBr"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KI", "AgNO3"],
+        "then": ["KNO3", "AgI"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KCl", "H2SO4"],
+        "then": ["K2SO4", "HCl"],
+        "weight": [2, 1, 1, 2],
+        "condition":["t:>=400"]
+    },
+    {
+        "if": ["KCl", "H2SO4"],
+        "then": ["KHSO4", "HCl"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["KBr", "Cl2"],
+        "then": ["KCl", "Br2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["KI", "Cl2"],
+        "then": ["KCl", "I2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["KI", "Br2"],
+        "then": ["KBr", "I2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["KI", "O3", "H2O"],
+        "then": ["KOH", "I2", "O2"],
+        "weight": [2, 1, 1, 2, 1, 1]
+    },
+    {
+        "if": ["KI", "FeCl3"],
+        "then": ["I2", "FeCl2", "KCl"],
+        "weight": [2, 2, 1, 2, 2]
+    },
+    {
+        "if": ["KI", "Fe(NO3)3"],
+        "then": ["I2", "Fe(NO3)2", "KNO3"],
+        "weight": [2, 2, 1, 2, 2]
+    },
+    {
+        "if": ["KI", "Fe2(SO4)3"],
+        "then": ["I2", "FeSO4", "K2SO4"],
+        "weight": [2, 2, 1, 2, 1]
+    },
+    {
+        "if": ["KI", "H2O2"],
+        "then": ["I2", "KOH"],
+        "weight": [2, 1, 1, 2]
+    },
+    {
+        "if": ["HNO3", "KI"],
+        "then": ["KNO3", "I2", "NO", "H2O"],
+        "weight": [8, 6, 6, 3, 2, 4]
+    },
+    {
+        "if": ["Ca(OH)2", "KHCO3"],
+        "then": ["K2CO3", "CaCO3", "H2O"],
+        "weight": [1, 2, 1, 1, 2]
+    },
+    {
+        "if": ["KHCO3"],
+        "then": ["K2CO3", "CO2", "H2O"],
+        "weight": [2, 1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["KHCO3", "HCl"],
+        "then": ["KCl", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["KHCO3", "HBr"],
+        "then": ["KBr", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["KHCO3", "HNO3"],
+        "then": ["KNO3", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["KHCO3", "H2SO4"],
+        "then": ["K2SO4", "CO2", "H2O"],
+        "weight": [2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["KHCO3", "KHSO4"],
+        "then": ["K2SO4", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["KHCO3", "NaHSO4"],
+        "then": ["K2SO4", "Na2SO4", "CO2", "H2O"],
+        "weight": [2, 2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["KHCO3", "Ba(HSO4)2"],
+        "then": ["K2SO4", "BaSO4", "CO2", "H2O"],
+        "weight": [2, 1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["KHCO3", "Ca(HSO4)2"],
+        "then": ["K2SO4", "CaSO4", "CO2", "H2O"],
+        "weight": [2, 1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "KHSO3"],
+        "then": ["K2SO3", "CaSO3", "H2O"],
+        "weight": [1, 2, 1, 1, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "KHSO3"],
+        "then": ["K2SO3", "BaSO3", "H2O"],
+        "weight": [1, 2, 1, 1, 2]
+    },
+    {
+        "if": ["KHSO3"],
+        "then": ["K2SO3", "SO2", "H2O"],
+        "weight": [2, 1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["KHSO3", "HCl"],
+        "then": ["KCl", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["KHSO3", "HBr"],
+        "then": ["KBr", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["KHSO3", "H2SO4"],
+        "then": ["K2SO4", "SO2", "H2O"],
+        "weight": [2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["KHSO3", "KHSO4"],
+        "then": ["K2SO4", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["KHSO3", "NaHSO4"],
+        "then": ["K2SO4", "Na2SO4", "SO2", "H2O"],
+        "weight": [2, 2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["KHSO3", "Ba(HSO4)2"],
+        "then": ["K2SO4", "BaSO4", "SO2", "H2O"],
+        "weight": [2, 1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["KHSO3", "Ca(HSO4)2"],
+        "then": ["K2SO4", "CaSO4", "SO2", "H2O"],
+        "weight": [2, 1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["KNO3"],
+        "then": ["KNO2", "O2"],
+        "weight": [2, 2, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["KNO3", "Cu", "HCl"],
+        "then": ["KCl", "CuCl2", "NO", "H2O"],
+        "weight": [2, 3, 8, 2, 3, 2, 4]
+    },
+    {
+        "if": ["KNO3", "Cu", "H2SO4"],
+        "then": ["K2SO4", "CuSO4", "NO", "H2O"],
+        "weight": [2, 3, 4, 1, 3, 2, 4]
+    },
+    {
+        "if": ["KNO3", "Mg", "H2SO4"],
+        "then": ["K2SO4", "MgSO4", "NO", "H2O"],
+        "weight": [2, 3, 4, 1, 3, 2, 4]
+    },
+    {
+        "if": ["KNO3", "Zn", "H2SO4"],
+        "then": ["K2SO4", "ZnSO4", "NO", "H2O"],
+        "weight": [2, 3, 4, 1, 3, 2, 4]
+    },
+    {
+        "if": ["KNO3", "Fe", "H2SO4"],
+        "then": ["K2SO4", "Fe2(SO4)3", "NO", "H2O"],
+        "weight": [2, 2, 4, 1, 1, 2, 4]
+    },
+    {
+        "if": ["KNO3", "Fe", "HCl"],
+        "then": ["KCl", "FeCl3", "NO", "H2O"],
+        "weight": [1, 1, 4, 1, 1, 1, 2]
+    },
+    {
+        "if": ["KNO3", "Mg", "HCl"],
+        "then": ["KCl", "MgCl2", "NO", "H2O"],
+        "weight": [2, 3, 8, 2, 3, 2, 4]
+    },
+    {
+        "if": ["KNO3", "Zn", "HCl"],
+        "then": ["KCl", "ZnCl2", "NO", "H2O"],
+        "weight": [2, 3, 8, 2, 3, 2, 4]
+    },
+    {
+        "if": ["KNO3", "Mg", "HCl"],
+        "then": ["KCl", "MgCl2", "N2", "H2O"],
+        "weight": [2, 5, 12, 2, 5, 1, 6]
+    },
+    {
+        "if": ["KNO3", "Mg", "H2SO4"],
+        "then": ["K2SO4", "MgSO4", "N2", "H2O"],
+        "weight": [2, 5, 6, 1, 5, 1, 6]
+    },
+    {
+        "if": ["KNO3", "Al", "H2SO4"],
+        "then": ["K2SO4", "Al2(SO4)3", "NO", "H2O"],
+        "weight": [6, 10, 18, 3, 5, 3, 18]
+    },
+    {
+        "if": ["KNO3", "Al", "H2SO4"],
+        "then": ["K2SO4", "Al2(SO4)3", "NO", "H2O"],
+        "weight": [2, 2, 4, 1, 1, 2, 4]
+    },
+    {
+        "if": ["KNO3", "Al", "HCl"],
+        "then": ["KCl", "AlCl3", "NO", "H2O"],
+        "weight": [1, 1, 4, 1, 1, 1, 2]
+    },
+    {
+        "if": ["KNO3", "Al", "HCl"],
+        "then": ["KCl", "AlCl3", "N2", "H2O"],
+        "weight": [6, 10, 36, 6, 10, 3, 18]
+    },
+    {
+        "if": ["KNO3", "C", "S"],
+        "then": ["N2", "CO2", "K2S"],
+        "weight": [2, 3, 1, 1, 3, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["KNO3", "H2SO4"],
+        "then": ["HNO3", "KHSO4"],
+        "weight": [1, 1, 1, 1],
+        "condition":["đặc","t"]
+    },
+    {
+        "if": ["KOH", "H3PO4"],
+        "then": ["K3PO4", "H2O"],
+        "weight": [3, 1, 1, 3]
+    },
+    {
+        "if": ["Li", "Cl2"],
+        "then": ["LiCl"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "if": ["Li", "Br2"],
+        "then": ["LiBr"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "if": ["Li", "I2"],
+        "then": ["LiI"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "if": ["Li", "O2"],
+        "then": ["Li2O"],
+        "weight": [4, 1, 2]
+    },
+    {
+        "if": ["Li", "H2O"],
+        "then": ["LiOH", "H2"],
+        "weight": [2, 2, 1, 1]
+    },
+    {
+        "if": ["Li", "S"],
+        "then": ["Li2S"],
+        "weight": [2, 1, 1]
+    },
+    {
+        "if": ["Li", "HCl"],
+        "then": ["LiCl", "H2"],
+        "weight": [2, 2, 2, 1]
+    },
+    {
+        "if": ["Li", "H2SO4"],
+        "then": ["Li2SO4", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Li", "H3PO4"],
+        "then": ["Li3PO4", "H2"],
+        "weight": [6, 2, 2, 3]
+    },
+    {
+        "if": ["Li", "H3PO4"],
+        "then": ["Li2HPO4", "H2"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["Li", "H3PO4"],
+        "then": ["LiH2PO4", "H2"],
+        "weight": [2, 2, 1, 1]
+    },
+    {
+        "if": ["Li", "N2"],
+        "then": ["Li3N"],
+        "weight": [6, 1, 2]
+    },
+    {
+        "if": ["Li", "H2"],
+        "then": ["LiH"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "if": ["Ca", "H2O"],
+        "then": ["Ca(OH)2", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Ca", "O2"],
+        "then": ["CaO"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ca", "Cl2"],
+        "then": ["CaCl2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ca", "N2"],
+        "then": ["Ca3N2"],
+        "weight": [3, 1, 1]
+    },
+    {
+        "if": ["Ca", "P"],
+        "then": ["Ca3P2"],
+        "weight": [3, 2, 1]
+    },
+    {
+        "if": ["Ca", "H2"],
+        "then": ["CaH2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ca", "S"],
+        "then": ["CaS"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ca", "F2"],
+        "then": ["CaF2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ca", "I2"],
+        "then": ["CaI2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ca", "Br2"],
+        "then": ["CaBr2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ca", "C"],
+        "then": ["CaC2"],
+        "weight": [1, 2, 1]
+    },
+    {
+        "if": ["Ca", "Si"],
+        "then": ["Ca2Si"],
+        "weight": [2, 1, 1]
+    },
+    {
+        "if": ["Ca", "HCl"],
+        "then": ["CaCl2", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Ca", "H2SO4"],
+        "then": ["CaSO4", "H2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca", "HNO3"],
+        "then": ["Ca(NO3)2", "H2O", "NH4NO3"],
+        "weight": [4, 10, 4, 3, 1]
+    },
+    {
+        "if": ["Ca", "HNO3"],
+        "then": ["Ca(NO3)2", "NO2", "H2O"],
+        "weight": [1, 4, 1, 2, 2]
+    },
+    {
+        "if": ["Ca", "H2CO3"],
+        "then": ["CaCO3", "H2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca", "H3PO4"],
+        "then": ["Ca3(PO4)2", "H2"],
+        "weight": [3, 2, 1, 3]
+    },
+    {
+        "if": ["CaO", "H2O"],
+        "then": ["Ca(OH)2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["CaO", "HCl"],
+        "then": ["CaCl2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["CaO", "H2SO4"],
+        "then": ["CaSO4", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["CaO", "HNO3"],
+        "then": ["Ca(NO3)2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["CaO", "H3PO4"],
+        "then": ["Ca3(PO4)2", "H2O"],
+        "weight": [3, 2, 1, 3]
+    },
+    {
+        "if": ["CaO", "HF"],
+        "then": ["CaF2", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["CaO", "CO2"],
+        "then": ["CaCO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["CaO", "SO2"],
+        "then": ["CaSO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["CaO", "O2", "SO2"],
+        "then": ["CaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["CaO", "SiO2"],
+        "then": ["CaSiO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["CaO", "P2O5"],
+        "then": ["Ca3(PO4)2"],
+        "weight": [3, 1, 1]
+    },
+    {
+        "if": ["CaO", "N2O5"],
+        "then": ["Ca(NO3)2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["C", "CaO"],
+        "then": ["CaC2", "CO"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["C", "CaO"],
+        "then": ["CaC2", "CO2"],
+        "weight": [5, 2, 2, 1]
+    },
+    {
+        "if": ["CaO", "Cl2"],
+        "then": ["CaOCl2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["CaO", "TiO2"],
+        "then": ["CaTiO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["CaO", "MgO", "FeSi"],
+        "then": ["Fe", "Mg", "Ca2SiO4"],
+        "weight": [2, 2, 1, 1, 2, 1]
+    },
+    {
+        "if": ["Al", "CaO"],
+        "then": ["Al2O3", "Ca"],
+        "weight": [2, 3, 1, 3]
+    },
+    {
+        "if": ["Al", "CaO"],
+        "then": ["Ca", "Ca(AlO2)2"],
+        "weight": [2, 4, 3, 1]
+    },
+    {
+        "if": ["CaO", "O2", "Cr2O3"],
+        "then": ["CaCrO4"],
+        "weight": [4, 3, 2, 4]
+    },
+    {
+        "if": ["CaO", "ZrSiO4"],
+        "then": ["CaSiO3", "CaZrO3"],
+        "weight": [2, 1, 1, 1]
+    },
+    {
+        "if": ["CaO", "FeS"],
+        "then": ["FeO", "CaS"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["CaO", "LiF"],
+        "then": ["CaF2", "Li2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["CaO", "HgS"],
+        "then": ["Hg", "CaS", "CaSO4"],
+        "weight": [4, 4, 4, 3, 1]
+    },
+    {
+        "if": ["CaO", "MgO", "SiO"],
+        "then": ["Mg", "Ca2SiO4"],
+        "weight": [2, 1, 1, 1, 1]
+    },
+    {
+        "if": ["CaCl2"],
+        "then": ["Ca", "Cl2"],
+        "weight": [1, 1, 1],
+        "condition":["đpnc"]
+    },
+    {
+        "if": ["CaCl2", "H2O"],
+        "then": ["Ca(OH)2", "Cl2", "H2"],
+        "weight": [1, 2, 1, 1, 2]
+    },
+    {
+        "if": ["CaCl2", "H2SO4"],
+        "then": ["HCl", "CaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "Li2CO3"],
+        "then": ["CaCO3", "LiCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["CaCl2", "(NH4)2CO3"],
+        "then": ["CaCO3", "NH4Cl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["CaCl2", "K2SiO3"],
+        "then": ["KCl", "CaSiO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "Na2SiO3"],
+        "then": ["NaCl", "CaSiO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "Li2SiO3"],
+        "then": ["LiCl", "CaSiO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "Na2SO3"],
+        "then": ["NaCl", "CaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "H2"],
+        "then": ["HCl", "CaH2"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "NaHCO3"],
+        "then": ["CaCO3", "H2O", "NaCl", "CO2"],
+        "weight": [1, 2, 1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "Na2SO4"],
+        "then": ["NaCl", "CaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "NaHPO4"],
+        "then": ["NaCl", "CaHPO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "AgNO3"],
+        "then": ["AgCl", "Ca(NO3)2"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["CaCl2", "NaF"],
+        "then": ["CaF2", "NaCl"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["CaCl2", "KF"],
+        "then": ["CaF2", "KCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["CaCl2", "NaOH"],
+        "then": ["Ca(OH)2", "NaCl"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "CaCl2"],
+        "then": ["CaO", "HCl"],
+        "weight": [1, 1, 2, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "CaCl2"],
+        "then": ["CaHClO"],
+        "weight": [1, 1, 2]
+    },
+    {
+        "if": ["CaCl2", "BaS"],
+        "then": ["BaCl2", "CaS"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["CaCl2", "(NH4)2C2O4"],
+        "then": ["NH4Cl", "CaC2O4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "HCl"],
+        "then": ["H2O", "CaCl2"],
+        "weight": [1, 2, 2, 1]
+    },    
+    {
+        "if": ["Ca(OH)2", "H2SO4"],
+        "then": ["H2O", "CaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "HNO3"],
+        "then": ["Ca(NO3)2", "H2O"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "H2S"],
+        "then": ["H2O", "Ca(HS)2"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "H2CO3"],
+        "then": ["CaCO3", "H2O"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "H3PO4"],
+        "then": ["Ca(H2PO4)2", "H2O"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "H3PO4"],
+        "then": ["CaHPO4", "H2O"],
+        "weight": [3, 2, 1, 6]
+    },
+    {
+        "if": ["Ca(OH)2", "H3PO4"],
+        "then": ["Ca3(PO4)2", "H2O"],
+        "weight": [3, 2, 1, 6]
+    },
+    {
+        "if": ["Ca(OH)2", "CO"],
+        "then": ["CaCO3", "H2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "CO2"],
+        "then": ["CaCO3", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "Cl2"],
+        "then": ["CaOCl2", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "SO2"],
+        "then": ["H2O", "CaSO3"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "NO2"],
+        "then": ["Ca(NO3)2", "Ca(NO2)2", "H2O"],
+        "weight": [2, 4, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "N2O5"],
+        "then": ["Ca(NO3)2", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2"],
+        "then": ["CaO", "H2O"],
+        "weight": [1, 1, 1],
+        "condition":["t:>=520"]
+    },
+    {
+        "if": ["Ca(OH)2", "H2O2"],
+        "then": ["H2O", "CaO2"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Al", "Ca(OH)2", "H2O"],
+        "then": ["H2", "Ca(AlO2)2"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Al2O3", "Ca(OH)2"],
+        "then": ["H2O", "Ca(AlO2)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "Zn"],
+        "then": ["H2", "CaZnO2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "ZnO"],
+        "then": ["H2O", "CaZnO2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "NH4Cl"],
+        "then": ["H2O", "NH3", "CaCl2"],
+        "weight": [1, 2, 2, 2, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "Ba(HCO3)2"],
+        "then": ["CaCO3", "H2O", "BaCO3"],
+        "weight": [1, 1, 1, 2, 1]
+    },
+    {
+        "if": ["Ca(HCO3)2", "Ca(OH)2"],
+        "then": ["CaCO3", "H2O"],
+        "weight": [1, 1, 2, 2]
+    },
+    {
+        "if": ["Al2(SO4)3", "Ca(OH)2"],
+        "then": ["Al(OH)3", "CaSO4"],
+        "weight": [1, 3, 2, 3]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "Ca(OH)2"],
+        "then": ["H2O", "CaHPO4"],
+        "weight": [1, 1, 2, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Li2CO3"],
+        "then": ["CaCO3", "LiNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Rb2CO3"],
+        "then": ["CaCO3", "RbNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Cs2CO3"],
+        "then": ["CaCO3", "CsNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Rb2SO3"],
+        "then": ["CaSO3", "RbNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Cs2SO3"],
+        "then": ["CaSO3", "CsNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Na2SiO3"],
+        "then": ["CaSiO3", "NaNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "K2SiO3"],
+        "then": ["CaSiO3", "KNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Li2SiO3"],
+        "then": ["CaSiO3", "LiNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Rb2SiO3"],
+        "then": ["CaSiO3", "RbNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Cs2SiO3"],
+        "then": ["CaSiO3", "CsNO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["(NH4)2CO3", "Ca(NO3)2"],
+        "then": ["CaCO3", "NH4NO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "NaF"],
+        "then": ["CaF2", "NaNO3"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "KF"],
+        "then": ["CaF2", "KNO3"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "LiF"],
+        "then": ["CaF2", "LiNO3"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "NH4F"],
+        "then": ["CaF2", "NH4NO3"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "NaOH"],
+        "then": ["Ca(OH)2", "NaNO3"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "KOH"],
+        "then": ["Ca(OH)2", "KNO3"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "Ba(OH)2"],
+        "then": ["Ca(OH)2", "Ba(NO3)2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Ca(NO3)2", "(NH4)3PO4"],
+        "then": ["Ca3(PO4)2", "NH4NO3"],
+        "weight": [3, 2, 1, 6]
+    },
+    {
+        "if": ["Ca(NO3)2", "Na3PO4"],
+        "then": ["Ca3(PO4)2", "NaNO3"],
+        "weight": [3, 2, 1, 6]
+    },
+    {
+        "if": ["Ca(NO3)2", "K3PO4"],
+        "then": ["Ca3(PO4)2", "KNO3"],
+        "weight": [3, 2, 1, 6]
+    },
+    {
+        "if": ["Ca(NO3)2", "Li3PO4"],
+        "then": ["Ca3(PO4)2", "LiNO3"],
+        "weight": [3, 2, 1, 6]
+    },
+    {
+        "if": ["Ca(NO3)2", "Cs3PO4"],
+        "then": ["Ca3(PO4)2", "CsNO3"],
+        "weight": [3, 2, 1, 6]
+    },
+    {
+        "if": ["Ca(NO3)2", "H2"],
+        "then": ["H2O", "Ca(NO2)2"],
+        "weight": [1, 2, 2, 2]
+    },
+    {
+        "if": ["Ca(NO3)2", "O2"],
+        "then": ["O2", "Ca(NO2)2"],
+        "weight": [1, 1, 1, 1],
+        "condition":["t:>=450"]
+    },
+    {
+        "if": ["CaCO3"],
+        "then": ["CaO", "CO2"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["CaCO3", "HCl"],
+        "then": ["H2O", "CO2", "CaCl2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["CaCO3", "HNO3"],
+        "then": ["Ca(NO3)2", "H2O", "CO2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["CaCO3", "H2SO4"],
+        "then": ["H2O", "CO2", "CaSO2"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["CaCO3", "H2CO3"],
+        "then": ["Ca(HCO3)2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["CaCO3", "H3PO4"],
+        "then": ["Ca3(PO4)2", "H2O", "CO2"],
+        "weight": [3, 2, 1, 3, 3]
+    },
+    {
+        "if": ["CaCO3", "HBr"],
+        "then": ["H2O", "CO2", "CaBr2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["CaCO3", "HF"],
+        "then": ["H2O", "CO2", "CaF2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["CaCO3", "HI"],
+        "then": ["H2O", "CO2", "CaI2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["CaCO3", "H2S"],
+        "then": ["H2O", "CaS", "CO2"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["CaCO3", "SiO2"],
+        "then": ["CO2", "CaSiO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["C", "CaCO3"],
+        "then": ["CaO", "CO2"],
+        "weight": [1, 1, 1, 2],
+        "condition":["t:>=800"]
+    },
+    {
+        "if": ["C", "CaCO3"],
+        "then": ["CaC2", "CO"],
+        "weight": [4, 1, 1, 3]
+    },
+    {
+        "if": ["CaCO3", "O2", "SO2"],
+        "then": ["CO2", "CaSO4"],
+        "weight": [2, 1, 2, 2, 2]
+    },
+    {
+        "if": ["CaC2", "O2"],
+        "then": ["CaO", "CO2"],
+        "weight": [2, 5, 2, 4],
+        "condition":["t:>=800"]
+    },
+    {
+        "if": ["Ca(HCO3)2", "H2SO4"],
+        "then": ["H2O", "CO2", "CaSO4"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["Ca(HCO3)2", "HCl"],
+        "then": ["H2O", "CO2", "CaCl2"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["Ca(HCO3)2", "HNO3"],
+        "then": ["Ca(NO3)2", "H2O", "CO2"],
+        "weight": [1, 1, 2, 2]
+    },
+    {
+        "if": ["Ca(HCO3)2"],
+        "then": ["CaCO3", "H2O", "CO2"],
+        "weight": [1, 1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["Ca(HCO3)2"],
+        "then": ["CaO", "H2O", "CO2"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(HCO3)2", "NaOH"],
+        "then": ["CaCO3", "H2O", "NaHCO3"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(HCO3)2", "KOH"],
+        "then": ["CaCO3", "H2O", "KHCO3"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(HCO3)2", "Ca(OH)2"],
+        "then": ["CaCO3", "H2O"],
+        "weight": [1, 2, 2, 2]
+    },
+    {
+        "if": ["Ca(HCO3)2", "NaHSO4"],
+        "then": ["H2O", "Na2SO4", "CO2", "CaSO4"],
+        "weight": [1, 2, 2, 1, 2, 1]
+    },
+    {
+        "if": ["Ca(HCO3)2", "Na2CO3"],
+        "then": ["CaCO3", "NaHCO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Al2(SO4)3", "Ca(HCO3)2"],
+        "then": ["Al(OH)3", "CO2", "CaSO4"],
+        "weight": [1, 3, 2, 6, 3]
+    },
+    {
+        "if": ["Ca3(PO4)2", "H2SO4"],
+        "then": ["CaSO4", "H3PO4"],
+        "weight": [1, 3, 3, 2]
+    },
+    {
+        "if": ["C", "Ca3(PO4)2", "SiO2"],
+        "then": ["CO", "P", "CaSiO3"],
+        "weight": [5, 1, 3, 5, 2, 3]
+    },
+    {
+        "if": ["Ca3(PO4)2", "H3PO4"],
+        "then": ["Ca(H2PO4)2"],
+        "weight": [1, 4, 3]
+    },
+    {
+        "if": ["Ca3(PO4)2", "HCl"],
+        "then": ["CaCl2", "H3PO4"],
+        "weight": [1, 6, 3, 2]
+    },
+    {
+        "if": ["Ca3(PO4)2", "SiO2"],
+        "then": ["P2O5", "CaSiO3"],
+        "weight": [2, 6, 2, 6]
+    },
+    {
+        "if": ["C", "Ca3(PO4)2", "SiO2"],
+        "then": ["CO", "CaSiO3", "P"],
+        "weight": [5, 1, 3, 5, 3, 2],
+        "condition":["t:>=1000"]
+    },
+    {
+        "if": ["C", "Ca3(PO4)2"],
+        "then": ["Ca3P2", "CO"],
+        "weight": [8, 1, 1, 8],
+        "condition":["t:>=900 and <=1000"]
+    },
+    {
+        "if": ["C", "Ca3(PO4)2"],
+        "then": ["CaO", "CO", "P"],
+        "weight": [5, 1, 3, 5, 2]
+    },   
+    {
+        "if": ["Al", "Ca3(PO4)2"],
+        "then": ["Al2O3", "Ca3P2"],
+        "weight": [16, 3, 8, 3]
+    },
+    {
+        "if": ["CaHPO4"],
+        "then": ["Ca3(PO4)2", "H3PO4"],
+        "weight": [3, 1, 1]
+    },
+    {
+        "if": ["HNO3", "CaHPO4"],
+        "then": ["Ca(NO3)2", "H3PO4"],
+        "weight": [2, 1, 1, 1],
+        "condition":["đặc"]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "Ca(OH)2"],
+        "then": ["H2O", "CaHPO4"],
+        "weight": [1, 1, 2, 2]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "HCl"],
+        "then": ["CaCl2", "H3PO4"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "NaOH"],
+        "then": ["Ca3(PO4)2", "H2O", "Na3PO4"],
+        "weight": [1, 2, 1, 12, 4]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "KOH"],
+        "then": ["Ca3(PO4)2", "H2O", "K3PO4"],
+        "weight": [1, 2, 1, 12, 4]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "Ba(OH)2"],
+        "then": ["Ca(OH)2", "H2O", "Ba3(PO4)2"],
+        "weight": [1, 3, 1, 4, 1]
+    },
+    {
+        "if": ["Ca(H2PO4)2"],
+        "then": ["H2O", "Ca(PO3)2"],
+        "weight": [1, 2, 1]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "Na2CO3"],
+        "then": ["CaCO3", "NaH2PO4"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["(NH4)2CO3", "Ca(H2PO4)2"],
+        "then": ["CaCO3", "NH4H2PO4"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "HNO3"],
+        "then": ["Ca(NO3)2", "H3PO4"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "H2SO4"],
+        "then": ["CaSO4", "H3PO4"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(H2PO4)2", "H2O", "K"],
+        "then": ["Ca3(PO4)2", "H2", "K3PO4"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["AgNO3", "CaBr2"],
+        "then": ["AgBr", "Ca(NO3)2"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["CaF2", "H2SO4"],
+        "then": ["CaSO4", "HF"],
+        "weight": [1, 1, 1, 2],
+        "condition":["t:>=250","đặc"]
+    },
+    {
+        "if": ["CaF2", "HCl"],
+        "then": ["CaCl2", "HF"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["CaF2", "H2SO4", "SiO2"],
+        "then": ["H2O", "CaSO4", "SiF4"],
+        "weight": [2, 2, 1, 2, 2, 1]
+    },
+    {
+        "if": ["CaF2", "H2O"],
+        "then": ["CaO", "HF"],
+        "weight": [1, 1, 1, 2],
+        "condition":["t:>=800"]
+    },  
+    {
+        "if": ["CaOCl2"],
+        "then": ["O2", "CaCl2"],
+        "weight": [2, 1, 2],
+        "condition":["t"]
+    },
+    {
+        "if": ["CaOCl2", "HCl"],
+        "then": ["Cl2", "H2O", "CaCl2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["CaOCl2", "H2O", "CO2"],
+        "then": ["CaCO3", "CaCl2", "HClO"],
+        "weight": [2, 1, 1, 1, 1, 2]
+    },
+    {
+        "if": ["CaOCl2", "H2SO4"],
+        "then": ["H2O", "CO2", "CaSO4"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["CaOCl2", "NH3"],
+        "then": ["H2O", "CaCl2", "N2H4"],
+        "weight": [1,  2, 1, 1, 1]
+    },
+    {
+        "if": ["CaOCl2", "CO2"],
+        "then": ["CaCO3", "CaCl2", "Cl2O"],
+        "weight": [2, 1, 1, 1, 1]
+    },
+    {
+        "if": ["CaS", "H3PO4"],
+        "then": ["Ca2(PO4)2", "H2S"],
+        "weight": [3, 2, 1, 3]
+    },
+    {
+        "if": ["CaS", "HCl"],
+        "then": ["CaCl2", "H2S"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["CaS", "H2SO4"],
+        "then": ["CaSO4", "H2S"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["CaS", "HNO3"],
+        "then": ["Ca(NO3)2", "H2S"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["CaS", "CO2", "H2O"],
+        "then": ["CaCO3", "H2S"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["CaS", "HBr"],
+        "then": ["CaBr2", "H2S"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["H2S", "CaS"],
+        "then": ["Ca(HS)2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["H2O", "CaS"],
+        "then": ["Ca(OH)2", "H2S"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["H2SO4", "CaSO3"],
+        "then": ["H2O", "SO2", "CaSO4"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["HCl", "CaSO3"],
+        "then": ["H2O", "SO2", "CaCl2"],
+        "weight": [2, 1, 2, 2, 1]
+    },
+    {
+        "if": ["HNO3", "CaSO3"],
+        "then": ["Ca(NO3)2", "H2O", "SO2"],
+        "weight": [2, 1, 1, 2, 2]
+    },
+    {
+        "if": ["CaSO4"],
+        "then": ["CaO", "O2", "SO2"],
+        "weight": [2, 2, 1, 2],
+        "condition":["t"]
+    },
+    {
+        "if": ["BaCl2", "CaSO4"],
+        "then": ["CaCl2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "CaSO4"],
+        "then": ["Ca(NO3)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["H2SO4", "CaSO4"],
+        "then": ["Ca(HSO4)2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "CaSO4"],
+        "then": ["Ca(OH)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Na2CO3", "CaSO4"],
+        "then": ["CaCO3", "Na2SO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["K2CO3", "CaSO4"],
+        "then": ["CaCO3", "K2SO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ca(OH)2", "Ca(HSO4)2"],
+        "then": ["H2O", "CaSO4"],
+        "weight": [1, 1, 2, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "Ca(HSO4)2"],
+        "then": ["H2O", "CaSO4", "BaSO4"],
+        "weight": [1, 1, 2, 1, 1]
+    },
+    {
+        "if": ["H2O", "CO2", "Ca(AlO2)2"],
+        "then": ["Al(OH)3", "Ca(HCO3)2"],
+        "weight": [4, 2, 1, 2, 1]
+    },
+    {
+        "if": ["H2O", "HCl", "Ca(AlO2)2"],
+        "then": ["Al(OH)3", "CaCl2"],
+        "weight": [2, 2, 1, 2, 1]
+    },
+    {
+        "if": ["HCl", "Ca(AlO2)2"],
+        "then": ["AlCl3", "H2O", "CaCl2"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba", "H2O"],
+        "then": ["Ba(OH)2", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Ba", "H2SO4"],
+        "then": ["H2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba", "HCl"],
+        "then": ["BaCl2", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Ba", "Cl2"],
+        "then": ["BaCl2"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["Ba", "N2"],
+        "then": ["Ba3N2"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+
+    },
+    {
+        "if": ["Ba", "H2"],
+        "then": ["BaH2"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+
+    },
+    {
+        "if": ["Ba", "S"],
+        "then": ["BaS"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["Ba", "F2"],
+        "then": ["CaF2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ba", "C"],
+        "then": ["BaC2"],
+        "weight": [1, 2, 1],
+        "condition":["t:>=500"]
+
+    },
+    {
+        "if": ["Ba", "O2"],
+        "then": ["BaO"],
+        "weight": [2, 1, 2],
+        "condition":["t:>=800"]
+    },
+    {
+        "if": ["Ba", "H2S"],
+        "then": ["H2", "BaS"],
+        "weight": [1, 1, 1, 1],
+        "condition":["t:>=350"]
+
+    },
+    {
+        "if": ["Ba", "NH3"],
+        "then": ["BaH2", "Ba3N2"],
+        "weight": [6, 2, 3, 1],
+        "condition":["t:>=600 and <=650"]
+
+    },
+    {
+        "if": ["BaO", "H2O"],
+        "then": ["Ba(OH)2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["BaO", "CO2"],
+        "then": ["BaCO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["BaO", "SO2"],
+        "then": ["BaSO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["BaO", "CO"],
+        "then": ["BaCO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["BaO", "O2"],
+        "then": ["BaO2"],
+        "weight": [2, 1, 2],
+        "condition":["t:<=500"]
+    },
+    {
+        "if": ["BaO", "Al"],
+        "then": ["Ba", "Ba(AlO2)2"],
+        "weight": [4, 2, 3, 1],
+        "condition":["t:>=1100 and <=1200"]
+    },
+    {
+        "if": ["BaO", "Si"],
+        "then": ["Ba", "BaSiO3"],
+        "weight": [3, 1, 2, 1],
+        "condition":["t:>=1200"]
+    },
+    {
+        "if": ["BaO", "SiO2"],
+        "then": ["BaSiO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["BaO", "H2SO4"],
+        "then": ["H2O", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaO", "H2S"],
+        "then": ["H2O", "BaS"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaO", "HNO3"],
+        "then": ["Ba(NO3)2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaO", "HCl"],
+        "then": ["BaCl2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaO", "HBr"],
+        "then": ["BaBr2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaO", "HF"],
+        "then": ["BaF2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaO", "HI"],
+        "then": ["BaI2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaO", "H3PO4"],
+        "then": ["Ba3(PO4)2", "H2O"],
+        "weight": [1, 2, 1, 3]
+    },
+    {
+        "if": ["BaO", "NaHSO4"],
+        "then": ["H2O", "Na2SO4", "BaSO4"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaO", "KHSO4"],
+        "then": ["H2O", "K2SO4", "BaSO4"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "CO2"],
+        "then": ["H2O", "BaCO3"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "SO2"],
+        "then": ["H2O", "BaSO3"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "N2O5"],
+        "then": ["Ba(NO3)2", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "NO2"],
+        "then": ["Ba(NO3)2", "H2O", "Ba(NO2)2"],
+        "weight": [2, 4, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "H2SO4"],
+        "then": ["H2O", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "HCl"],
+        "then": ["BaCl2", "H2O"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "HNO3"],
+        "then": ["Ba(NO3)2", "H2O"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "H3PO4"],
+        "then": ["H2O", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "H2S"],
+        "then": ["H2O", "BaS"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "(NH4)2CO3"],
+        "then": ["H2O", "NH3", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "NaHCO3"],
+        "then": ["H2O", "NaOH", "BaCO3"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "KHCO3"],
+        "then": ["H2O", "KOH", "BaCO3"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Ca(HCO3)2"],
+        "then": ["CaCO3", "H2O", "BaCO3"],
+        "weight": [1, 1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Ba(HCO3)2"],
+        "then": ["H2O", "BaCO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "FeCl3"],
+        "then": ["BaCl2", "Fe(OH)3"],
+        "weight": [3, 2, 3, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "FeCl2"],
+        "then": ["BaCl2", "Fe(OH)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Fe(NO3)3"],
+        "then": ["Ba(NO3)2", "Fe(OH)3"],
+        "weight": [3, 2, 3, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "Fe(NO3)2"],
+        "then": ["Ba(NO3)2", "Fe(OH)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Fe2(SO4)3"],
+        "then": ["Fe(OH)3", "BaSO4"],
+        "weight": [3, 1, 2, 3]
+    },
+    {
+        "if": ["Ba(OH)2", "FeSO4"],
+        "then": ["Fe(OH)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "CuSO4"],
+        "then": ["Cu(OH)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "CuCl2"],
+        "then": ["BaCl2", "Cu(OH)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Cu(NO3)2"],
+        "then": ["Ba(NO3)2", "Cu(OH)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "MgSO4"],
+        "then": ["Mg(OH)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "MgCl2"],
+        "then": ["BaCl2", "Mg(OH)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Mg(NO3)2"],
+        "then": ["Ba(NO3)2", "Mg(OH)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Zn(NO3)2"],
+        "then": ["Ba(NO3)2", "Zn(OH)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "ZnCl2"],
+        "then": ["BaCl2", "Zn(OH)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "ZnSO4"],
+        "then": ["Zn(OH)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Al2(SO4)3"],
+        "then": ["Al(OH)3", "BaSO4"],
+        "weight": [3, 1, 2, 3]
+    },
+    {
+        "if": ["Ba(OH)2", "AlCl3"],
+        "then": ["Al(OH)3", "BaCl2"],
+        "weight": [3, 2, 2, 3]
+    },
+    {
+        "if": ["Ba(OH)2", "AlCl3"],
+        "then": ["BaCl2", "H2O", "Ba(AlO2)2"],
+        "weight": [4, 2, 3, 4, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Al(NO3)3"],
+        "then": ["Al(OH)3", "Ba(NO3)2"],
+        "weight": [3, 2, 2, 3]
+    },
+    {
+        "if": ["Ba(OH)2", "Al(NO3)3"],
+        "then": ["Ba(NO3)2", "H2O", "Ba(AlO2)2"],
+        "weight": [4, 2, 3, 4, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Al(OH)3"],
+        "then": ["H2O", "Ba(AlO2)2"],
+        "weight": [1, 2, 4, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Al", "H2O"],
+        "then": ["H2", "Ba(AlO2)2"],
+        "weight": [1, 2, 2, 3, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Al2O3"],
+        "then": ["H2O", "Ba(AlO2)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "NaHSO4"],
+        "then": ["H2O", "Na2SO4", "BaSO4"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "(NH4)2SO4"],
+        "then": ["H2O", "NH3", "BaSO4"],
+        "weight": [1, 1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "NH4Cl"],
+        "then": ["BaCl2", "H2O", "NH3"],
+        "weight": [1, 2, 1, 2, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "NH4NO3"],
+        "then": ["Ba(NO3)2", "H2O", "NH3"],
+        "weight": [1, 2, 1, 2, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "(NH2)2CO"],
+        "then": ["NH3", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "NH4ClO3"],
+        "then": ["H2O", "NH3", "Ba(ClO3)2"],
+        "weight": [1, 2, 2, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "NH4HSO4"],
+        "then": ["H2O", "NH3", "BaSO4"],
+        "weight": [1, 1, 2, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Na3PO4"],
+        "then": ["NaOH", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "K3PO4"],
+        "then": ["KOH", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "NaH2PO4"],
+        "then": ["NaOH", "Ba3(PO4)2"],
+        "weight": [3, 2, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "KH2PO4"],
+        "then": ["KOH", "Ba3(PO4)2"],
+        "weight": [3, 2, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "AgNO3"],
+        "then": ["Ag2O", "Ba(NO3)2", "H2O"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "H2O2"],
+        "then": ["H2O", "BaO2"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "Ba(HS)2"],
+        "then": ["H2O", "BaS"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(OH)2", "I2"],
+        "then": ["H2O", "Ba(IO3)2", "BaI2"],
+        "weight": [6, 6, 6, 1, 5]
+    },
+    {
+        "if": ["Ba(OH)2"],
+        "then": ["BaO", "H2O"],
+        "weight": [1, 1, 1],
+        "condition": ["t:800"]
+    },
+    {
+        "if": ["Ba(HCO3)2", "Ba(OH)2"],
+        "then": ["H2O", "BaCO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ba(HCO3)2", "NaOH"],
+        "then": ["H2O", "Na2CO3", "BaCO3"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2"],
+        "then": ["H2O", "CO2", "BaCO3"],
+        "condition": ["t"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "HCl"],
+        "then": ["BaCl2", "H2O", "CO2"],
+        "weight": [1, 2, 1, 2, 2]
+    },
+    {
+        "if": ["Ba(HCO3)2", "HNO3"],
+        "then": ["Ba(NO3)2", "H2O", "CO2"],
+        "weight": [1, 2, 1, 2, 2]
+    },
+    {
+        "if": ["Ba(HCO3)2", "H2SO4"],
+        "then": ["H2O", "CO2", "BaSO4"],
+        "weight": [1, 1, 2, 2, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "K2CO3"],
+        "then": ["BaCO3", "KHCO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ba(HCO3)2", "Na2CO3"],
+        "then": ["NaHCO3", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "Na2SO4"],
+        "then": ["BaSO4", "NaHCO3"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Ba(HCO3)2", "K2SO4"],
+        "then": ["KHCO3", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "K2SO4"],
+        "then": ["H2O", "K2CO3", "CO2", "BaSO4"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "NaHSO4"],
+        "then": ["H2O", "Na2SO4", "CO2", "BaSO4"],
+        "weight": [1, 2, 2, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "KHSO4"],
+        "then": ["H2O", "K2SO4", "CO2", "BaSO4"],
+        "weight": [1, 2, 2, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "Al2(SO4)3"],
+        "then": ["Al(OH)3", "CO2", "BaSO4"],
+        "weight": [3, 1, 2, 6, 3]
+    },
+    {
+        "if": ["Ba(HCO3)2", "Mg(NO3)2"],
+        "then": ["Ba(NO3)2", "H2O", "MgCO3", "CO2"],
+        "weight": [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "CaCl2"],
+        "then": ["BaCl2", "CaCO3", "H2O", "CO2"],
+        "weight": [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(HCO3)2", "CuSO4"],
+        "then": ["BaSO4", "Cu(HCO3)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "H2SO4"],
+        "then": ["HNO3", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "(NH4)2SO4"],
+        "then": ["NH4NO3", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "FeSO4"],
+        "then": ["Fe(NO3)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "BeSO4"],
+        "then": ["Be(NO3)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "MgSO4"],
+        "then": ["Mg(NO3)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "MnSO4"],
+        "then": ["Mn(NO3)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "CuSO4"],
+        "then": ["Cu(NO3)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "Fe2(SO4)3"],
+        "then": ["Fe(NO3)3", "BaSO4"],
+        "weight": [3, 1, 2, 3]
+    },
+    {
+        "if": ["Ba(NO3)2", "Al2(SO4)3"],
+        "then": ["Al(NO3)3", "BaSO4"],
+        "weight": [3, 1, 2, 3]
+    },
+    {
+        "if": ["Ba(NO3)2", "KHSO4"],
+        "then": ["HNO3", "K2SO4", "BaSO4"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "NaHSO4"],
+        "then": ["HNO3", "Na2SO4", "BaSO4"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "Na3PO4"],
+        "then": ["NaNO3", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "K3PO4"],
+        "then": ["KNO3", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "Na2HPO4"],
+        "then": ["HNO3", "NaNO3", "Ba3(PO4)2"],
+        "weight": [3, 2, 2, 4, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "K2HPO4"],
+        "then": ["HNO3", "KNO3", "Ba3(PO4)2"],
+        "weight": [3, 2, 2, 4, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "H"],
+        "then": ["H2O", "Ba(NO2)2"],
+        "weight": [1, 4, 2, 1]
+    },
+    {
+        "if": ["Ba(NO3)2", "K2CrO4"],
+        "then": ["KNO3", "BaCrO4"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["Ba(NO3)2"],
+        "then": ["BaO", "NO2", "O2"],
+        "condition": ["t:>=620 and <=670"],
+        "weight": [2, 2, 4, 1]
+    },
+    {
+        "if": ["Ba(NO3)2"],
+        "then": ["Ba(NO2)2", "O2"],
+        "condition": ["t:>=594 and <620"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["BaCl2"],
+        "then": ["Cl2", "Ba"],
+        "weight": [1, 1, 1],
+        "condition": ["đpnc"]
+    },
+    {
+        "if": ["BaCl2", "H2SO4"],
+        "then": ["HCl", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "Cs2SO4"],
+        "then": ["CsCl", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "Li2SO4"],
+        "then": ["LiCl", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "CaSO4"],
+        "then": ["CaCl2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "MgSO4"],
+        "then": ["MgCl2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "MnSO4"],
+        "then": ["MnCl2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "Al2(SO4)3"],
+        "then": ["AlCl3", "BaSO4"],
+        "weight": [3, 1, 2, 3]
+    },
+    {
+        "if": ["BaCl2", "Fe2(SO4)3"],
+        "then": ["FeCl3", "BaSO4"],
+        "weight": [3, 1, 2, 3]
+    },
+    {
+        "if": ["BaCl2", "FeSO4"],
+        "then": ["FeCl2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "Ag2SO4"],
+        "then": ["AgCl", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "CuSO4"],
+        "then": ["CuCl2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "(NH4)2SO4"],
+        "then": ["NH4Cl", "BaSO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "ZnSO4"],
+        "then": ["ZnCl2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "NaHSO4"],
+        "then": ["HCl", "NaCl", "BaSO4"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "KHSO4"],
+        "then": ["BaSO4", "KCl", "HCl"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "Zn(HSO4)2"],
+        "then": ["H2SO4", "ZnCl2", "BaSO4"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "Li2SO3"],
+        "then": ["LiCl", "BaSO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "KHSO3"],
+        "then": ["H2O", "KCl", "SO2", "BaSO3"],
+        "weight": [1, 2, 1, 2, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "Li2CO3"],
+        "then": ["LiCl", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "Cs2CO3"],
+        "then": ["CsCl", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "(NH4)2CO3"],
+        "then": ["NH4Cl", "BaCO3"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "Na3PO4"],
+        "then": ["NaCl", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["BaCl2", "Li3PO4"],
+        "then": ["LiCl", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["BaCl2", "Cs3PO4"],
+        "then": ["CsCl", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["BaCl2", "K3PO4"],
+        "then": ["KCl", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["BaCl2", "H3PO4"],
+        "then": ["HCl", "Ba3(PO4)2"],
+        "weight": [3, 2, 6, 1]
+    },
+    {
+        "if": ["BaCl2", "K2CrO4"],
+        "then": ["KCl", "BaCrO4"],
+        "weight": [1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "H2O", "K2Cr2O7"],
+        "then": ["HCl", "K2CrO4", "BaCrO4"],
+        "weight": [1, 1, 1, 2, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "AgNO3"],
+        "then": ["AgCl", "Ba(NO3)2"],
+        "weight": [1, 2, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "AgNO3"],
+        "then": ["AgCl", "Ba(NO3)2", "BaCl2"],
+        "weight": [1, 2, 2, 1, 1]
+    },
+    {
+        "if": ["BaCl2", "H2O", "SO3"],
+        "then": ["HCl", "BaSO4"],
+        "weight": [1, 1, 1, 2, 1]
+    },
+    {
+        "if": ["BaCl2", "H2O"],
+        "then": ["H2", "Ba(ClO3)2"],
+        "weight": [1, 6, 6, 1]
+    },
+    {
+        "if": ["BaS", "H2O"],
+        "then": ["H2S", "Ba(OH)2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaS", "ZnSO4"],
+        "then": ["ZnS", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaS", "K2CO3"],
+        "then": ["K2S", "BaCO3"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaS", "Na2CO3"],
+        "then": ["Na2S", "BaCO3"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaS", "K2SO4"],
+        "then": ["K2S", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaS", "Na2SO4"],
+        "then": ["Na2S", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaS"],
+        "then": ["S", "Ba"],
+        "weight": [1, 1, 1],
+        "condition":["t:>=2000"]
+    },
+    {
+        "if": ["BaS", "O2"],
+        "then": ["BaSO4"],
+        "weight": [1, 1, 1],
+        "condition":["t:>=1000"]
+    },
+    {
+        "if": ["BaS", "H2S"],
+        "then": ["Ba(HS)2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["BaS", "Ca(NO3)2"],
+        "then": ["Ba(NO3)2", "CaS"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaS", "HCl"],
+        "then": ["BaCl2", "H2S"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaS", "HNO3"],
+        "then": ["Ba(NO3)2", "H2S"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["BaS", "H2SO4"],
+        "then": ["H2S", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaSO4"],
+        "then": ["BaO", "O2", "SO2"],
+        "weight": [2, 2, 1, 2],
+        "condition":["t"]
+    },
+    {
+        "if": ["BaSO4", "C"],
+        "then": ["CO", "BaS"],
+        "weight": [1, 4, 4, 1]
+    },
+    {
+        "if": ["BaSO4", "H2SO4"],
+        "then": ["Ba(HSO4)2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Ba(HSO4)2", "Ba(OH)2"],
+        "then": ["H2O", "BaSO4"],
+        "weight": [2, 2]
+    },
+    {
+        "if": ["BaSO3"],
+        "then": ["BaO", "SO2"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["BaSO3", "HCl"],
+        "then": ["BaCl2", "H2O", "SO2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["BaSO3", "H2SO4"],
+        "then": ["BaSO4", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["BaSO3", "HNO3"],
+        "then": ["Ba(NO3)2", "H2O", "SO2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["BaSO3", "H3PO4"],
+        "then": ["Ba3(PO4)2", "SO2", "H2O"],
+        "weight": [1, 1, 1, 3, 3]
+    },
+    {
+        "if": ["BaSO3", "H2S"],
+        "then": ["BaS", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["Ba(HSO3)2", "Na2CO3"],
+        "then": ["H2O", "Na2SO3", "CO2", "BaSO3"],
+        "weight": [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCO3", "C"],
+        "then": ["BaO", "CO"],
+        "weight": [1, 1, 1, 2],
+        "condition":["t"]
+    },
+    {
+        "if": ["BaCO3", "H2SO4"],
+        "then": ["H2O", "CO2", "BaSO4"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCO3", "HCl"],
+        "then": ["BaCl2", "H2O", "CO2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["BaCO3"],
+        "then": ["BaO", "CO2"],
+        "weight": [1, 1, 1],
+        "condition":["t:>=1000 and t<=1450"]
+    },
+    {
+        "if": ["BaCO3", "H2O", "CO2"],
+        "then": ["Ba(HCO3)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["BaCO3", "HNO3"],
+        "then": ["Ba(NO3)2", "H2O", "CO2"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["BaH2", "HCl"],
+        "then": ["BaCl2", "H2"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["BaH2", "H2O"],
+        "then": ["Ba(OH)2", "H2"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Al", "O2"],
+        "then": ["Al2O3"],
+        "weight": [4, 3, 2],
+        "condition":["t"]
+    },
+    {
+        "if": ["Al", "S"],
+        "then": ["Al2S3"],
+        "weight": [2, 3, 1],
+        "condition":["t:>=150"]
+    },
+    {
+        "if": ["Al", "Cl2"],
+        "then": ["AlCl3"],
+        "weight": [2, 3, 2]
+    },
+    {
+        "if": ["Al", "HCl"],
+        "then": ["AlCl3", "H2"],
+        "weight": [2, 6, 2, 3]
+    },
+    {
+        "if": ["Al", "H2SO4"],
+        "then": ["Al2(SO4)3", "SO2", "H2O"],
+        "weight": [2, 6, 1, 3, 6],
+        "condition":["đặc"]
+    },
+    {
+        "if": ["Al", "H2SO4"],
+        "then": ["Al2(SO4)3", "H2"],
+        "weight": [2, 3, 1, 3],
+        "condition":["loãng"]
+    },
+    {
+        "if": ["Al", "HNO3"],
+        "then": ["Al(NO3)3", "NO2", "H2O"],
+        "weight": [1, 6, 1, 3, 3],
+        "condition":["đặc","t"]
+
+    },
+    {
+        "if": ["Al", "HNO3"],
+        "then": ["Al(NO3)3", "NH4NO3", "H2O"],
+        "weight": [8, 30, 8, 3, 9],
+        "condition":["loãng"]
+
+    },
+    {
+        "if": ["Al", "Fe2O3"],
+        "then": ["Al2O3", "Fe"],
+        "weight": [2, 1, 1, 2]
+    },
+    {
+        "if": ["Al", "H2O"],
+        "then": ["Al(OH)3", "H2"],
+        "weight": [2, 6, 2, 3]
+    },
+    {
+        "if": ["Al", "Br2"],
+        "then": ["AlBr3"],
+        "weight": [2, 3, 2]
+    },
+    {
+        "if": ["Al", "I2"],
+        "then": ["AlI3"],
+        "weight": [2, 3, 2]
+    },
+    {
+        "if": ["Al", "F2"],
+        "then": ["AlF3"],
+        "weight": [2, 3, 2]
+    },
+    {
+        "if": ["Al", "C"],
+        "then": ["Al4C3"],
+        "weight": [4, 3, 1]
+    },
+    {
+        "if": ["Al", "NH3"],
+        "then": ["AlN", "H2"],
+        "weight": [2, 2, 2, 3],
+        "condition":["t:>=800 and <=900"]
+    },
+    {
+        "if": ["Al", "CO2"],
+        "then": ["Al2O3", "C"],
+        "weight": [4, 3, 2, 3]
+    },
+    {
+        "if": ["Al", "CuO"],
+        "then": ["Al2O3", "Cu"],
+        "weight": [2, 3, 1, 3],
+        "condition":["t"]
+    },
+    {
+        "if": ["Al", "CuCl2"],
+        "then": ["AlCl3", "Cu"],
+        "weight": [2, 3, 2, 3]
+    },
+    {
+        "if": ["Al", "Cu(NO3)2"],
+        "then": ["Cu", "Al(NO3)3"],
+        "weight": [2, 3, 3, 2]
+    },
+    {
+        "if": ["Al", "CuSO4"],
+        "then": ["Al2(SO4)3", "Cu"],
+        "weight": [2, 3, 1, 3]
+    },
+    {
+        "if": ["Al", "FeO"],
+        "then": ["Al2O3", "Fe"],
+        "weight": [2, 3, 1, 3]
+    },
+    {
+        "if": ["Al", "Fe3O4"],
+        "then": ["Al2O3", "Fe"],
+        "weight": [8, 3, 4, 9]
+    },
+    {
+        "if": ["Al", "FeCl2"],
+        "then": ["AlCl3", "Fe"],
+        "weight": [2, 3, 2, 3]
+    },
+    {
+        "if": ["Al", "FeCl3"],
+        "then": ["AlCl3", "FeCl2"],
+        "weight": [1, 3, 1, 3]
+    },
+    {
+        "if": ["Al", "FeCl3"],
+        "then": ["AlCl3", "Fe"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Al", "FeSO4"],
+        "then": ["Al2(SO4)3", "Fe"],
+        "weight": [2, 3, 1, 3]
+    },
+    {
+        "if": ["Al", "Fe2(SO4)3"],
+        "then": ["Al2(SO4)3", "FeSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Al", "Fe(NO3)2"],
+        "then": ["Fe", "Al(NO3)3"],
+        "weight": [2, 3, 3, 1]
+    },
+    {
+        "if": ["Al", "Fe(NO3)3"],
+        "then": ["Fe(NO3)2", "Al(NO3)3"],
+        "weight": [1, 3, 3, 1]
+    },
+
+    {
+        "if": ["Mg", "O2"],
+        "then": ["MgO"],
+        "weight": [2, 1, 2]
+    },
+    {
+        "if": ["Mg", "Cl2"],
+        "then": ["MgCl2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Mg", "Br2"],
+        "then": ["MgBr2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Mg", "I2"],
+        "then": ["MgI2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Mg", "S"],
+        "then": ["MgS"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Mg", "HCl"],
+        "then": ["MgCl2", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Mg", "H2SO4"],
+        "then": ["MgSO4", "H2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "H3PO4"],
+        "then": ["Mg3(PO4)2", "H2"],
+        "weight": [3, 2, 1, 3]
+    },
+    {
+        "if": ["Mg", "HNO3"],
+        "then": ["Mg(NO3)2", "NO2", "H2O"],
+        "weight": [1, 4, 1, 2, 2],
+        "condition":["đặc"]
+    },
+    {
+        "if": ["Mg", "HNO3"],
+        "then": ["Mg(NO3)2","H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["NH3", "HNO3"],
+        "then": ["NH4NO3"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["Mg", "HNO3"],
+        "then": ["Mg(NO3)2", "N2", "H2O"],
+        "weight": [5, 12, 5, 1, 6],
+        "condition":["loãng"]
+    },
+    
+    {
+        "if": ["Mg", "HNO3"],
+        "then": ["Mg(NO3)2", "N2O", "H2O"],
+        "weight": [4, 10, 4, 1, 5],
+        "condition":["đặc","t"]
+    },
+    {
+        "if": ["Mg", "HNO3"],
+        "then": ["Mg(NO3)2", "NO", "H2O"],
+        "weight": [3, 8, 3, 2, 4],
+        "condition":["đặc"]
+    },
+    {
+        "if": ["Mg", "H2SO4"],
+        "then": ["MgSO4", "SO2", "H2O"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg", "H2SO4"],
+        "then": ["MgSO4", "S", "H2O"],
+        "weight": [3, 4, 3, 1, 4]
+    },
+    {
+        "if": ["Mg", "H2SO4"],
+        "then": ["MgSO4", "H2S", "H2O"],
+        "weight": [4, 5, 4, 1, 4]
+    },
+    {
+        "if": ["Mg", "H2O"],
+        "then": ["Mg(OH)2", "H2"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["Mg", "FeCl3"],
+        "then": ["MgCl2", "FeCl2"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg", "Fe(NO3)3"],
+        "then": ["Mg(NO3)2", "Fe(NO3)2"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg", "Fe2(SO4)3"],
+        "then": ["MgSO4", "FeSO4"],
+        "weight": [3, 2, 3, 2]
+    },
+    {
+        "if": ["Mg", "Fe(NO3)3"],
+        "then": ["Mg(NO3)2", "Fe"],
+        "weight": [3, 2, 3, 2]
+    },
+    {
+        "if": ["Mg", "CuCl2"],
+        "then": ["MgCl2", "Cu"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "Cu(NO3)2"],
+        "then": ["Mg(NO3)2", "Cu"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "CuSO4"],
+        "then": ["MgSO4", "Cu"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "PbSO4"],
+        "then": ["MgSO4", "Pb"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "Pb(NO3)2"],
+        "then": ["Mg(NO3)2", "Pb"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "AgNO3"],
+        "then": ["Mg(NO3)2", "Ag"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg", "ZnSO4"],
+        "then": ["MgSO4", "Zn"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "Zn(NO3)2"],
+        "then": ["Mg(NO3)2", "Zn"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "ZnCl2"],
+        "then": ["MgCl2", "Zn"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg", "SO2"],
+        "then": ["MgO", "S"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["Mg", "CO2"],
+        "then": ["MgO", "C"],
+        "weight": [2, 1, 2, 1]
+    },
+    {
+        "if": ["MgO", "HCl"],
+        "then": ["MgCl2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["MgO", "HBr"],
+        "then": ["MgBr2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["MgO", "HNO3"],
+        "then": ["Mg(NO3)2", "H2O"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["MgO", "H2SO4"],
+        "then": ["MgSO4", "H2O"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["Mg(OH)2"],
+        "then": ["MgO", "H2O"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["Mg(OH)2", "HCl"],
+        "then": ["MgCl2", "H2O"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg(OH)2", "HBr"],
+        "then": ["MgBr2", "H2O"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg(OH)2", "HNO3"],
+        "then": ["Mg(NO3)2", "H2O"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg(OH)2", "H2SO4"],
+        "then": ["MgSO4", "H2O"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["Mg(HCO3)2"],
+        "then": ["MgCO3", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["KOH", "Mg(HCO3)2"],
+        "then": ["K2CO3", "MgCO3", "H2O"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["NaOH", "Mg(HCO3)2"],
+        "then": ["Na2CO3", "MgCO3", "H2O"],
+        "weight": [2, 1, 1, 1, 2]
+    },
+    {
+        "if": ["Ca(OH)2", "Mg(HCO3)2"],
+        "then": ["MgCO3", "CaCO3", "H2O"],
+        "weight": [1, 1, 1, 1, 2]
+    },
+    {
+        "if": ["Ba(OH)2", "Mg(HCO3)2"],
+        "then": ["MgCO3", "BaCO3", "H2O"],
+        "weight": [1, 1, 1, 1, 2]
+    },
+    {
+        "if": ["Mg(HCO3)2", "HCl"],
+        "then": ["MgCl2", "CO2", "H2O"],
+        "weight": [1, 2, 1, 2, 2]
+    },
+    {
+        "if": ["Mg(HCO3)2", "HBr"],
+        "then": ["MgBr2", "CO2", "H2O"],
+        "weight": [1, 2, 1, 2, 2]
+    },
+    {
+        "if": ["Mg(HCO3)2", "HNO3"],
+        "then": ["Mg(NO3)2", "CO2", "H2O"],
+        "weight": [1, 2, 1, 2, 2]
+    },
+    {
+        "if": ["Mg(HCO3)2", "H2SO4"],
+        "then": ["MgSO4", "CO2", "H2O"],
+        "weight": [1, 1, 1, 2, 2]
+    },
+    {
+        "if": ["Mg(NO3)2"],
+        "then": ["MgO", "NO2", "O2"],
+        "weight": [2, 2, 4, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["Mg(NO3)2", "NaOH"],
+        "then": ["Mg(OH)2", "NaNO3"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg(NO3)2", "KOH"],
+        "then": ["Mg(OH)2", "KNO3"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["Mg(NO3)2", "Ca(OH)2"],
+        "then": ["Mg(OH)2", "Ca(NO3)2"],
+        "weight": [1, 1,1,1]
+    },
+    {
+        "if": ["Mg(NO3)2", "Na2CO3"],
+        "then": ["MgCO3", "NaNO3"],
+        "weight": [1, 1,1,2]
+    },
+    {
+        "if": ["Mg(NO3)2", "K2CO3"],
+        "then": ["MgCO3", "KNO3"],
+        "weight": [1, 1,1,2]
+    },
+    {
+        "if": ["Mg(NO3)2", "NH3", "H2O"],
+        "then": ["Mg(OH)2", "NH4NO3"],
+        "weight": [1, 2,2,1,2]
+    },
+    {
+        "if": ["Mg(NO3)2", "Cu", "HCl"],
+        "then": ["CuCl2", "MgCl2", "NO", "H2O"],
+        "weight": [1,3,8,3,1,2,4]
+    },
+    {
+        "if": ["MgCl2"],
+        "then": ["Mg", "Cl2"],
+        "weight": [1, 1 ,1 ],
+        "condition":["đpnc"]
+    },
+    {
+        "if": ["MgCl2", "NaOH"],
+        "then": ["Mg(OH)2", "NaCl"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["MgCl2", "KOH"],
+        "then": ["Mg(OH)2", "KCl"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["MgCl2", "Ca(OH)2"],
+        "then": ["Mg(OH)2", "CaCl2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["MgCl2", "Na2CO3"],
+        "then": ["MgCO3", "NaCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["MgCl2", "K2CO3"],
+        "then": ["MgCO3", "KCl"],
+        "weight": [1, 1, 1, 2]
+    },
+    {
+        "if": ["MgCl2", "AgNO3"],
+        "then": ["Mg(NO3)2", "AgCl"],
+        "weight": [1, 2, 1, 2]
+    },
+    {
+        "if": ["MgCl2", "NH3", "H2O"],
+        "then": ["Mg(OH)2", "NH4Cl"],
+        "weight": [1, 2, 2, 1, 2]
+    },    
+    {
+        "if": ["MgCO3"],
+        "then": ["MgO", "CO2"],
+        "weight": [1, 1, 1]
+    },
+    {
+        "if": ["MgCO3", "HCl"],
+        "then": ["MgCl2", "CO2", "H2O"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["MgCO3", "HBr"],
+        "then": ["MgBr2", "CO2", "H2O"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["MgCO3", "HNO3"],
+        "then": ["Mg(NO3)2", "CO2", "H2O"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["MgCO3", "H2SO4"],
+        "then": ["MgSO4", "CO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["MgCO3", "CO2", "H2O"],
+        "then": ["Mg(HCO3)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["MgS", "HCl"],
+        "then": ["MgCl2", "H2S"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["MgS", "H2O"],
+        "then": ["Mg(OH)2", "H2S"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["MgS", "HBr"],
+        "then": ["MgBr2", "H2S"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["MgS", "HNO3"],
+        "then": ["MgSO4", "NO", "H2O"],
+        "weight": [3, 8, 3,8, 4]
+    },
+    {
+        "if": ["MgSO3"],
+        "then": ["MgO", "SO2"],
+        "weight": [1, 1, 1],
+        "condition":["t"]
+    },
+    {
+        "if": ["MgSO3", "HCl"],
+        "then": ["MgCl2", "SO2", "H2O"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["MgSO3", "HBr"],
+        "then": ["MgBr2", "SO2", "H2O"],
+        "weight": [1, 2, 1, 1, 1]
+    },
+    {
+        "if": ["MgSO3", "H2SO4"],
+        "then": ["MgSO4", "SO2", "H2O"],
+        "weight": [1, 1, 1, 1, 1]
+    },
+    {
+        "if": ["MgSO3", "SO2", "H2O"],
+        "then": ["Mg(HSO3)2"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["MgSO4", "NaOH"],
+        "then": ["Mg(OH)2", "Na2SO4"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["MgSO4", "KOH"],
+        "then": ["Mg(OH)2", "K2SO4"],
+        "weight": [1, 2, 1, 1]
+    },
+    {
+        "if": ["MgSO4", "Ba(OH)2"],
+        "then": ["Mg(OH)2", "BaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["MgSO4", "Ca(OH)2"],
+        "then": ["Mg(OH)2", "CaSO4"],
+        "weight": [1, 1, 1, 1]
+    },
+    {
+        "if": ["MgSO4", "BaCl2"],
+        "then": ["BaSO4", "MgCl2"],
+        "weight": [1, 1, 1, 1]
+    }
+    
+    
+    
+    
+    
+]

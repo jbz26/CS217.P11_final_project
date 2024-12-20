@@ -1,4 +1,5 @@
 import json
+import os
 from .type.chemical_equation import solve_chemical_equation
 from .type.find_weight import find_weight
 from .type.search_chemical_info import  cal_atomic_mass
@@ -6,9 +7,9 @@ from .type.balance_equation import balance_solve
 from .type.chem_classify import solve_classify_chems
 folder = 'data'
 # Open and read the JSON file
-with open(folder + "\\" + 'Chemical compounds.json', 'r') as file:
+with open(os.path.join(folder,'Chemical compounds.json') , 'r') as file:
     compounds = json.load(file)
-with open(folder + "\\" + 'Reacts_with_IDs.json', 'r') as file:
+with open(os.path.join(folder, 'Reacts_with_IDs.json', 'r')) as file:
     reacts = json.load(file)
     
 def solve(id,input):

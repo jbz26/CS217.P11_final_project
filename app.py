@@ -5,13 +5,14 @@ from streamlit_extras.switch_page_button import switch_page
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.let_it_rain import rain
 from streamlit_extras.app_logo import add_logo
-logo = "./images/logo.png"
-
+logo_icon = "./images/logo.png"
+logo = "./images/logo copy.png"
 st.set_page_config(
-    page_icon=logo,
+    page_icon=logo_icon,
     page_title="UITC2"
 )
-st.logo(logo, size="large", link=None, icon_image=logo)
+
+st.logo(logo, size="large", link=None, icon_image=logo_icon)
 
 st.title("Hóa giải hóa học - UITC2")
 def example():
@@ -68,4 +69,5 @@ choice = st.selectbox("Chọn bài toán bạn cần xử lý ",["1. Tính khố
 if choice!=None:
     temp = choice.split(".")[0]   
     switch_page(f"page{temp}")
-    
+
+st.image("./images/noel.png")

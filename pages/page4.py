@@ -1,13 +1,15 @@
 import streamlit as st
 import json
 from code.main import solve
-logo = "./images/logo.png"
-
+logo_icon = "./images/logo.png"
+logo = "./images/logo copy.png"
 st.set_page_config(
-    page_icon=logo,
+    page_icon=logo_icon,
     page_title="UITC2"
 )
-st.logo(logo, size="large", link=None, icon_image=logo)
+
+st.logo(logo, size="large", link=None, icon_image=logo_icon)
+
 
 st.title("Phản ứng hóa học")
 st.divider()

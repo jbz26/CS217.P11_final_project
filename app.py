@@ -70,4 +70,4 @@ if choice!=None:
     temp = choice.split(".")[0]   
     switch_page(f"page{temp}")
 
-st.image("./images/noel.png")
+st.image("./images/animated.gif",width=650)

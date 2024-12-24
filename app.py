@@ -13,7 +13,6 @@ st.set_page_config(
 )
 
 st.logo(logo, size="large", link=None, icon_image=logo_icon)
-
 st.title("Hóa giải hóa học - UITC2")
 def example():
     colored_header(
@@ -69,5 +68,51 @@ choice = st.selectbox("Chọn bài toán bạn cần xử lý ",["1. Tính khố
 if choice!=None:
     temp = choice.split(".")[0]   
     switch_page(f"page{temp}")
-
 st.image("./images/animated.gif",width=650)
+
+
+st.markdown(
+    """
+    <style>
+    .custom-container {
+        background-color: #f0a800; /* Nền light blue */
+        padding: 10px; /* Khoảng cách bên trong */
+        border-radius: 10px; /* Bo tròn góc */
+        margin-bottom: 20px; /* Khoảng cách bên dưới */
+    }
+    .custom-column {
+        text-align: center; /* Căn giữa nội dung */
+        background-color: #f0f8ff; /* Nền light blue */
+
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Bắt đầu container
+st.markdown('<div class="custom-container">', unsafe_allow_html=True)
+
+# Chia cột và thêm nội dung
+col1,_, col2, _,col3 = st.columns([1,0.1,1,0.1,1])
+
+with col1:
+    st.markdown('<div class="custom-column">', unsafe_allow_html=True)
+    st.image("./images/qr code.png", caption="QR Code")
+    st.markdown('</div>', unsafe_allow_html=True)
+
+with col2:
+    st.markdown('<div class="custom-column">', unsafe_allow_html=True)
+    st.markdown("**Thông tin giữa**")
+    st.markdown("- Mô tả 1")
+    st.markdown("- Mô tả 2")
+    st.markdown('</div>', unsafe_allow_html=True)
+
+with col3:
+    st.markdown('<div class="custom-column">', unsafe_allow_html=True)
+    st.markdown("**Cột 3**")
+    st.markdown("- Nội dung thêm")
+    st.markdown('</div>', unsafe_allow_html=True)
+
+# Kết thúc container
+st.markdown('</div>', unsafe_allow_html=True)

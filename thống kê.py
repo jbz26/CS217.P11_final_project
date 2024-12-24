@@ -1,15 +1,40 @@
 import json
+import os
 
 folder = 'data'
 # Open and read the JSON file
-with open(folder + "\\" + 'Chemical compounds.json', 'r') as file:
+with open(os.path.join(folder,'Chemical compounds.json') , 'r') as file:
     compounds = json.load(file)
-with open('mydata.json', 'r') as file:
+with open(os.path.join(folder, 'Reacts_with_IDs.json' ), 'r') as file:
     reacts = json.load(file)
 
+with open( 'new.json' , 'r') as new_file:
+    new = json.load(new_file)
+i = 1
+count =0
+for temp in new:
+    if temp["id"] != i:
+        count+=1
+        temp["id"] = i
+    i+=1
+    if "weight" in temp.keys():
+        temp.pop("weight")
+print(count)
+i = 1
+count =0
+for temp in new:
+    if temp["id"] != i:
+        count+=1
+        temp["id"] = i
+    i+=1
+print(count)
+modified_json = json.dumps(new,indent=4)
+with open( 'new.json' , 'w') as new_file:
+    #new = json.load(file)
+    new_file.write(modified_json)
 
 
-'''
+"""
 print(len(reacts)) #1254 phản ứng
 reacts_chems = set()
 for i in reacts:
@@ -28,4 +53,4 @@ print(diff)
 print(len(diff))
 for i in range(len(diff)//10):
     print(diff[i*10:(i+1)*10])
-'''
+"""

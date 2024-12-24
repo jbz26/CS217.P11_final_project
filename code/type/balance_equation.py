@@ -5,7 +5,7 @@ from sympy import symbols, Eq, solve, Ne,linsolve,solve_undetermined_coeffs
 import sympy as sp
 import numpy as np
 from .search_chemical_info import parse_chemical_formula
-from .reprocessing import parse_chemical_equation,print_equation_with_weight
+from .reprocessing import parse_chemical_equation,print_equation_with_weight,check_equation
 def merge_two_dict(dict1, dict2):
     for i in dict2:
         if i in dict1.keys():
@@ -47,7 +47,7 @@ def balance_equation(left, right, mode):
     outputs.append(f"Gọi hệ số cân bằng của các chất ( {', '.join(left)}, {', '.join(right)}) lần lượt là: {', '.join(vars)}"  )
     outputs.append("Ta có phương trình phản ứng: ")
     #print(vars)
-    outputs.extend(print_equation_with_weight(vars,left,right))
+    outputs.extend(print_equation_with_weight(vars,left,right,-1))
     outputs.append("Áp dụng định luật bảo toàn nguyên tố, ta được: ")
     weight,outputs = solve_math_equation(left_matrix_dict,vars,outputs)
     if type(outputs)==str:
@@ -56,7 +56,7 @@ def balance_equation(left, right, mode):
         return weight
     if mode == "short":
         return weight
-    outputs.extend(print_equation_with_weight(weight,left,right))
+    outputs.extend(print_equation_with_weight(weight,left,right,-1))
     return outputs
 
 def solve_math_equation(matrix_dict,vars,outputs):
@@ -141,9 +141,13 @@ def solve_equation(A):
             integer_solutions = [int(i/ucln_all) for i in integer_solutions]
             return integer_solutions
     return [1 for i in range(len(one))]
-def balance_solve(equation):
-    left, right = parse_chemical_equation(equation)
-    return balance_equation(left,right,mode = "full")
+def balance_solve(equation,compounds,reacts):
+    left, right = parse_chemical_equation(equation,compounds)
+    if "error" in left:
+        return "error: Vui lòng nhập phương trình chính xác!"
+    if not check_equation(left,right,reacts):
+        return "error: Không tồn tại phương trình trên!"
+    return balance_equation(left.copy(),right.copy(),mode = "full")
 '''
 test = "HNO3 + FeCO3  -> Fe(NO3)3 + NO2 +CO2  +H2O"
 #test = "NaOH + HCl -> NaCl + H2O"

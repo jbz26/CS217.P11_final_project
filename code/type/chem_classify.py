@@ -167,10 +167,14 @@ def print_equation_without_weight(react,special=""):
     left = react["if"].copy()
     right = react["then"].copy()
     weight = balance_equation(left,right,"short")
+    if "condition" in reacts[i].keys():
+        condition = reacts[i]["condition"]
+    else:
+        condition = -1
     for i in range(len(right)):
         if right[i] in special.keys():
             right[i] = right[i] + special[right[i]]
-    return print_equation_with_weight(weight,left,right)
+    return print_equation_with_weight(weight,left,right,condition)
 #inputs = set(['BaSO4' , "Na2SO4","NaOH","NaCl"])
 #inputs = set(['HCl' , "NaOH","Na2SO4","NaCl"])
 

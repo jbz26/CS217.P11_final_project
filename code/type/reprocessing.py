@@ -5,15 +5,29 @@ def check_chemical(chem,compounds):
             if chem == temp['Formula']:
                 return True
     return False
-def parse_chemical_equation(equation):
+def check_equation(left,right,reacts):
+    for i in reacts:
+        if set(left) == set(i["if"]) and set(right) == set(i["then"]):
+            return True    
+    return False
+def parse_chemical_equation(equation,compounds):
     # Tách phần trước và sau dấu mũi tên
     parts = equation.split("->")
-    if len(parts) != 2:
-        return "error: Phương trình không hợp lệ."
+    print(parts)
+    print(equation)
+    if len(parts) != 2 or isinstance(parts,str):
+        return "error: Phương trình không hợp lệ.",-1
     inputs =  [compound.strip() for compound in parts[0].split("+")]
     outputs = [compound.strip() for compound in parts[1].split("+")]
     outputs = [re.sub(r'^\d*', '', compound) for compound in outputs]
     inputs = [re.sub(r'^\d*', '', compound) for compound in inputs]
+    for i in inputs:
+        if not check_chemical(i,compounds):
+            return f"error: Phương trình không hợp lệ", -1
+    for i in outputs:
+        if not check_chemical(i,compounds):
+            return f"error: Phương trình không hợp lệ", -1
+
     return  inputs, outputs
 def parse_chemical_equation_with_missing(equation):
     # Tách phần trước và sau dấu mũi tên
@@ -33,10 +47,46 @@ def to_subscript(chemical):
     subscript_map = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
     return chemical.translate(subscript_map)
     
-def print_equation_with_weight(weight,left,right):
+def print_equation_with_weight(weight,left,right,condition):
+    left = left.copy()
+    right = right.copy()
+    check = [-1,-1,-1]
+    if condition!=-1:
+        for i in condition:
+            print("Condition:",i)
+            if "t" == i:
+                check[0] = 1
+            elif ":" in i:
+                temp = i.split(":")[1]
+                if "and" in temp:
+                    output = temp.split("and")
+                    output = [j.split("=")[1] for j in output]
+                else:
+                    output = temp
+                check[0] = output
+            if "đặc" == i:
+                check[1] =1
+                if "HNO3" in left:
+                    temp2 = left.index("HNO3")
+                    left[temp2] = left[temp2] + "(đặc)"
+                elif "H2SO4" in left:
+                    temp2 = left.index("H2SO4")
+                    left[temp2] = left[temp2] + "(đặc)"
+            elif "loãng" == i:
+                check[2] = 1
+                print(" aaaa", left)
+
+                if "HNO3" in left:
+                    temp2 = left.index("HNO3")
+                    left[temp2] = left[temp2] + "(loãng)"
+                elif "H2SO4" in left:
+                    temp2 = left.index("H2SO4")
+                    left[temp2] = left[temp2] + "(loãng)"
     left = [to_subscript(chem) for chem in left]
     right = [to_subscript(chem) for chem in right]
     before = ["Phương trình phản ứng:"]
+    print(check)
+    print(left)
     outputs = []
     for i in range(len(left)):
         sol = weight[i]
@@ -45,7 +95,19 @@ def print_equation_with_weight(weight,left,right):
         else:
             outputs.append( f"{sol}{left[i]}")
     #print(left)
-    chemical_equation = "$" +  " + ".join(outputs) + " → "
+    if check[0]!=-1:
+        if isinstance(check[0],list):
+            temp23 = rf" \overset{{{"<= t <= ".join(check[0])}^0\,C}} {{\longrightarrow}}"
+            #temp23 = rf"2NaCl + H_2SO_4 \overset{{\geq {temp222}^0\,C}}{{\longrightarrow}} Na_2SO_4 + 2HCl"
+
+        elif check[0]==1:
+            temp23 = r"\overset{t^0}{\longrightarrow}"
+        else:
+            temp23 = rf"\overset{{{check[0]}^0}}{{\longrightarrow}}"
+    else:
+        temp23 = r"{\longrightarrow}"
+
+    chemical_equation = "$" +  " + ".join(outputs) + temp23 + " "
     outputs = []
     for i in range(len(right)):
         sol = weight[i+len(left)]

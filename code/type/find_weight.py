@@ -71,4 +71,8 @@ def print_equation_without_weight(react):
     weight = balance_equation(left,right,"short")
     for i in range(len(right)):
         right[i] = right[i]
-    return print_equation_with_weight(weight,left,right)
+    if "condition" in react.keys():
+        condition = react["condition"]
+    else:
+        condition = -1
+    return print_equation_with_weight(weight,left,right,condition)

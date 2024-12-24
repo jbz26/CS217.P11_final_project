@@ -18,7 +18,7 @@ def solve(id,input):
     elif id ==2:
         return find_weight(input,reacts,compounds)
     elif id ==3:
-        return balance_solve(input)
+        return balance_solve(input,compounds,reacts)
     elif id == 4:
         return solve_chemical_equation(input,reacts,compounds)
     elif id == 5:

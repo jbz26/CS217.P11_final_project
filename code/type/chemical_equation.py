@@ -83,7 +83,11 @@ def solve_chemical_equation(input_string,reacts,compounds):
             weight = balance_equation(left,right,mode="short")
             if "error" in weight:
                 return "error: Không thể cân bằng phương trình"
-            outputs.extend(print_equation_with_weight(weight,left,right))
+            if "condition" in reacts[i].keys():
+                condition = reacts[i]["condition"]
+            else:
+                condition = -1
+            outputs.extend(print_equation_with_weight(weight,left,right,condition))
         return outputs
     else:
         return "error: Không thể tìm thấy phương trình"

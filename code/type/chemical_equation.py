@@ -67,6 +67,8 @@ def solve_chemical_equation(input_string,reacts,compounds):
     
     inputs , outputs = parse_chemical_equation_with_missing(input_string)
     print(inputs,outputs)
+    if outputs==-1:
+        return inputs
     for i in inputs:
         if not check_chemical(i,compounds) and i !="?":
             return f"error: Không tìm thấy công thức chất {i}!"

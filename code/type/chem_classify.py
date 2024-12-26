@@ -4,6 +4,8 @@ import os
 from .chemical_equation import check_chemical,fill_chemical_equation,find_all_from_chemical_equation
 from .balance_equation import balance_equation
 from .reprocessing import print_equation_with_weight,to_subscript
+from itertools import combinations
+
 folder = 'data'
 # Open and read the JSON file
 with open(os.path.join(folder,'Chemical compounds.json') , 'r') as file:
@@ -17,12 +19,13 @@ def find_physical(input,compounds):
                 return j
 def find_same_reactants(inputs,reacts):
     all_reacts = set()
+    same_reacts = []
     for i in inputs:
         temp =  find_all_reactants(i,reacts)
-        if (len(all_reacts) == 0):
-            all_reacts.update(temp)
-        else:
-            all_reacts = all_reacts.intersection(temp)
+        same_reacts.append(temp)
+    for set1, set2 in combinations(same_reacts, 2):
+        all_reacts.update(set1 & set2)  
+    print(all_reacts)
     return all_reacts
 def find_all_reactants(input,reacts):
     reactants = set()
@@ -167,8 +170,8 @@ def print_equation_without_weight(react,special=""):
     left = react["if"].copy()
     right = react["then"].copy()
     weight = balance_equation(left,right,"short")
-    if "condition" in reacts[i].keys():
-        condition = reacts[i]["condition"]
+    if "condition" in react.keys():
+        condition = react["condition"]
     else:
         condition = -1
     for i in range(len(right)):

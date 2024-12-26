@@ -13,8 +13,6 @@ def check_equation(left,right,reacts):
 def parse_chemical_equation(equation,compounds):
     # Tách phần trước và sau dấu mũi tên
     parts = equation.split("->")
-    print(parts)
-    print(equation)
     if len(parts) != 2 or isinstance(parts,str):
         return "error: Phương trình không hợp lệ.",-1
     inputs =  [compound.strip() for compound in parts[0].split("+")]
@@ -31,10 +29,9 @@ def parse_chemical_equation(equation,compounds):
     return  inputs, outputs
 def parse_chemical_equation_with_missing(equation):
     # Tách phần trước và sau dấu mũi tên
-    print(equation)
     parts = equation.split("->")
-    if len(parts) != 2:
-        return "error: Phương trình không hợp lệ."
+    if len(parts) != 2 or isinstance(parts,str):
+        return "error: Phương trình không hợp lệ.",-1
     inputs =  [compound.strip() for compound in parts[0].split("+")]
     outputs = [compound.strip() for compound in parts[1].split("+")]
     if '' in outputs:
@@ -51,12 +48,13 @@ def print_equation_with_weight(weight,left,right,condition):
     left = left.copy()
     right = right.copy()
     check = [-1,-1,-1]
+    xuc_tac = ""
     if condition!=-1:
         for i in condition:
             print("Condition:",i)
             if "t" == i:
                 check[0] = 1
-            elif ":" in i:
+            elif "t:" in i:
                 temp = i.split(":")[1]
                 if "and" in temp:
                     output = temp.split("and")
@@ -82,10 +80,13 @@ def print_equation_with_weight(weight,left,right,condition):
                 elif "H2SO4" in left:
                     temp2 = left.index("H2SO4")
                     left[temp2] = left[temp2] + "(loãng)"
+            if "xuctac:" in i:
+                xuc_tac = i.split(":")[1]
+
     left = [to_subscript(chem) for chem in left]
     right = [to_subscript(chem) for chem in right]
     before = ["Phương trình phản ứng:"]
-    print(check)
+    print(check)    
     print(left)
     outputs = []
     for i in range(len(left)):
@@ -97,13 +98,23 @@ def print_equation_with_weight(weight,left,right,condition):
     #print(left)
     if check[0]!=-1:
         if isinstance(check[0],list):
-            temp23 = rf" \overset{{{"<= t <= ".join(check[0])}^0\,C}} {{\longrightarrow}}"
+            if xuc_tac !="":
+                temp23 = rf" \overset{{{"<= t <= ".join(check[0])}^0\,C , {xuc_tac}}} {{\longrightarrow}}"
+            else:
+                temp23 = rf" \overset{{{"<= t <= ".join(check[0])}^0\,C  }} {{\longrightarrow}}"
             #temp23 = rf"2NaCl + H_2SO_4 \overset{{\geq {temp222}^0\,C}}{{\longrightarrow}} Na_2SO_4 + 2HCl"
 
         elif check[0]==1:
-            temp23 = r"\overset{t^0}{\longrightarrow}"
+            if xuc_tac!="":
+                temp23 = rf"\overset{{t^0, {xuc_tac}}}{{\longrightarrow}}"
+            else:
+                temp23 = r"\overset{t^0}{\longrightarrow}"
         else:
-            temp23 = rf"\overset{{{check[0]}^0}}{{\longrightarrow}}"
+            if xuc_tac!="":
+                temp23 = rf"\overset{{{check[0]}^0\,C , {xuc_tac}}}{{\longrightarrow}}"
+            else:
+                temp23 = rf"\overset{{{check[0]}^0\,C}}{{\longrightarrow}}"
+
     else:
         temp23 = r"{\longrightarrow}"
 

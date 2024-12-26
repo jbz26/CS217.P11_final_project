@@ -89,17 +89,29 @@ def cal_atomic_mass(chem,compounds):
     mass = 0
     temp_output = "Gồm các nguyên tố: "
     count_ouput = []
+    cal_output = []
+    cal_output1 = []
+
     for e in result.keys():
         temp = find_element(e,elements)
         if temp == -1:
             return f"error: Không tìm thấy nguyên tố {e}"
-        temp_output += f"{e} ({temp['Atomic mass']} đvC); "
+        temp_output += f"{e} ({temp['Atomic mass']} g/mol); "
         count_ouput.append(f"- {temp["Formula"]}: {result[e]}")
+        cal_output.append(f"{temp['Atomic mass']} * {result[e]}")
+        cal_output1.append(f"{e} * {result[e]}")
         mass += temp['Atomic mass'] * result[e]
+    mass = round(mass,3)
     output.append(temp_output)
     output.append("Số lượng các nguyên tố trong hợp chất:")
     output.extend(count_ouput)
-    output.append(f"Khối lượng mol của chất {to_subscript(chem)}: {mass} (đvC)")
+    cal_output =f"$M({chem})= " +" + ".join(cal_output)
+    cal_output1 = f"$M({chem})= " +" + ".join(cal_output1)
+    output.append(cal_output1)
+    output.append(cal_output)
+    output.append(f"$M({chem})= {mass}")
+
+    output.append(f"Vậy khối lượng mol của {to_subscript(chem)} là: {mass} (g/mol)")
     return output
 
                 

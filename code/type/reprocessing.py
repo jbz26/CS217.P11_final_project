@@ -36,7 +36,7 @@ def parse_chemical_equation_with_missing(equation):
     outputs = [compound.strip() for compound in parts[1].split("+")]
     if '' in outputs:
         outputs.remove('')
-    print(f"output2 {outputs}")
+    #print(f"output2 {outputs}")
     outputs = [re.sub(r'^\d*', '', compound) for compound in outputs]
     inputs = [re.sub(r'^\d*', '', compound) for compound in inputs]
     return  inputs, outputs
@@ -51,7 +51,7 @@ def print_equation_with_weight(weight,left,right,condition):
     xuc_tac = ""
     if condition!=-1:
         for i in condition:
-            print("Condition:",i)
+            #print("Condition:",i)
             if "t" == i:
                 check[0] = 1
             elif "t:" in i:
@@ -72,7 +72,7 @@ def print_equation_with_weight(weight,left,right,condition):
                     left[temp2] = left[temp2] + "(đặc)"
             elif "loãng" == i:
                 check[2] = 1
-                print(" aaaa", left)
+                #print(" aaaa", left)
 
                 if "HNO3" in left:
                     temp2 = left.index("HNO3")
@@ -86,8 +86,8 @@ def print_equation_with_weight(weight,left,right,condition):
     left = [to_subscript(chem) for chem in left]
     right = [to_subscript(chem) for chem in right]
     before = ["Phương trình phản ứng:"]
-    print(check)    
-    print(left)
+    #print(check)    
+    #print(left)
     outputs = []
     for i in range(len(left)):
         sol = weight[i]

@@ -31,17 +31,22 @@ def extract_all_substances_in_sentences(problem_text):
     find_substances = all_substances - (react.union(product))
     react = re.findall(pattern_no_mass, reactant_text)
     product = re.findall(pattern_no_mass, product_text)
+    
     return react_substances, product_substances, react,product, find_substances
 
 def find_weight(problem_text,reacts,compounds):
     react_substances,product_substances, react, product, find_substances = extract_all_substances_in_sentences(problem_text)
+    if len(react) ==0:
+        return f"error: Vui lòng điền thông tin các chất phản ứng đầy đủ!"
+    if len(product) ==0:
+        return f"error: Vui lòng điền thông tin các chất phản tạo thành đầy đủ!"
     for i in react:
         if not check_chemical(i,compounds):
             return f"error: Không tìm thấy công thức chất {i}!"
     for i in product:
         if not check_chemical(i,compounds):
             return f"error: Không tìm thấy công thức chất {i}!"
-    id = fill_chemical_equation(react,["?"],reacts)
+    id = fill_chemical_equation(react,product,reacts)
     if id==-1:
         return "error: Không tìm thấy phương trình!"
     

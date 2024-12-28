@@ -6,7 +6,39 @@ from .balance_equation import balance_equation
 
 def fill_chemical_equation(inputs,outputs,reacts):
     output = []
+    
     if "?" in set(inputs):
+        if "?" not in set(outputs):
+            count_inp = inputs.count("?")
+            count_out = 0
+            temp_in = set(inputs)
+            temp_out = set(outputs)
+            temp_in.remove("?")
+        else:
+            count_inp = inputs.count("?")
+            count_out = outputs.count("?")
+            temp_in = set(inputs)
+            temp_in.remove("?")
+            temp_out = set(outputs)
+            temp_out.remove("?")
+            if(len(temp_in)==len(temp_out)==0):
+                return -1
+    else:   
+        count_out = outputs.count("?")
+        count_inp = 0
+        temp_out = set(outputs)
+        if "?" in temp_out:
+            temp_out.remove("?")
+        temp_in = set(inputs)
+    for i in reacts:
+                    set_then = set(i["then"])
+                    set_if = set(i["if"])
+                    if (temp_out.issubset(set_then) and (len(temp_out) + count_out == len(set_then)))  or ("?" not in outputs and len(outputs)==0):
+                        if temp_in.issubset(set_if) and (len(temp_in) + count_inp == len(set_if)):                
+                            output.append(i["id"]-1)
+    print(output)
+    '''
+       if "?" in set(inputs):
         if "?" not in set(outputs):
             count_inp = inputs.count("?")
             temp_in = set(inputs)
@@ -44,6 +76,7 @@ def fill_chemical_equation(inputs,outputs,reacts):
                 set_then = set(i["then"])
                 if temp_out.issubset(set_then) and (len(temp_out) + count_out == len(set_then)) or  "?" not in outputs:
                     output.append(i["id"]-1)
+    '''
     #print(output)
     if len(output)==0:
         return -1

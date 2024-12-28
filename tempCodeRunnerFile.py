@@ -1,1 +1,1 @@
-mydata
+output_path

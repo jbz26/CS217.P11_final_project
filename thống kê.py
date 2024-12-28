@@ -10,7 +10,7 @@ with open(os.path.join(folder, 'Reacts_with_IDs.json' ), 'r') as file:
 
 with open( 'new.json' , 'r') as new_file:
     new = json.load(new_file)
-'''
+
 i = 1
 count =0
 for temp in new:
@@ -54,3 +54,4 @@ print(diff)
 print(len(diff))
 for i in range(len(diff)//10):
     print(diff[i*10:(i+1)*10])
+'''

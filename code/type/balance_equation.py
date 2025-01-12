@@ -43,10 +43,10 @@ def balance_equation(left, right, mode):
     #print(f"right {right}")
     for i in range(len(left) +len(right)):
         vars.append(chr(97+i))
-    #print(f"vars: {vars}" )
+    print(f"vars: {vars}" )
     outputs.append(f"Gọi hệ số cân bằng của các chất ( {', '.join(left)}, {', '.join(right)}) lần lượt là: {', '.join(vars)}"  )
     outputs.append("Ta có phương trình phản ứng: ")
-    #print(vars)
+    print(vars)
     outputs.extend(print_equation_with_weight(vars,left,right,-1))
     outputs.append("Áp dụng định luật bảo toàn nguyên tố, ta được: ")
     weight,outputs = solve_math_equation(left_matrix_dict,vars,outputs)
@@ -61,6 +61,7 @@ def balance_equation(left, right, mode):
 
 def solve_math_equation(matrix_dict,vars,outputs):
     coefficients = np.array(list(matrix_dict.values()))
+    print(coefficients)
     ele = np.array(list(matrix_dict.keys()))
     #print(ele,vars)
     # Tự động tạo biến dựa trên số cột của ma trận
@@ -128,18 +129,20 @@ def solve_equation(A):
     if null_space.shape[1] == 0:
         return "error: Phương trình không thể cân bằng!"
     one = np.abs(null_space[:, 0])
-    #print(one)
+    print(one)
     integer_solutions = []
-    max_iterations = 1000  # Prevent infinite loops
+    max_iterations = 100000  # Prevent infinite loops
 
     for i in range(1, max_iterations + 1):
         candidate = one * i
+        print(candidate)
         if np.allclose(candidate, np.round(candidate)):  # Kiểm tra nếu là số nguyên
             integer_solutions = np.round(candidate).astype(int)
             ucln_all = reduce(math.gcd, integer_solutions)
-            #print(ucln_all)
+            print(ucln_all)
             integer_solutions = [int(i/ucln_all) for i in integer_solutions]
             return integer_solutions
+    print(integer_solutions)
     return [1 for i in range(len(one))]
 def balance_solve(equation,compounds,reacts):
     left, right = parse_chemical_equation(equation,compounds)
@@ -155,4 +158,4 @@ out = balance_solve(test)
 for i in out:
     print(i)
 
-'''
+''' 

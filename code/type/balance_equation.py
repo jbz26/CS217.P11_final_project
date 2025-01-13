@@ -124,14 +124,21 @@ def solve_math_equation(matrix_dict,vars,outputs):
 
 def solve_equation(A):
     rank = np.linalg.matrix_rank(A)
+    check = 0
+    for i in A:
+        if sum(i) ==0:
+            check+=1
+
     U, S, Vt = np.linalg.svd(A)
     null_space = Vt[rank:].T
     if null_space.shape[1] == 0:
         return "error: Phương trình không thể cân bằng!"
     one = np.abs(null_space[:, 0])
+    if check==A.shape[0]:
+        return [1 for i in range(len(one))]
     #print(one)
     integer_solutions = []
-    max_iterations = 100000  # Prevent infinite loops
+    max_iterations = 10000    # Prevent infinite loops
 
     for i in range(1, max_iterations + 1):
         candidate = one * i

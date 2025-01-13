@@ -77,7 +77,6 @@ def fill_chemical_equation(inputs,outputs,reacts):
                 if temp_out.issubset(set_then) and (len(temp_out) + count_out == len(set_then)) or  "?" not in outputs:
                     output.append(i["id"]-1)
     '''
-    #print(output)
     if len(output)==0:
         return -1
     else:
@@ -113,8 +112,8 @@ def solve_chemical_equation(input_string,reacts,compounds):
         outputs = []
         for i in id:
             print(i)
-            left = reacts[i]["if"]
-            right = reacts[i]["then"]
+            left = reacts[i]["if"].copy()
+            right = reacts[i]["then"].copy()
             weight = balance_equation(left,right,mode="short")
             if "error" in weight:
                 return "error: Không thể cân bằng phương trình"
@@ -122,6 +121,7 @@ def solve_chemical_equation(input_string,reacts,compounds):
                 condition = reacts[i]["condition"]
             else:
                 condition = -1
+            print(left,right)
             outputs.extend(print_equation_with_weight(weight,left,right,condition))
         return outputs
     else:

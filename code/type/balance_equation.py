@@ -51,7 +51,7 @@ def balance_equation(left, right, mode):
     outputs.append("Áp dụng định luật bảo toàn nguyên tố, ta được: ")
     weight,outputs = solve_math_equation(left_matrix_dict,vars,outputs)
     if type(outputs)==str:
-        print(weight)
+        #print(weight)
 
         return weight
     if mode == "short":
@@ -146,10 +146,10 @@ def solve_equation(A):
         if np.allclose(candidate, np.round(candidate)):  # Kiểm tra nếu là số nguyên
             integer_solutions = np.round(candidate).astype(int)
             ucln_all = reduce(math.gcd, integer_solutions)
-            print(ucln_all)
+            #print(ucln_all)
             integer_solutions = [int(i/ucln_all) for i in integer_solutions]
             return integer_solutions
-    print(integer_solutions)
+    #print(integer_solutions)
     return [1 for i in range(len(one))]
 def balance_solve(equation,compounds,reacts):
     left, right = parse_chemical_equation(equation,compounds)

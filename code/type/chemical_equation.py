@@ -36,7 +36,7 @@ def fill_chemical_equation(inputs,outputs,reacts):
                     if (temp_out.issubset(set_then) and (len(temp_out) + count_out == len(set_then)))  or ("?" not in outputs and len(outputs)==0):
                         if temp_in.issubset(set_if) and (len(temp_in) + count_inp == len(set_if)):                
                             output.append(i["id"]-1)
-    print(output)
+    #print(output)
     '''
        if "?" in set(inputs):
         if "?" not in set(outputs):
@@ -98,7 +98,7 @@ def find_all_from_chemical_equation(input,reacts):
 def solve_chemical_equation(input_string,reacts,compounds):
     
     inputs , outputs = parse_chemical_equation_with_missing(input_string)
-    print(inputs,outputs)
+    #(inputs,outputs)
     if outputs==-1:
         return inputs
     for i in inputs:
@@ -111,7 +111,7 @@ def solve_chemical_equation(input_string,reacts,compounds):
     if id!=-1:
         outputs = []
         for i in id:
-            print(i)
+            #print(i)
             left = reacts[i]["if"].copy()
             right = reacts[i]["then"].copy()
             weight = balance_equation(left,right,mode="short")
@@ -121,7 +121,7 @@ def solve_chemical_equation(input_string,reacts,compounds):
                 condition = reacts[i]["condition"]
             else:
                 condition = -1
-            print(left,right)
+            #print(left,right)
             outputs.extend(print_equation_with_weight(weight,left,right,condition))
         return outputs
     else:

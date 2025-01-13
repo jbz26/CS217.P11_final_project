@@ -14,7 +14,7 @@ st.logo(logo, size="large", link=None, icon_image=logo_icon)
 st.title("Tìm khối lượng các chất tham gia phản ứng")
 st.divider()
 st.write("##### Nhập bài toán:")
-temp = st.text_input("Ví dụ: Khi cho 11,2 gam (CaO) phản ứng với khí (CO2) thu được 20 gam (CaCO3). Tính khối lượng của khí (CO2) phản ứng")
+temp = st.text_input("Ví dụ: Khi cho 11,2 gam [CaO] phản ứng với khí [CO2] thu được 20 gam [CaCO3]. Tính khối lượng của khí [CO2] phản ứng")
 if (temp !=""):
     temp = temp.strip()
     output = solve(2,temp)
